@@ -1,0 +1,5511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article article-type="review-article" dtd-version="1.3" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?properties open_access?>
+ <?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?>
+ <?DTDIdentifier.IdentifierType public?>
+ <?SourceDTD.DTDName A++V2.4.dtd?>
+ <?SourceDTD.Version 2.4?>
+ <?ConverterInfo.XSLTName springer2nlmx2.xsl?>
+ <?ConverterInfo.Version 1?>
+ <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+  <restricted-by>
+   pmc
+  </restricted-by>
+ </processing-meta>
+ <front>
+  <journal-meta>
+   <journal-id journal-id-type="nlm-ta">
+    Diagn Pathol
+   </journal-id>
+   <journal-id journal-id-type="iso-abbrev">
+    Diagn Pathol
+   </journal-id>
+   <journal-title-group>
+    <journal-title>
+     Diagnostic Pathology
+    </journal-title>
+   </journal-title-group>
+   <issn pub-type="epub">
+    1746-1596
+   </issn>
+   <publisher>
+    <publisher-name>
+     BioMed Central
+    </publisher-name>
+    <publisher-loc>
+     London
+    </publisher-loc>
+   </publisher>
+  </journal-meta>
+  <article-meta>
+   <article-id pub-id-type="pmcid">
+    10882736
+   </article-id>
+   <article-id pub-id-type="publisher-id">
+    1453
+   </article-id>
+   <article-id pub-id-type="doi">
+    10.1186/s13000-024-01453-w
+   </article-id>
+   <article-categories>
+    <subj-group subj-group-type="heading">
+     <subject>
+      Review
+     </subject>
+    </subj-group>
+   </article-categories>
+   <title-group>
+    <article-title>
+     Artificial intelligence’s impact on breast cancer pathology: a literature review
+    </article-title>
+   </title-group>
+   <contrib-group>
+    <contrib contrib-type="author">
+     <name>
+      <surname>
+       Soliman
+      </surname>
+      <given-names>
+       Amr
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff1"/>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>
+       Li
+      </surname>
+      <given-names>
+       Zaibo
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff1"/>
+    </contrib>
+    <contrib contrib-type="author" corresp="yes">
+     <name>
+      <surname>
+       Parwani
+      </surname>
+      <given-names>
+       Anil V.
+      </given-names>
+     </name>
+     <address>
+      <email>
+       anil.parwani@osumc.edu
+      </email>
+     </address>
+     <xref ref-type="aff" rid="Aff1"/>
+    </contrib>
+    <aff id="Aff1">
+     <institution-wrap>
+      <institution-id institution-id-type="ROR">
+       https://ror.org/00rs6vg23
+      </institution-id>
+      <institution-id institution-id-type="GRID">
+       grid.261331.4
+      </institution-id>
+      <institution-id institution-id-type="ISNI">
+       0000 0001 2285 7943
+      </institution-id>
+      <institution>
+       Department of Pathology,
+      </institution>
+      <institution>
+       Ohio State University,
+      </institution>
+     </institution-wrap>
+     Columbus, OH USA
+    </aff>
+   </contrib-group>
+   <pub-date pub-type="epub">
+    <day>
+     22
+    </day>
+    <month>
+     2
+    </month>
+    <year>
+     2024
+    </year>
+   </pub-date>
+   <pub-date pub-type="pmc-release">
+    <day>
+     22
+    </day>
+    <month>
+     2
+    </month>
+    <year>
+     2024
+    </year>
+   </pub-date>
+   <pub-date pub-type="collection">
+    <year>
+     2024
+    </year>
+   </pub-date>
+   <volume>
+    19
+   </volume>
+   <elocation-id>
+    38
+   </elocation-id>
+   <history>
+    <date date-type="received">
+     <day>
+      26
+     </day>
+     <month>
+      10
+     </month>
+     <year>
+      2023
+     </year>
+    </date>
+    <date date-type="accepted">
+     <day>
+      26
+     </day>
+     <month>
+      1
+     </month>
+     <year>
+      2024
+     </year>
+    </date>
+   </history>
+   <permissions>
+    <copyright-statement>
+     © The Author(s) 2024
+    </copyright-statement>
+    <license>
+     <ali:license_ref content-type="ccbylicense" specific-use="textmining">
+      https://creativecommons.org/licenses/by/4.0/
+     </ali:license_ref>
+     <license-p>
+      <bold>
+       Open Access
+      </bold>
+      This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit
+      <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+       http://creativecommons.org/licenses/by/4.0/
+      </ext-link>
+      . The Creative Commons Public Domain Dedication waiver (
+      <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/">
+       http://creativecommons.org/publicdomain/zero/1.0/
+      </ext-link>
+      ) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+     </license-p>
+    </license>
+   </permissions>
+   <abstract id="Abs1">
+    <p id="Par1">
+     This review discusses the profound impact of artificial intelligence (AI) on breast cancer (BC) diagnosis and management within the field of pathology. It examines the various applications of AI across diverse aspects of BC pathology, highlighting key findings from multiple studies. Integrating AI into routine pathology practice stands to improve diagnostic accuracy, thereby contributing to reducing avoidable errors. Additionally, AI has excelled in identifying invasive breast tumors and lymph node metastasis through its capacity to process large whole-slide images adeptly. Adaptive sampling techniques and powerful convolutional neural networks mark these achievements. The evaluation of hormonal status, which is imperative for BC treatment choices, has also been enhanced by AI quantitative analysis, aiding interobserver concordance and reliability. Breast cancer grading and mitotic count evaluation also benefit from AI intervention. AI-based frameworks effectively classify breast carcinomas, even for moderately graded cases that traditional methods struggle with. Moreover, AI-assisted mitotic figures quantification surpasses manual counting in precision and sensitivity, fostering improved prognosis. The assessment of tumor-infiltrating lymphocytes in triple-negative breast cancer using AI yields insights into patient survival prognosis. Furthermore, AI-powered predictions of neoadjuvant chemotherapy response demonstrate potential for streamlining treatment strategies. Addressing limitations, such as preanalytical variables, annotation demands, and differentiation challenges, is pivotal for realizing AI’s full potential in BC pathology. Despite the existing hurdles, AI’s multifaceted contributions to BC pathology hold great promise, providing enhanced accuracy, efficiency, and standardization. Continued research and innovation are crucial for overcoming obstacles and fully harnessing AI’s transformative capabilities in breast cancer diagnosis and assessment.
+    </p>
+    <sec>
+     <title>
+      Graphical Abstract
+     </title>
+     <p id="Par2">
+      <graphic id="MO1" position="anchor" xlink:href="13000_2024_1453_Figa_HTML"/>
+     </p>
+    </sec>
+   </abstract>
+   <kwd-group xml:lang="en">
+    <title>
+     Keywords
+    </title>
+    <kwd>
+     Artificial intelligence
+    </kwd>
+    <kwd>
+     Machine  learning
+    </kwd>
+    <kwd>
+     Digital pathology
+    </kwd>
+    <kwd>
+     Breast cancer
+    </kwd>
+   </kwd-group>
+   <custom-meta-group>
+    <custom-meta>
+     <meta-name>
+      issue-copyright-statement
+     </meta-name>
+     <meta-value>
+      © BioMed Central Ltd., part of Springer Nature 2024
+     </meta-value>
+    </custom-meta>
+   </custom-meta-group>
+  </article-meta>
+ </front>
+ <body>
+  <sec id="Sec1">
+   <title>
+    Background
+   </title>
+   <p id="Par19">
+    Artificial intelligence (AI) has caused a paradigm change in the world of industrial activity, and its remarkable effects are expected to spread to the field of pathology in medicine. AI is the capacity of robots to emulate or equal human intelligence (HI) [
+    <xref ref-type="bibr" rid="CR1">
+     1
+    </xref>
+    ]. Machine learning, deep learning, neural networks, natural language processing, computer vision, and cognitive computing are all key components of AI. The main goal of AI is to create technology that enables computer systems to function intelligently and independently, producing results that are on par with, if not better than, those of HI [
+    <xref ref-type="bibr" rid="CR2">
+     2
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="CR3">
+     3
+    </xref>
+    ].
+   </p>
+   <p id="Par20">
+    Deep learning aims to enhance accuracy and minimize human error, alongside pathologists without replacing their role, fostering a collaborative approach for improved diagnostic outcomes [
+    <xref ref-type="bibr" rid="CR1">
+     1
+    </xref>
+    ]. Deep learning has emerged as a promising tool for assisting in the diagnosis and grading of breast cancer (BC), identifying lymph node metastasis, and providing prognostic and predictive information. This is significant as BC is the leading cancer type among women (over 10% in several European countries and the US) [
+    <xref ref-type="bibr" rid="CR4">
+     4
+    </xref>
+    –
+    <xref ref-type="bibr" rid="CR6">
+     6
+    </xref>
+    ]. The use of AI algorithms in BC is also gaining popularity. Integrating these AI algorithms into the digital workflow can greatly help pathologists by making their work more efficient and accurate. It reduces repetitive tasks such as counting mitoses and detecting lymph node metastases and helps reduce diagnostic errors. Researchers have used large, high-quality datasets to develop computer programs that can detect metastasis to lymph nodes [
+    <xref ref-type="bibr" rid="CR7">
+     7
+    </xref>
+    ]. Additionally, AI algorithms can provide new tools for pathologists to handle emerging assessments. Moreover, these algorithms may even be able to replace some expensive molecular tests used in breast pathology [
+    <xref ref-type="bibr" rid="CR8">
+     8
+    </xref>
+    ]. Breast cancer treatment has evolved, with neoadjuvant chemotherapy (NAC) now commonly used, especially for locally advanced cases. With the help of AI, it has become possible to predict the effect of neoadjuvant chemotherapy [
+    <xref ref-type="bibr" rid="CR9">
+     9
+    </xref>
+    ].
+   </p>
+   <p id="Par21">
+    However, the large variability in digital images caused by variations in preanalytical laboratory techniques, staining methods, and scanners might make subsequent image analysis difficult, which is a major factor in the lack of robustness validation for many AI systems [
+    <xref ref-type="bibr" rid="CR10">
+     10
+    </xref>
+    –
+    <xref ref-type="bibr" rid="CR13">
+     13
+    </xref>
+    ].
+   </p>
+   <sec id="Sec2">
+    <title>
+     Workflow diagram
+    </title>
+    <p id="Par22">
+     Based on the currently available literature,
+     <italic>
+      Open-source
+     </italic>
+     AI applications in breast pathology can be summarized into the following categories based on their purpose.
+     <list list-type="order">
+      <list-item>
+       <p id="Par23">
+        Diagnostic (Table
+        <xref ref-type="table" rid="Tab1">
+         1
+        </xref>
+        ): The reported data focus on the development and evaluation of AI-based tools for precise diagnosis in breast pathology. It utilizes histological images and computational methods to distinguish between different grades, detect invasive parts and localize metastatic spots.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par24">
+        Predictive (Table
+        <xref ref-type="table" rid="Tab2">
+         2
+        </xref>
+        ): It explores the use of AI to predict specific outcome or treatment response in BC patients. This includes the quantification of biomarkers including estrogen receptor (ER), progesterone receptor (PR), HER2 and Ki-67 (some of these are also prognostic factors) for targeted therapy, the response to NAC and risk categorization for adjuvant chemotherapy in ER-positive/HER2-negative breast cancer.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par25">
+        Prognostic (Table
+        <xref ref-type="table" rid="Tab3">
+         3
+        </xref>
+        ): This review investigates the use of AI to assess prognostic features in BC, such as tumor infiltrating lymphocytes (TILs), mitosis counting and grading levels.
+       </p>
+      </list-item>
+     </list>
+     <table-wrap id="Tab1">
+      <label>
+       Table 1
+      </label>
+      <caption>
+       <p>
+        Summary of AI-based diagnostic algorithms in breast cancer pathology
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left">
+          Year of publication
+         </th>
+         <th align="left">
+          Reference
+         </th>
+         <th align="left">
+          Number of slides for training / validation
+         </th>
+         <th align="left">
+          Pathologists review (training/validation)
+         </th>
+         <th align="left">
+          Algorithm details
+         </th>
+         <th align="left">
+          Algorithm endpoints/outputs
+         </th>
+         <th align="left">
+          Algorithm performance
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left">
+          2017
+         </td>
+         <td align="left">
+          Yamamoto et al [
+          <xref ref-type="bibr" rid="CR14">
+           14
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          11661 myoepithelial cells in 22 cases
+         </td>
+         <td align="left">
+          Three pathologists
+         </td>
+         <td align="left">
+          Staining &gt; Ilastik &gt; CellProfiler &gt; support vector machines (SVM)
+         </td>
+         <td align="left">
+          Types of breast tumors, Myoepithelial cells morphology and precise nuclear features
+         </td>
+         <td align="left">
+          Accuracy 90.9%
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2018
+         </td>
+         <td align="left">
+          Steiner et al [
+          <xref ref-type="bibr" rid="CR15">
+           15
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          <p>
+           Training: 60-80
+          </p>
+          <p>
+           Validation:70
+          </p>
+         </td>
+         <td align="left">
+          Six pathologists
+         </td>
+         <td align="left">
+          LYNA, inception V3
+         </td>
+         <td align="left">
+          lymph nodes metastasis detection
+         </td>
+         <td align="left">
+          Sensitivity (91% vs. 83%,
+          <italic>
+           P
+          </italic>
+          = 0.02)
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2018
+         </td>
+         <td align="left">
+          Cruz-Roa et a [
+          <xref ref-type="bibr" rid="CR11">
+           11
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          <p>
+           Training: 349
+          </p>
+          <p>
+           Validation: 52
+          </p>
+          <p>
+           Testing: 195
+          </p>
+         </td>
+         <td align="left">
+          Three expert pathologists
+         </td>
+         <td align="left">
+          <p>
+           HASHI
+          </p>
+          <p>
+           (High-throughput adaptive sampling for whole-slide histopathology image analysis)
+          </p>
+         </td>
+         <td align="left">
+          invasive breast cancer detection
+         </td>
+         <td align="left">
+          Dice coefficient of 76%
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2018
+         </td>
+         <td align="left">
+          Fondón et al [
+          <xref ref-type="bibr" rid="CR16">
+           16
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          Training: 30 Validation: 70 Testing: 150 + images with artefacts included
+         </td>
+         <td align="left">
+          Pathologists
+         </td>
+         <td align="left">
+          SVM (Support Vector Machine) classifier with a quadratic kernel
+         </td>
+         <td align="left">
+          Breast carcinoma classification on biopsies
+         </td>
+         <td align="left">
+          accuracy levels ranging from 61.11% to 75.8%
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2022
+         </td>
+         <td align="left">
+          El Agouri et al [
+          <xref ref-type="bibr" rid="CR17">
+           17
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          328 digital slides from 116 surgical breast specimens
+         </td>
+         <td align="left">
+          One pathologist, two qualified consultant breast pathologists
+         </td>
+         <td align="left">
+          CNN, (Resnet50 and Xception)
+         </td>
+         <td align="left">
+          Breast cancer detection/ diagnosis
+         </td>
+         <td align="left">
+          accuracy (88%), and sensitivity (95%)
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2023
+         </td>
+         <td align="left">
+          Wang et al [
+          <xref ref-type="bibr" rid="CR4">
+           4
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          <p>
+           400 WSIs
+          </p>
+          <p>
+           Training: 270
+          </p>
+          <p>
+           Test: 129
+          </p>
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          <p>
+           dual magnification mining network
+          </p>
+          <p>
+           (Two stream network)
+          </p>
+          <p>
+           (SL-Net and PH-Net)
+          </p>
+         </td>
+         <td align="left">
+          lymph nodes metastasis localization
+         </td>
+         <td align="left">
+          0.871 FROC score with dual magnification mining network and 0.88 FROC score with high magnification network
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2023
+         </td>
+         <td align="left">
+          Challa et al [
+          <xref ref-type="bibr" rid="CR18">
+           18
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          a validation cohort with 234 SLNs and a consensus cohort with 102 SLNs)
+         </td>
+         <td align="left">
+          Three pathologists
+         </td>
+         <td align="left">
+          Visiopharm Integrator System (VIS) metastasis AI algorithm
+         </td>
+         <td align="left">
+          Diagnosis of lymph node metastasis
+         </td>
+         <td align="left">
+          sensitivity of 100%
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+     <table-wrap id="Tab2">
+      <label>
+       Table 2
+      </label>
+      <caption>
+       <p>
+        Summary of AI-based predictive algorithms in breast cancer pathology
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left">
+          Year of publication
+         </th>
+         <th align="left">
+          Reference
+         </th>
+         <th align="left">
+          Number of slides for training / validation
+         </th>
+         <th align="left">
+          Pathologists review (training/validation)
+         </th>
+         <th align="left">
+          Algorithm details
+         </th>
+         <th align="left">
+          Algorithm endpoints/outputs
+         </th>
+         <th align="left">
+          Algorithm performance
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left">
+          2020
+         </td>
+         <td align="left">
+          Li et al [
+          <xref ref-type="bibr" rid="CR13">
+           13
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          153 invasive breast carcinomas
+         </td>
+         <td align="left">
+          pathologists and molecular pathologists
+         </td>
+         <td align="left">
+          Visiopharm HER2-CONNECT APP
+         </td>
+         <td align="left">
+          Pathological NAC response prediction
+         </td>
+         <td align="left">
+          HER2 DIA connectivity has the strongest association to predict PCR
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2021
+         </td>
+         <td align="left">
+          Bodén et al [
+          <xref ref-type="bibr" rid="CR19">
+           19
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          200 analyzed areas containing 200 tumor cells
+         </td>
+         <td align="left">
+          three experienced breast pathologists
+         </td>
+         <td align="left">
+          Human in the loop + DIA
+         </td>
+         <td align="left">
+          Ki 67 proliferatio assessment
+         </td>
+         <td align="left">
+          visual estimation (eyeballing) performed significantly worse than DIA alone and DIA with human-in-the-loop corrections (
+          <italic>
+           P
+          </italic>
+          &lt; 0.05)
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2022
+         </td>
+         <td align="left">
+          Shafi et al [
+          <xref ref-type="bibr" rid="CR20">
+           20
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          97 invasive breast carcinomas, 73 biopsies, 24 resections
+         </td>
+         <td align="left">
+          Two Pathologists
+         </td>
+         <td align="left">
+          Visiopharm automated ER (DIA) algorithm
+         </td>
+         <td align="left">
+          Estrogen receptor IHC assessment
+         </td>
+         <td align="left">
+          Concordance (91/97, 93.8%)
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2023
+         </td>
+         <td align="left">
+          Abele et al [
+          <xref ref-type="bibr" rid="CR10">
+           10
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          204 slides
+         </td>
+         <td align="left">
+          10 participant pathologist form 8 sites
+         </td>
+         <td align="left">
+          Mindpeak Breast Ki-67 RoI and Mindpeak ER/PR RoI
+         </td>
+         <td align="left">
+          quantifying Ki-67, estrogen receptor (ER), and progesterone receptor (PR) in breast cancer
+         </td>
+         <td align="left">
+          <p>
+           Agreement rates: 95.8% of Ki-67 cases and 93.2% of ER/PR cases
+          </p>
+          <p>
+           Krippendorff’s α, 0.72
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2023
+         </td>
+         <td align="left">
+          Shen et al [
+          <xref ref-type="bibr" rid="CR9">
+           9
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          <p>
+           Training:207
+          </p>
+          <p>
+           Test: 103
+          </p>
+         </td>
+         <td align="left">
+          pathologists
+         </td>
+         <td align="left">
+          CNN analysis using the ResNeXt model, SVM and RF analysis, and t-SNE analysis
+         </td>
+         <td align="left">
+          NAC response
+         </td>
+         <td align="left">
+          95.15% accuracy
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2023
+         </td>
+         <td align="left">
+          Huang et al [
+          <xref ref-type="bibr" rid="CR21">
+           21
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          62 HER2-positive breast cancer (HER2 +) and 64 triple-negative breast cancer (TNBC)
+         </td>
+         <td align="left">
+          two pathologists
+         </td>
+         <td align="left">
+          deep neural network (DeepLabV3)
+         </td>
+         <td align="left">
+          NAC response
+         </td>
+         <td align="left">
+          HER2 + AUC = 0.8975; TNBC AUC = 0.7674
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2023
+         </td>
+         <td align="left">
+          Aswolinskiy et al [
+          <xref ref-type="bibr" rid="CR22">
+           22
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          <p>
+           Training: 721 patients
+          </p>
+          <p>
+           Validation: 126 patients
+          </p>
+         </td>
+         <td align="left">
+          Two pathologists,research assistants
+         </td>
+         <td align="left">
+          Mitosis-Detection CNN &amp; Segmentation CNN
+         </td>
+         <td align="left">
+          NAC response
+         </td>
+         <td align="left">
+          AUC between 0.66 and 0.88
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2023
+         </td>
+         <td align="left">
+          Saednia [
+          <xref ref-type="bibr" rid="CR23">
+           23
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          training:144 patients with 9430 annotated tumor beds validation 63 patients with 3574 annotated tumor beds
+         </td>
+         <td align="left">
+          Board-certified breast pathologists
+         </td>
+         <td align="left">
+          CoAtNet &amp; ViT models
+         </td>
+         <td align="left">
+          NAC response
+         </td>
+         <td align="left">
+          AUCs of 0.79, 0.81, and 0.84 and F1-scores of 86%, 87%, and 89%, respectively
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+     <table-wrap id="Tab3">
+      <label>
+       Table 3
+      </label>
+      <caption>
+       <p>
+        Summary of AI-based prognostic algorithms in breast cancer pathology
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left">
+          Year of publication
+         </th>
+         <th align="left">
+          Reference
+         </th>
+         <th align="left">
+          Number of slides for training / validation
+         </th>
+         <th align="left">
+          Pathologists review (training/validation)
+         </th>
+         <th align="left">
+          Algorithm details
+         </th>
+         <th align="left">
+          Algorithm endpoints/outputs
+         </th>
+         <th align="left">
+          Algorithm performance
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left">
+          2020
+         </td>
+         <td align="left">
+          Pantanowitz et al [
+          <xref ref-type="bibr" rid="CR24">
+           24
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          320 breast invasive ductal carcinoma cases, 16,800 digital image patches from 120 WSIs/140 digital image
+         </td>
+         <td align="left">
+          Ten expert pathologists and 24 readers of varying expertise
+         </td>
+         <td align="left">
+          RCNN by ResNet-101
+         </td>
+         <td align="left">
+          Mitotic figures counting
+         </td>
+         <td align="left">
+          Accuracy with AI = 55.2% compared to manually 43.9%
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2020
+         </td>
+         <td align="left">
+          Chow et al [
+          <xref ref-type="bibr" rid="CR25">
+           25
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          93 cases of phyllodes tumor
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          Image Management System viewer
+         </td>
+         <td align="left">
+          Phyllodes tumor mitoses counting
+         </td>
+         <td align="left">
+          correlation = .794;
+          <italic>
+           R
+          </italic>
+          <sup>
+           2
+          </sup>
+          = 0.63;
+          <italic>
+           P
+          </italic>
+          &lt; .001; 95% CI, 0.270–0.373
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2021
+         </td>
+         <td align="left">
+          Balkenhol et al [
+          <xref ref-type="bibr" rid="CR26">
+           26
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          94 TNBC specimens
+         </td>
+         <td align="left">
+          two histopathologists
+         </td>
+         <td align="left">
+          convolutional neural networks (CNN)
+         </td>
+         <td align="left">
+          TILs assessment and prognostic values
+         </td>
+         <td align="left">
+          Relapse free survival HR ranging between 0.777 (CD8, IM2) and 0.915 (CD3, ITS); overall survival HR varying between 0.722 (FOXP3, ITT) and 0.908 (CD3, ITA)
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2022
+         </td>
+         <td align="left">
+          Wang et al [
+          <xref ref-type="bibr" rid="CR6">
+           6
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          Training:1567Test:1262
+         </td>
+         <td align="left">
+          Pathologists
+         </td>
+         <td align="left">
+          deep CNN model
+         </td>
+         <td align="left">
+          Categorization of NHG2 breast tumors and its risk of recurrence
+         </td>
+         <td align="left">
+          increased risk for recurrence in DG2-high (HR 1.91, 95% CI 1.11–3.29,
+          <italic>
+           P
+          </italic>
+          = 0.019)
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          2022
+         </td>
+         <td align="left">
+          Mantrala et al [
+          <xref ref-type="bibr" rid="CR27">
+           27
+          </xref>
+          ]
+         </td>
+         <td align="left">
+          Training: 46 Test: 91
+         </td>
+         <td align="left">
+          Six pathologists
+         </td>
+         <td align="left">
+          Unet, DenseNet backbone, preloaded ImageNet for TF, HoVerNet, pretrained ImageNet ResNet50-Preact for NP, LinkNet with EfficientNet B4 backbone for MC
+         </td>
+         <td align="left">
+          Breast cancer grading
+         </td>
+         <td align="left">
+          <p>
+           Tubular formation (κ = 0.471 each)
+          </p>
+          <p>
+           Nuclear pleomorphism (κ = 0.342) and was worst for mitotic count (κ = 0.233)
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </p>
+    <p id="Par26">
+     Subsequently, we elucidate the existing commercial platforms (Table
+     <xref ref-type="table" rid="Tab4">
+      4
+     </xref>
+     ) that facilitate the incorporation of artificial intelligence into breast cancer research.
+     <table-wrap id="Tab4">
+      <label>
+       Table 4
+      </label>
+      <caption>
+       <p>
+        Summary of commercially available AI algorithms for breast cancer pathology
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th align="left">
+          Platform/algorithm
+         </th>
+         <th align="left">
+          Vendor
+         </th>
+         <th align="left">
+          Indication
+         </th>
+         <th align="left">
+          Certified/approved by
+         </th>
+         <th align="left">
+          HE slides/IHC slides
+         </th>
+         <th align="left">
+          Image requirement (scanner, magnification)
+         </th>
+         <th align="left">
+          Workflow requirement if any
+         </th>
+         <th align="left">
+          Supported samples
+         </th>
+         <th align="left">
+          Output
+         </th>
+         <th align="left">
+          Publications/data
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td align="left">
+          Mindpeak Breast HER2 RoI
+         </td>
+         <td align="left">
+          Mindpeak
+         </td>
+         <td align="left">
+          breast cancer
+         </td>
+         <td align="left">
+          CE-IVD
+         </td>
+         <td align="left">
+          IHC slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          interactive image viewer software
+         </td>
+         <td align="left">
+          anti-HER2/neu clone 4B5 assay from Ventana, EP3 from Cell Marque and HercepTest (sometimes referred to as clone A0485) from Agilent Dako
+         </td>
+         <td align="left">
+          HER2 score
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://uploads-ssl.webflow.com/60424989e8e0f02a922616f9/631072d2e19725a967c1735f_Mindpeak%20Breast%20HER2%20RoI%20-%20Clinical%20performance%20evaluation%20summary%20-%20APPROVED.pdf">
+           https://uploads-ssl.webflow.com/60424989e8e0f02a922616f9/631072d2e19725a967c1735f_Mindpeak%20Breast%20HER2%20RoI%20-%20Clinical%20performance%20evaluation%20summary%20-%20APPROVED.pdf
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Mindpeak Breast Ki-67 HS
+         </td>
+         <td align="left">
+          Mindpeak
+         </td>
+         <td align="left">
+          breast cancer
+         </td>
+         <td align="left">
+          CE-IVD
+         </td>
+         <td align="left">
+          IHC slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          interactive image viewer software
+         </td>
+         <td align="left">
+          MIB-1 pharmDx assay from Agilent Dako and the 30–9 antibody assay from Roche Diagnostics
+         </td>
+         <td align="left">
+          Ki-67 score
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://uploads-ssl.webflow.com/60424989e8e0f02a922616f9/6317189c812a662bd8aa3055_Mindpeak%20Breast%20Ki-67%20HS%20-%20Clinical%20performance%20evaluation%20summary.pdf">
+           https://uploads-ssl.webflow.com/60424989e8e0f02a922616f9/6317189c812a662bd8aa3055_Mindpeak%20Breast%20Ki-67%20HS%20-%20Clinical%20performance%20evaluation%20summary.pdf
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Mindpeak Breast ER/PR
+         </td>
+         <td align="left">
+          Mindpeak
+         </td>
+         <td align="left">
+          breast cancer
+         </td>
+         <td align="left">
+          CE-IVD
+         </td>
+         <td align="left">
+          IHC slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          interactive image viewer software
+         </td>
+         <td align="left">
+          SP1 assay from Roche Ventana and the EP1 assay from Agilent Dako, as well as for PR through the clone 16 assay from Leica Biosystems, the clone 1E2 assay from Roche Ventana and the clone 1294 assay from Agilent Dako
+         </td>
+         <td align="left">
+          ER/PR assessment
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://uploads-ssl.webflow.com/60424989e8e0f02a922616f9/631718ea00a1495c8a8dfa3b_Mindpeak%20Breast%20ER_PR%20-%20Clinical%20performance%20evaluation%20summary.pdf">
+           https://uploads-ssl.webflow.com/60424989e8e0f02a922616f9/631718ea00a1495c8a8dfa3b_Mindpeak%20Breast%20ER_PR%20-%20Clinical%20performance%20evaluation%20summary.pdf
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Mindpeak Breast Metastasis Detection
+         </td>
+         <td align="left">
+          Mindpeak
+         </td>
+         <td align="left">
+          suspicious cases with breast cancer metastasis
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          H&amp;E slides
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          Standard personal working machine. Minimum requirements: 32 bit Processor Intel Core i5 or better; 4 GB RAM
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          Segmentation of tissue into cancerous and benign areas
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://www.mindpeak.ai/products/mindpeak-metastasis-detection#:~:text=Mindpeaks%20Breast%20Metastasis%20Detection%20supports,metastases%20associated%20with%20breast%20adenocarcinoma">
+           https://www.mindpeak.ai/products/mindpeak-metastasis-detection#:~:text=Mindpeaks%20Breast%20Metastasis%20Detection%20supports,metastases%20associated%20with%20breast%20adenocarcinoma
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          OWKIN RlapsRisk™ BC
+         </td>
+         <td align="left">
+          Mindpeak
+         </td>
+         <td align="left">
+          ER + /HER2- invasive carcinoma of the breast
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          H&amp;E slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          IMS systems or even a shared directory
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          determinatin the best treatement for high risk patient of early breast cancer
+         </td>
+         <td align="left">
+          Garberis IJ, Gaury V, Drubay D, et al. Blind validation of an AI-based tool for predicting distant relapse from breast cancer HES stained slides. Poster presented at: European Society for Medical Oncology (ESMO); May 9th—13th 2022; Paris France
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Visiopharm ER, PR, Ki-67 APP
+         </td>
+         <td align="left">
+          Visiopharm
+         </td>
+         <td align="left">
+          breast cancer
+         </td>
+         <td align="left">
+          CE-IVD
+         </td>
+         <td align="left">
+          IHC slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          IMS system
+         </td>
+         <td align="left">
+          staining from Agilent, Roche or Leica
+         </td>
+         <td align="left">
+          ER assessment
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://visiopharm.com/app-center/app/ki-67-breast-cancer/">
+           https://visiopharm.com/app-center/app/ki-67-breast-cancer/
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Visiopharm: Invasive Tumor Detection (PDS)
+         </td>
+         <td align="left">
+          Visiopharm
+         </td>
+         <td align="left">
+          breast cancer
+         </td>
+         <td align="left">
+          CE-IVD
+         </td>
+         <td align="left">
+          IHC slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          p63: Roche Ventana/Zeta, CK7:Dako, CK19: AH-diagnostics/Cell Marque/Roche Ventana, combined with any biomarker APP using VirtualTripleStaining (VTS)
+         </td>
+         <td align="left">
+          Automatic detection of invasive tumor
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://visiopharm.com/app-center/app/invasive-tumor-detection-vds/">
+           https://visiopharm.com/app-center/app/invasive-tumor-detection-vds/
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Visiopharm HER2-CONNECT™
+         </td>
+         <td align="left">
+          Visiopharm
+         </td>
+         <td align="left">
+          breast cancer
+         </td>
+         <td align="left">
+          CE-IVD
+         </td>
+         <td align="left">
+          IHC slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          NordiQC HER2 biomarker
+         </td>
+         <td align="left">
+          HER2 scoring
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://visiopharm.com/app-center/app/her2-breast-cancer/">
+           https://visiopharm.com/app-center/app/her2-breast-cancer/
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Visiopharm – lymph node metastasis
+         </td>
+         <td align="left">
+          Visiopharm
+         </td>
+         <td align="left">
+          Breast &amp;colorectal cancer
+         </td>
+         <td align="left">
+          CE-IVD
+         </td>
+         <td align="left">
+          H&amp;E slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          lymph nodes metastasis detection
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://visiopharm.com/ai-assisted-metastasis-detection-in-lymph-nodes/">
+           https://visiopharm.com/ai-assisted-metastasis-detection-in-lymph-nodes/
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Visiopharm: HER2-S(D)ISH
+         </td>
+         <td align="left">
+          Visiopharm
+         </td>
+         <td align="left">
+          breast cancer
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          Immunofluroscence slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          INFORM™ HER2 Dual ISH assay from Ventana/Roche
+         </td>
+         <td align="left">
+          HER2-SISH assessment
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://visiopharm.com/app-center/app/her2-sish-breast-cancer/#:~:text=The%20Human%20Epidermal%20Growth%20Factor,response%20to%20HER2%2Dtargeted%20treatment">
+           https://visiopharm.com/app-center/app/her2-sish-breast-cancer/#:~:text=The%20Human%20Epidermal%20Growth%20Factor,response%20to%20HER2%2Dtargeted%20treatment
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Visiopharm: HER2-FISH
+         </td>
+         <td align="left">
+          Visiopharm
+         </td>
+         <td align="left">
+          breast cancer
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          Immunofluroscence slides
+         </td>
+         <td align="left">
+          WSI scanner
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          HER2-FISH assessment
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://visiopharm.com/app-center/app/her2-fish-breast-cancer/#:~:text=The%20Human%20Epidermal%20Growth%20Factor,response%20to%20HER2%2Dtargeted%20treatment">
+           https://visiopharm.com/app-center/app/her2-fish-breast-cancer/#:~:text=The%20Human%20Epidermal%20Growth%20Factor,response%20to%20HER2%2Dtargeted%20treatment
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          PathAI: AIM-HER2
+         </td>
+         <td align="left">
+          PAthAI
+         </td>
+         <td align="left">
+          Breast cancer
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          IHC slides
+         </td>
+         <td align="left">
+          Leica Aperio® AT2 and GT450; Hamamatsu NanoZoomer® s360
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          Ventana 4B5 and Dako HercepTest™
+         </td>
+         <td align="left">
+          HER2 score, Area of invasive carcinoma; Additive multiple instance learning (aMIL) density heatmap
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://pathaiwp.wpenginepowered.com/wp-content/uploads/2023/01/Copy-of-ESMO_PathAI_DS_BG_FINAL.pdf">
+           https://pathaiwp.wpenginepowered.com/wp-content/uploads/2023/01/Copy-of-ESMO_PathAI_DS_BG_FINAL.pdf
+          </ext-link>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Paige Breast Suite
+         </td>
+         <td align="left">
+          Paige
+         </td>
+         <td align="left">
+          Breast cancer
+         </td>
+         <td align="left">
+          CE-IVD and UKCA
+         </td>
+         <td align="left">
+          H&amp;E slides
+         </td>
+         <td align="left">
+          Leica Aperio AT2 and GT450 Scanners
+         </td>
+         <td align="left">
+          clinical-grade viewer, FullFocus
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          detection of premalignant and malignant neoplasms
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://paige.ai/clinical/">
+           https://paige.ai/clinical/
+          </ext-link>
+          #
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          Paige Breast Lymph Node
+         </td>
+         <td align="left">
+          Paige
+         </td>
+         <td align="left">
+          Breast cancer
+         </td>
+         <td align="left">
+          CE-IVD and UKCA
+         </td>
+         <td align="left">
+          H&amp;E slides
+         </td>
+         <td align="left">
+          Leica Aperio AT2 and GT450 Scanners
+         </td>
+         <td align="left">
+          clinical-grade viewer, FullFocus
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          lymph nodes metastasis detection
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://paige.ai/clinical/">
+           https://paige.ai/clinical/
+          </ext-link>
+          #
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+          IBEX GALEN™ BREAST: AI-powered Pathology
+         </td>
+         <td align="left">
+          IBEX
+         </td>
+         <td align="left">
+          Breast cancer
+         </td>
+         <td align="left">
+          CE-IVD
+         </td>
+         <td align="left">
+          H&amp;E slides
+         </td>
+         <td align="left">
+          WSI scannrer
+         </td>
+         <td align="left">
+          slide viewer
+         </td>
+         <td align="left">
+          N/A
+         </td>
+         <td align="left">
+          subtype detection&amp;grading
+         </td>
+         <td align="left">
+          <ext-link ext-link-type="uri" xlink:href="https://ibex-ai.com/wp-content/uploads/2022/12/Sandbank_et_al-2022-npj_Breast_Cancer.pdf">
+           https://ibex-ai.com/wp-content/uploads/2022/12/Sandbank_et_al-2022-npj_Breast_Cancer.pdf
+          </ext-link>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </table-wrap>
+    </p>
+    <sec id="Sec3">
+     <title>
+      AI in breast cancer diagnosis
+     </title>
+     <p id="Par27">
+      Accurate histopathological diagnosis is crucial for BC as patient numbers surge and pathologist resources dwindle [
+      <xref ref-type="bibr" rid="CR3">
+       3
+      </xref>
+      ]. Therefore, efforts have been made to overcome this concern. Fondón et al. [
+      <xref ref-type="bibr" rid="CR16">
+       16
+      </xref>
+      ] presents a computer-aided diagnosis (CAD) tool for automated malignancy assessment of breast tissue samples. The method utilizes histological images and calculates three sets of features related to nuclei, color regions, and textures. The method was evaluated rigorously using cross-validation and external image sets, achieving accuracy levels ranging from 61.11% to 75.8%. The results demonstrate the tool’s capability to accurately distinguish between four malignancy levels (normal, benign, in situ, and malignant) and outperform other state-of-the-art methods based on feature extraction. This approach has the potential to enhance the CAD of BC and improve early diagnosis, contributing to the prevention of avoidable deaths. Another study, conducted by Cruz-Roa et al. [
+      <xref ref-type="bibr" rid="CR11">
+       11
+      </xref>
+      ] introduce a method called high-throughput adaptive sampling for whole-slide histopathology image analysis (HASHI). Traditional convolutional neural networks (CNNs) struggle with large WSIs due to the enormous number of parameters required. HASHI addresses this issue by using an efficient adaptive sampling method and a powerful CNN-based classifier. The method was trained and validated on three different data cohorts involving nearly 500 cases and independently tested on 195 studies from The Cancer Genome Atlas. The results showed that the adaptive sampling method effectively handles WSI, achieving comparable accuracy with fewer samples. The HASHI demonstrated effectiveness and robustness across different sites, scanners, and platforms, with an average Dice coefficient of 76% on an independent test dataset
+      <bold>
+       .
+      </bold>
+      The efforts have even been extended to include a study performed in the Middle East, specifically in Morocco, by El Agouri et al. [
+      <xref ref-type="bibr" rid="CR17">
+       17
+      </xref>
+      ]. This study aims to develop a deep learning-based approach for the efficient classification of BC histopathological images. Despite the limited data size used in this study, the classification model demonstrated good generalization performance, high accuracy, and sensitivity in detecting carcinoma rates, indicating the potential of the model to assist the pathologist in precise BC diagnosis.
+     </p>
+     <p id="Par28">
+      The transition from the preinvasive stage of ductal carcinoma in situ (DCIS) to invasive ductal carcinoma (IDC) is a pivotal event in breast cancer progression [
+      <xref ref-type="bibr" rid="CR28">
+       28
+      </xref>
+      ]. Myoepithelial cells play a crucial role in the clinical diagnosis of DCIS and IDC. Their presence serves as a significant diagnostic criterion for pathologists. Additionally, when evaluating fine needle aspiration (FNA) cytology smears, the number of myoepithelial cells aids in differentiating between benign proliferative breast disease and invasive tumors [
+      <xref ref-type="bibr" rid="CR29">
+       29
+      </xref>
+      ]. A study conducted by Yamamoto et al. [
+      <xref ref-type="bibr" rid="CR14">
+       14
+      </xref>
+      ]. demonstrated that machine learning systems can classify different histological types of intraductal proliferative lesions based solely on subtle morphological variations observed in myoepithelial cells that cannot be detected by the human eye and without considering epithelial tumor cells. This study reveals that myoepithelial cell nuclei in DCIS lesions exhibit a distinct flattened shape that can be recognized through computational methods. Additionally, a biological mechanism based on paracrine cross-talk mechanism has been proposed to explain the progression of DCIS to IDC. This highlights the potential of using machine learning algorithms to enhance our understanding of BC pathology and improve diagnostic accuracy in identifying specific subtypes of intraductal proliferative lesions.
+     </p>
+     <p id="Par29">
+      Metastasis location is crucial in BC staging, for which patch-based frameworks are commonly used. These frameworks extract fixed-size patches from whole slide images to train a CNN classifier that detects tumor regions. Histopathologists analyze whole slide images to identify tumor features and metastasis regions, but this process is time-consuming and prone to errors [
+      <xref ref-type="bibr" rid="CR30">
+       30
+      </xref>
+      ]. Additionally, efficiency is a challenge due to overlapping regions, leading to computational redundancy. Wang et al. [
+      <xref ref-type="bibr" rid="CR4">
+       4
+      </xref>
+      ] addressed this challenge by introducing a new two-stream network for identifying tumor metastasis cells in whole slide images. Scan-based frameworks utilize fully CNNs for faster inference by using arbitrary image blocks. Multiresolution image pyramids, combining multiple magnification patches, can improve performance and promise in BC metastasis location tasks and achieve impressive results, with a high FROC score. This method also indicates a faster inference time compared to existing approaches. Moreover, the study demonstrated the effectiveness of the high magnification network, which also contributed to the high FROC score. A recent application, by Challa et al. [
+      <xref ref-type="bibr" rid="CR18">
+       18
+      </xref>
+      ] proposes the use of a digital imaging analysis “metastasis AI” detection app (Visiopharm Integrator System metastasis AI algorithm) to screen lymph nodes for metastases in BC patients, aiming to improve diagnostic accuracy and pathologists’ efficiency. The AI algorithm demonstrated an overall sensitivity and negative predictive value (NPV) of 100%, making it a promising screening tool before pathologists’ review of H&amp;E-stained slides. The app’s integration with the clinical workflow reduced the need for immunohistochemical staining in some cases. However, the study had limitations, including a retrospective design and the need for pathologists to carefully review and confirm positive cases identified by the AI algorithm. Steiner et al. [
+      <xref ref-type="bibr" rid="CR15">
+       15
+      </xref>
+      ] reviewed lymph node metastasis in two modes: unassisted and assisted by the algorithm. The results showed that the algorithm-assisted pathologists had higher accuracy, especially in detecting small cancer cells. The review time per image was also shorter with the algorithm’s assistance. Pathologists found it easier to classify images when using the algorithm. Overall, the study suggests that using a deep learning algorithm can improve accuracy and efficiency in digital pathology.
+     </p>
+    </sec>
+    <sec id="Sec4">
+     <title>
+      Prediction of breast cancer behavior
+     </title>
+     <p id="Par30">
+      The Ki-67 index is used to provide information about the growth rate and aggressiveness of the tumor. However, the evaluation of Ki67 proliferation has long been a subject of uncertainty among pathologists, necessitating the development of a standardized method to assess this important factor. A study by Abele et al. [
+      <xref ref-type="bibr" rid="CR10">
+       10
+      </xref>
+      ] assessed the Mindpeak Breast Ki-67 RoI and Mindpeak ER/PR RoI for quantifying Ki-67, ER, and progesterone receptor PR in breast cancer. This tool demonstrates reliability and receives confirmation from most pathologists across a wide range of image variances and indicates the potential of AI assistance to enhance interobserver agreement and improve the reliability of immunohistochemical scoring in real-world clinical settings. However, could we depend only on AI for this analysis? In this retrospective study, by Bodén et al. [
+      <xref ref-type="bibr" rid="CR19">
+       19
+      </xref>
+      ] Ki67 areas were assessed using a human-in-the-loop digital image analysis (DIA) method, and the results were compared with visual and automatic approaches. The analysis revealed that visual estimation performed significantly worse than DIA alone and DIA with human-in-the-loop corrections, as indicated by a higher standard deviation of the error in the Ki67 index. While the addition of human-in-the-loop corrections did not improve the overall results, it proved valuable in addressing major DIA errors related to faint staining and tumor-stroma separation on an individual case basis. The study suggests that human-in-the-loop corrections primarily serve to rectify significant weaknesses in DIA applications rather than refining quantifications. A recent study by Shafi et al. [
+      <xref ref-type="bibr" rid="CR20">
+       20
+      </xref>
+      ] used Visiopharm automated ER DIA, having a fully automated digital workflow with eliminating manual intervention for ER immunohistochemistry. The process involves scanning ER IHC slides and streaming them directly into the digital platform without downloading/uploading. The results demonstrate a high concordance (93.8%) between automated DIA and pathologists’ manual scoring, making it a reliable tool for determining ER status in breast carcinoma. While there are some pitfalls identified, adjustments to the algorithm or manual annotation can address them effectively. The integration of automated DIA into routine clinical workflow is shown to be feasible, potentially saving time and labor for pathologists. Moving to HER2, this is the first study to investigate the correlation between the response to anti-HER2 NAC and HER2 protein expression using digital image analysis (Visiopharm HER2-CONNECT App) in HER2 + BC patients. The study demonstrates an excellent correlation between HER2 DIA connectivity and clinical outcomes in patients treated with anti-HER2 NAC. This DIA provides an objective and quantitative assessment of HER2 protein expression and shows potential as a predictive factor for achieving a pathological complete response (pCR). Additionally, HER2 DIA values are moderately associated with HER2 FISH copy numbers/ratios, suggesting that HER2 copy number may be more accurate in predicting HER2 protein expression than the HER2/CEP17 ratio [
+      <xref ref-type="bibr" rid="CR13">
+       13
+      </xref>
+      ]. To validate this application, one of the largest studies in this regard involved 612 invasive breast carcinomas. The data demonstrate that HER2 IHC DIA is a reliable method for measuring HER2 protein expression, with excellent concordance (87.3%) with pathologists’ manual scoring and a 16% reduction in equivocal case numbers. The study also shows that HER2 IHC DIA accurately distinguishes HER2 FISH-positive and -negative cases, although a small number of discordant cases (0.8%) were observed. The HER2 IHC connectivity value correlates better with HER2 copy number than the HER2/CEP17 ratio, suggesting that it may be a more accurate predictor of HER2 protein expression and response to anti-HER2 targeted therapy [
+      <xref ref-type="bibr" rid="CR12">
+       12
+      </xref>
+      ].
+     </p>
+     <p id="Par31">
+      Predicting the effectiveness of NAC prior to administration is crucial to avoid unnecessary treatments. A promising approach was conducted by Shen et al. [
+      <xref ref-type="bibr" rid="CR9">
+       9
+      </xref>
+      ] This study aims to predict the effectiveness of NAC in BC patients using AI analysis of H&amp;E images of prechemotherapy needle biopsies. A novel pipeline system has been developed, consisting of three independent models focusing on different cancer atypia characteristics. This system achieved an impressive 95.15% accuracy in predicting NAC response in a test set of 103 cases. The authors suggest that this AI system could contribute to personalized medicine in NAC therapy for breast cancer. A recent study by Aswolinskiy et al. [
+      <xref ref-type="bibr" rid="CR22">
+       22
+      </xref>
+      ] introduces interpretable computational biomarkers such as TILS, PROACTING segmentation-based biomarkers and mitotic count derived from H&amp;E stained slides, for predicting the response to neoadjuvant chemotherapy in breast cancer. The approach contrasts with existing deep-learning models, offering greater interpretability through hypothesis-driven biomarkers. The PROACTING biomarkers show potential in predicting pathological complete response (pCR). Particularly, the TILs biomarker exhibits promising sensitivity in TNBC and Luminal B cohorts, suggesting its clinical application for distinguishing responders from non-responders and reducing overtreatment. The study emphasizes the broad applicability of computational biomarkers, especially in routine clinical practice with H&amp;E staining, and highlights considerations for improved model applicability and TIL scoring interpretation. Another study by Saednia et al. [
+      <xref ref-type="bibr" rid="CR23">
+       23
+      </xref>
+      ] introduces a hierarchical deep learning framework for predicting breast cancer response to NAC using digital histopathological images. Unlike the previous study, this model incorporates a patch-level processing module, a tumor-level processing module, and a patient-level response prediction module, providing a comprehensive approach. The use of a self-attention-guided convolutional network based on the CoAtNet architecture at the patch level, coupled with ViT models at the tumor level, enhances the extraction of local information within tumor patches. The study emphasizes the significance of combining convolutional and self-attention modules, demonstrating superior performance in extracting informative features. Importantly, the hierarchical model outperforms two-level and patch-level-only models in predicting NAC response. The study further explores the importance of systematic strategies for fusing patch and tumor-level information on both tumor and patient levels, showcasing the necessity of a nuanced approach for more accurate predictions. Last, this recent study by Huang et al. [
+      <xref ref-type="bibr" rid="CR21">
+       21
+      </xref>
+      ] uses AI algorithms to achieve the same purpose. This approach provided robust and reproducible feature extraction, including information about the tumor immune microenvironment, such as TILs by developing of a whole slide image (WSI) feature extraction pipeline, named IMPRESS, that quantitatively evaluates histopathological features extracted from both H&amp;E-stained and IHC-stained WSIs. Unlike previous studies, this research leverages the paired H&amp;E and IHC images, enabling a robust and reproducible feature extraction pipeline at the WSI level. The integration of IHC-stained images provides detailed tumor immune micro-environment information, enhancing the characterization of the tumor microenvironment. The study further demonstrates the interpretability and predictive accuracy of the AI-based automatic feature extraction pipeline, outperforming models based on pathologists’ assessments and producing abundant reproducible interpretable features. Additionally, the investigation of clinicopathologic features in two breast cancer subtypes, HER2 + and TNBC, unveils common and different feature behaviors, highlighting the immunogenic nature of breast cancer.
+     </p>
+     <p id="Par32">
+      Whitney et al. [
+      <xref ref-type="bibr" rid="CR31">
+       31
+      </xref>
+      ] investigated the use of computer analysis to predict BC risk categories determined by the Oncotype DX test. They extracted various nuclear morphology features from 178 patients’ images and used machine learning classifiers to identify the most discriminating features. The study found that computerized image analysis could potentially predict the Oncotype DX risk categories for early-stage estrogen receptor-positive breast cancer. The accuracy of the models ranged from 75 to 86% when tested on an independent validation set.
+     </p>
+    </sec>
+    <sec id="Sec5">
+     <title>
+      AI and breast cancer prognosis
+     </title>
+     <p id="Par33">
+      AI has the potential to serve as an assisting tool for pathologists in grading breast carcinoma, contributing to a more standardized and efficient diagnosis and subsequent predictable prognosis. Breast carcinoma with a moderate grade (known as NHG 2) has been an area of concern. They are often difficult to categorize using conventional methods because they have similarities with low-grade (NGH1) and high-grade tumors (NHG3) [
+      <xref ref-type="bibr" rid="CR6">
+       6
+      </xref>
+      ]. A study conducted by Mantrala et al. [
+      <xref ref-type="bibr" rid="CR27">
+       27
+      </xref>
+      ] focused on evaluating the concordance between AI and pathologists in grading breast carcinoma. The study developed an automated framework based on deep learning to assess the Nottingham Grading System (NGS). The results revealed a moderate level of concordance for the overall grading. Importantly, there were no significant differences in concordance between pathologists alone and pathologists combined with AI. Wang et al. developed a new method called DeepGrade to classify this specific category (NHG2) more accurately. This method helps provide more consistent and precise grading. The results show that DeepGrade can also predict the prognosis of NHG2 tumors as effectively as other methods that analyze gene expression using regular stained tissue samples, which is faster and more cost-effective. DeepGrade can also provide additional information about the aggressiveness of the tumor, which can help doctors make decisions about the best treatment options, especially for certain types of BC and de-escalation of chemotherapy in particular [
+      <xref ref-type="bibr" rid="CR6">
+       6
+      </xref>
+      ].
+     </p>
+     <p id="Par34">
+      The evaluation of mitosis in BC is important for prognosis, as it serves as a significant prognostic marker. Counting mitotic figures helps determine the grading of the tumor and aids in treatment decisions. Inter- and interlaboratory variation in manual mitotic count presents a challenge, which AI coupled with whole slide imaging aims to address. Pantanowitz et al. [
+      <xref ref-type="bibr" rid="CR24">
+       24
+      </xref>
+      ] evaluated the use of AI in quantifying mitotic figures in whole slide images of invasive breast ductal carcinoma. In this study, readers of different expertise levels then counted mitotic figures with and without AI assistance. The findings demonstrated improved accuracy, precision, and sensitivity with AI support across all experience levels while also reducing false positives and saving 27.8% of time. The study concludes that AI can enhance the precision and efficiency of mitotic figure quantification, leading to standardized pathology practices and generating enthusiasm among pathologists for integrating AI into routine tasks such as mitotic counting. Even in phyllodes tumors, accurate mitosis counting is important for grading. This study, by Chow et al. [
+      <xref ref-type="bibr" rid="CR25">
+       25
+      </xref>
+      ], aimed to determine the best method for counting mitotic figures in phyllodes tumors using digital pathology. They compared counting mitoses in 10 high-power fields (HPFs) and counting mitoses on the WSI. Both methods showed similar correlations with tumor grade, stromal atypia, and stromal hypercellularity. However, neither method showed significant correlations with patient age or tumor size.
+     </p>
+     <p id="Par35">
+      Approximately 15% of breast cancers are classified as triple-negative, which has an aggressive nature and a high risk of recurrence [
+      <xref ref-type="bibr" rid="CR32">
+       32
+      </xref>
+      ]. Tumor-infiltrating lymphocytes are considered an important prognostic biomarker for TNBC [
+      <xref ref-type="bibr" rid="CR33">
+       33
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR34">
+       34
+      </xref>
+      ]. A higher density of TILs is associated with an improved prognosis [
+      <xref ref-type="bibr" rid="CR35">
+       35
+      </xref>
+      ]. Consequently, it is fundamental to assess the quantity of TILs accurately and precisely to better understand and manage TNBC. Balkenhol et al [
+      <xref ref-type="bibr" rid="CR26">
+       26
+      </xref>
+      ] explored diverse methods for objectively assessing TILs using immunohistochemically stained sections, correlating findings with patient outcomes. Employing automated deep learning analysis for TIL assessment, we scrutinized CD3, CD8, and FOXP3 markers in various tumor regions. Results revealed a consistent negative correlation between TIL abundance and recurrence-free survival (RFS) and overall survival (OS), irrespective of markers or measurement regions. Ratios between markers (CD3/CD8) were found to be poorly prognostic and discouraged. Despite the recognized prognostic value of TILs in breast cancer, a lack of standardized assessment methods hinders comparability across studies. Current protocols, such as those proposed by the International TIL Working Group (ITWG) [
+      <xref ref-type="bibr" rid="CR36">
+       36
+      </xref>
+      ], often prioritize feasibility and cost reduction. This computational pathology approach demonstrated the robustness of TILs as biomarkers, unaffected by methodological variables, suggesting potential for data-driven optimization of assessment protocols. Focusing on TNBC, exclusively assessing tumor stroma, as per ITWG guidelines, did not compromise prognostic value. The study suggests that TILs serve as reliable biomarkers, emphasizing their stability across markers and measurement regions. While influenced by the Immunoscore consortium’s methodology used in colon cancer [
+      <xref ref-type="bibr" rid="CR37">
+       37
+      </xref>
+      ], this study found both intra-tumoral and margin TILs to contain prognostic information. Combining multiple markers through ratios did not enhance prognostic value, questioning the need for more than one marker in TNBC TIL assessment. Utilizing multiplex immunohistochemistry and deep learning, the aim is to minimize human subjectivity. Despite concerns about accessibility, the study anticipates widespread AI implementation in pathology diagnostics, translating results into essays using straightforward staining protocols.
+     </p>
+    </sec>
+   </sec>
+   <sec id="Sec6">
+    <title>
+     Limitations
+    </title>
+    <p id="Par36">
+     The integration of AI-driven solutions in BC diagnostics is transforming the landscape of pathology practices. These innovative tools empower healthcare professionals, improve accuracy, and provide standardized assessments, leading to better patient care and outcomes. As AI technology continues to advance, we can expect even more sophisticated solutions that further revolutionize BC diagnostics and treatment approaches, offering hope for a future where BC becomes more manageable and treatable.
+     <list list-type="order">
+      <list-item>
+       <p id="Par37">
+        Both pathologists and the AI tool encountered challenges in scoring due to restrictions stemming from various preanalytical variables. Poor sample quality, staining artifacts, the presence of air bubbles, and unfamiliar staining patterns posed difficulties in accurately assessing the samples. These factors adversely affected the performance of both human pathologists and the AI tool in scoring the samples. It highlights the importance of addressing preanalytical variables to improve the accuracy and reliability of scoring methods in pathology [
+        <xref ref-type="bibr" rid="CR10">
+         10
+        </xref>
+        –
+        <xref ref-type="bibr" rid="CR13">
+         13
+        </xref>
+        ].
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par38">
+        In terms of metastatic localization and marking numerous pixels in each image, such extensive manual annotation can be challenging and may hinder the efficiency and scalability of the algorithm. This process is labor-intensive and time-consuming [
+        <xref ref-type="bibr" rid="CR4">
+         4
+        </xref>
+        ]. In addition, the multiple-pipeline AI system to predict the efficacy of NAC relies partially on manual sampling of ROIs from annotated cancer regions [
+        <xref ref-type="bibr" rid="CR9">
+         9
+        </xref>
+        ]. Additionally, automatic annotations for ductal carcinoma (DCIS) in situ were not available through using Deep Grade method to categorize the breast NHG2 tumors and method of HASHI to detect the invasive part. This limitation could affect the accuracy of the method and to overcome it, manual annotations DCIS would be necessary [
+        <xref ref-type="bibr" rid="CR6">
+         6
+        </xref>
+        ,
+        <xref ref-type="bibr" rid="CR11">
+         11
+        </xref>
+        ].
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par39">
+        Standardization of mitosis counting and lack of agreement on area size for mitosis counting: There is a need to establish standardized methods for counting mitoses, including determining the area to count in the whole WSI. It is recommended to count multiple screens at × 40 magnification to achieve a 3 mm2 area size, equivalent to 10 high-power fields (HPF) of a standard microscope with a 0.62 field diameter [
+        <xref ref-type="bibr" rid="CR38">
+         38
+        </xref>
+        ]. The use of H&amp;E-stained tissue sections may lead to the potential omission of mitotic figures due to tissue or imaging artifacts. The incorporation of additional biomarkers, such as Phosphorylated Histone H3 (PHH3), could have helped objectively confirm the presence of mitotic figures [
+        <xref ref-type="bibr" rid="CR24">
+         24
+        </xref>
+        ].
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par40">
+        Regarding the use of this innovative crowdsourcing dataset method called scalable variational Gaussian processes (SVGPCR), the process of quantizing segmentation annotations to the patch level results in a loss of detail, which may limit its effectiveness in representing fine details in segmentation problems [
+        <xref ref-type="bibr" rid="CR39">
+         39
+        </xref>
+        ].
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par41">
+        The lack of a uniform and established assessment method for TILs in BC leads to difficulty in comparing studies and a need for guidance in larger validation studies. A study, by Balkenhol et al. [
+        <xref ref-type="bibr" rid="CR26">
+         26
+        </xref>
+        ] focused specifically on TNBC, and the generalizability of the findings to other BC subtypes is unknown. The segmentation of tumor cells using automated algorithms was not optimal for some tumors, potentially introducing noise to the analysis.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par42">
+        The algorithm used in the study of Steiner et al. [
+        <xref ref-type="bibr" rid="CR15">
+         15
+        </xref>
+        ] could detect metastatic tumors but did not provide information on the positioning of these foci within the lymph nodes or specific diagnostic features. Additionally, there is increasing worry about the potential for overreliance on the algorithm, and the impact of this issue has not been investigated yet by researchers.
+       </p>
+      </list-item>
+      <list-item>
+       <p id="Par43">
+        Some issues do not directly limit the use of AI in pathology. For instance, incorporating a broader range of cases can improve the representation and generalizability of AI models. Furthermore, considering additional prognostic features and investigating the influence of staining and scanning variations can help optimize the performance and applicability of AI algorithms in real-world clinical settings [
+        <xref ref-type="bibr" rid="CR31">
+         31
+        </xref>
+        ].
+       </p>
+      </list-item>
+     </list>
+    </p>
+   </sec>
+   <sec id="Sec7">
+    <title>
+     Future directions
+    </title>
+    <p id="Par44">
+     Exploring accuracy improvements in AI assistance through controlled ROI selection, investigating the impact of AI tools on diagnostic speed and interobserver variance, addressing ethical considerations, and ultimately enhancing overall accuracy for personalized patient treatment [
+     <xref ref-type="bibr" rid="CR10">
+      10
+     </xref>
+     ]. Regarding fast cancer metastasis detection, further research is needed to limit the use of pixel annotations through the usage of a two-stream network for learning histopathological images, especially in metastasis localization. This approach can enhance efficiency and facilitate faster analysis of large-scale datasets. This approach holds the potential for accelerating the identification of cancer metastases and could have broader implications for high-throughput histopathological image analysis [
+     <xref ref-type="bibr" rid="CR4">
+      4
+     </xref>
+     ]. The prospect is not limited to detection only but should extend to determine the clinical utility and value of assistive tools. By developing tools that offer detailed information about tumor foci, such as their position in relation to lymph nodes or specific diagnostic characteristics (extranodal extension and lymphovascular invasion), the accuracy of diagnoses can be improved. It is also important to assess how assistive reads impact the use of additional diagnostic tests, the categorization of prognosis, and the organization of cases based on algorithm predictions. These evaluations will provide valuable insights into the benefits of intelligent tools in digital pathology [
+     <xref ref-type="bibr" rid="CR15">
+      15
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR18">
+      18
+     </xref>
+     ].
+    </p>
+    <p id="Par45">
+     In the multiple AI pipeline system to predict the NAC response, the task involves developing an AI system capable of automatically identifying and classifying specific nuclear phenotypes exhibited by different cancer subtypes. This requires implementing advanced automation techniques within the AI system, enabling it to analyze and interpret complex nuclear features from histopathological images or other relevant data sources. By achieving full automation, the AI system would streamline the process of identifying distinct nuclear phenotypes associated with various cancer subtypes, potentially leading to more accurate diagnoses and personalized treatment strategies [
+     <xref ref-type="bibr" rid="CR9">
+      9
+     </xref>
+     ].
+    </p>
+    <p id="Par46">
+     Further research is needed to establish a standardized and data-driven approach for assessing TILs as prognostic biomarkers in breast cancer. Larger studies are required to evaluate the superiority of different image analysis algorithms in predicting survival outcomes. Exploration of additional markers and measurement regions may provide further insights into the prognostic value of TILs. The implementation of AI and digital pathology techniques, along with multiplex immunohistochemistry, may contribute to the widespread adoption of automated TIL assessment in pathology laboratories. Prospective validation studies can build upon these findings and help refine the methodology for TIL assessment, leading to improved patient outcomes and personalized treatment strategies [
+     <xref ref-type="bibr" rid="CR26">
+      26
+     </xref>
+     ].
+    </p>
+    <p id="Par47">
+     In terms of Phyllodes Tumor Mitoses counting, further research with larger sample sizes and broader timeframes is needed to validate the findings and ensure generalizability. The development and validation of an AI algorithm for accurate mitosis counting in phyllodes tumors could potentially improve efficiency and consistency in pathology practice [
+     <xref ref-type="bibr" rid="CR25">
+      25
+     </xref>
+     ]. Currently, there is a need to establish consistent methods for counting mitotic figures in whole slide images (WSIs) used for cancer diagnosis. Determining the appropriate area to count, selecting hotspots, and deciding on the counting approach requires evidence-based studies. Unfortunately, there is no agreement on the size of the area to count using WSI, with different studies using varying sizes [
+     <xref ref-type="bibr" rid="CR40">
+      40
+     </xref>
+     –
+     <xref ref-type="bibr" rid="CR42">
+      42
+     </xref>
+     ]. Until standardized guidelines are developed, it is recommended to count multiple screens at × 40 magnification, which would provide an area size of 3 mm2, equivalent to 10 high-power fields (HPF) of a standard microscope with a 0.62 field diameter [
+     <xref ref-type="bibr" rid="CR38">
+      38
+     </xref>
+     ].
+    </p>
+    <p id="Par48">
+     Using Oncotype DX to integrate morphological and molecular measurements and improve BC risk assessment, particularly for intermediate-risk patients, can leverage image analysis and genomic data analysis to enhance risk stratification and treatment decisions. The study highlights the need to further explore the impact of staining and scanning variations on features and classification results, aiming for more robust AI-based pathology analysis. Future research could investigate the correlation between identified features and long-term disease recurrence or patient outcomes, establishing a direct link between AI-based risk assessment and clinical outcomes [
+     <xref ref-type="bibr" rid="CR31">
+      31
+     </xref>
+     ].
+    </p>
+    <p id="Par49">
+     Integrating AI with human expertise can enhance the accuracy and precision of the process. Specifically, in tasks such as detecting DCIS and nonmalignant tumor presentations, manual annotation of regions of interest (ROIs) remains necessary. Human involvement ensures a comprehensive understanding of complex cases that may require expert judgment and interpretation. Thus, the collaboration between AI and human experts allows for improved outcomes in these challenging areas of diagnosis and assessment [
+     <xref ref-type="bibr" rid="CR11">
+      11
+     </xref>
+     ].
+    </p>
+   </sec>
+   <sec id="Sec8">
+    <title>
+     Current commercially available AI platforms/algorithms in breast pathology
+    </title>
+    <p id="Par50">
+     Advancements in AI are revolutionizing BC diagnostics, significantly improving accuracy, efficiency, and consistency in pathology analysis. Several innovative AI-based tools are commercially available, offering pathologists and oncologists valuable support in the fight against breast cancer.
+    </p>
+    <p id="Par51">
+     Mindpeak (Hamburg, Germany) has made a significant contribution to BC diagnostics with its suite of automated image analysis software modules. The modules, including Mindpeak Breast HER2 ROI (region of interest, Mindpeak Breast Ki-67 HS, and Mindpeak Breast ER/PR, enable the automated analysis of digital histopathology images of human invasive breast carcinoma tissue samples without the need for manual fine-tuning in each lab. This streamlines the analysis process, making it more efficient and consistent across different institutions. Furthermore, Mindpeak’s forthcoming Metastasis Detection software is expected to aid cancer experts in detecting and visualizing metastases associated with breast cancer [
+     <xref ref-type="bibr" rid="CR10">
+      10
+     </xref>
+     ].
+    </p>
+    <p id="Par52">
+     OWKIN (Paris, France) RlapsRisk™ BC is an innovative AI diagnostic tool designed to assist pathologists and oncologists in determining the most appropriate treatment pathway for early BC patients. The test is specifically tailored for adults with ER + /HER2- BC and has demonstrated superior cumulative sensitivity compared to standard clinical scoring systems. This tool offers new possibilities in personalized treatment planning, empowering healthcare professionals to make better-informed decisions for patients with early breast cancer.
+    </p>
+    <p id="Par53">
+     Visiopharm, Fig.
+     <xref ref-type="fig" rid="Fig1">
+      1
+     </xref>
+     , (Hovedstaden, Denmark) offers a range of AI applications for BC diagnostics, certified under IVDR, ensuring adherence to rigorous regulatory standards. The Visiopharm ER APP [
+     <xref ref-type="bibr" rid="CR20">
+      20
+     </xref>
+     ] aids in determining ER positivity and negativity in BC tumors, providing primary outputs such as the percentage of positive tumor nuclei and Allred score, which is a combination of intensity and proportion score. The HER2 IHC app utilizes the HER2-CONNECT™ algorithm for automated image analysis of HER2-stained BC tissue sections, providing discrete scores corresponding to the HER2 IHC score per ASCO/CAP guidelines. Both applications streamline the analysis process and eliminate the need for manual outlining of tumor regions, saving time and increasing efficiency for pathologists [
+     <xref ref-type="bibr" rid="CR12">
+      12
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR13">
+      13
+     </xref>
+     ]. Visiopharm Invasive Tumor Detection (PDS) and Metastasis Detection APP: Visiopharm’s Invasive Tumor Detection (PDS) is an automated and objective method for accurately identifying invasive tumor regions. It employs a physical double stain of p63 + CK7/19 to detect invasive tumor components, excluding noninvasive components, and significantly improves workflow efficiency for pathologists. The Metastasis Detection APP simplifies lymph node assessment by accurately detecting and measuring metastases in H&amp;E-stained lymph nodes associated with breast and colorectal adenocarcinoma. It improves sensitivity and specificity compared to manual methods and streamlines slide sorting, making it a valuable addition to the diagnostic workflow [
+     <xref ref-type="bibr" rid="CR18">
+      18
+     </xref>
+     ].
+     <fig id="Fig1">
+      <label>
+       Fig. 1
+      </label>
+      <caption>
+       <p>
+        Automated lymph node metastasis detection using Visiopharm.
+        <bold>
+         A
+        </bold>
+        Downloading lymph node whole slide image metadata from image managing system;
+        <bold>
+         B
+        </bold>
+        Streaming the whole slide image in Visiopharm;
+        <bold>
+         C
+        </bold>
+        Analyzing lymph node metastasis using Visiopharm App;
+        <bold>
+         D
+        </bold>
+        demonstrating results with metastasis highlighted on image and measurement of the largest metastasis
+       </p>
+      </caption>
+      <graphic id="MO2" xlink:href="13000_2024_1453_Fig1_HTML"/>
+     </fig>
+    </p>
+    <p id="Par54">
+     The Paige (New York, United States) Breast Suite includes Paige Breast and Paige Breast Lymph Node. Paige Breast effectively detects premalignant and malignant neoplasms, highlighting areas of cancer for confident identification. On the other hand, Paige Breast Lymph Node uses the same technology employed in detecting prostate cancer to identify metastases in lymph node slides with over 98% sensitivity. These applications enhance diagnostic confidence, prioritize cases for review, and ultimately lead to better patient outcomes. Both applications are CE-IVD and UKCA marked, ensuring adherence to the highest quality standards.
+    </p>
+    <p id="Par55">
+     IBEX, Fig
+     <xref ref-type="fig" rid="Fig2">
+      2
+     </xref>
+     , (Tel Aviv, Israel) GALEN™ BREAST is another cutting-edge AI-based diagnostic tool designed to improve productivity and shorten turnaround time for pathologists. The tool offers a wide array of features, including case prioritization, slide viewer, IHC preordering, cancer heatmaps, grading, measurements, noncancer findings, and AI-driven reporting. With its high performance in detecting invasive cancer and DCIS, IBEX GALEN™ BREAST provides unparalleled support to pathologists in accurate diagnosis and treatment planning. However, there are still limitations of AI applications for breast pathology.
+     <fig id="Fig2">
+      <label>
+       Fig. 2
+      </label>
+      <caption>
+       <p>
+        Representative images of breast lesions identified by the GALEN Breast (IBEX).
+        <bold>
+         A
+        </bold>
+        ,
+        <bold>
+         B
+        </bold>
+        Invasive carcinoma;
+        <bold>
+         C
+        </bold>
+        ,
+        <bold>
+         D
+        </bold>
+        Ductal carcinoma in situ;
+        <bold>
+         E
+        </bold>
+        ,
+        <bold>
+         F
+        </bold>
+        Microcalcification.
+        <bold>
+         A
+        </bold>
+        ,
+        <bold>
+         C
+        </bold>
+        ,
+        <bold>
+         E
+        </bold>
+        original images;
+        <bold>
+         B
+        </bold>
+        ,
+        <bold>
+         D
+        </bold>
+        ,
+        <bold>
+         F
+        </bold>
+        Images with lesions highlighted by the GALEN Breast (heatmap)
+       </p>
+      </caption>
+      <graphic id="MO3" xlink:href="13000_2024_1453_Fig2_HTML"/>
+     </fig>
+    </p>
+    <p id="Par56">
+     The adoption of AI in pathology practice holds several expected benefits, including automation, elimination of tedious tasks, improved accuracy, and efficiency. There is significant enthusiasm among pathologists regarding the potential of AI in routine practice. Further research is needed to assess the impact of AI on patient outcomes and evaluate whether existing scoring systems need revision in light of AI’s potentially higher accuracy. Standardization efforts should be pursued, including defining equivalent units of measurement between glass slides and WSIs to ensure consistency in quantifying mitoses. The successful integration of AI into routine workflows requires continued learning and exploration of best practices. Challenges related to data quality, algorithm validation, and regulatory considerations need to be addressed to ensure reliable and ethical implementation of AI in pathology [
+     <xref ref-type="bibr" rid="CR24">
+      24
+     </xref>
+     ].
+    </p>
+   </sec>
+  </sec>
+  <sec id="Sec9">
+   <title>
+    Conclusion
+   </title>
+   <p id="Par57">
+    In summary, this review highlights the potential of AI in assisting pathologists in various aspects of BC diagnosis and assessment. While AI has demonstrated improved accuracy, efficiency, and standardization in the realm of BC, challenges remain in addressing preanalytical variables, manual annotation requirements, and limitations in differentiating certain types of breast lesions. Further research and development are needed to overcome these limitations and fully harness the potential of AI in BC pathology.
+   </p>
+  </sec>
+ </body>
+ <back>
+  <glossary>
+   <title>
+    Abbreviations
+   </title>
+   <def-list>
+    <def-item>
+     <term>
+      HI
+     </term>
+     <def>
+      <p id="Par3">
+       Human Intelligence
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      AI
+     </term>
+     <def>
+      <p id="Par4">
+       Artificial Intelligence
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      BC
+     </term>
+     <def>
+      <p id="Par5">
+       Breast cancer
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      NAC
+     </term>
+     <def>
+      <p id="Par6">
+       Neoadjuvant chemotherapy
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      ER
+     </term>
+     <def>
+      <p id="Par7">
+       Estrogen receptor
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      PR
+     </term>
+     <def>
+      <p id="Par8">
+       Progesterone receptor
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      DCIS
+     </term>
+     <def>
+      <p id="Par9">
+       Ductal carcinoma in situ
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      IDC
+     </term>
+     <def>
+      <p id="Par10">
+       Invasive ductal carcinoma
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      CAD
+     </term>
+     <def>
+      <p id="Par11">
+       Computer-aided diagnosis
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      CNN
+     </term>
+     <def>
+      <p id="Par12">
+       Convolutional neural network
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      WSI
+     </term>
+     <def>
+      <p id="Par13">
+       Whole Slide Image
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      FNA
+     </term>
+     <def>
+      <p id="Par14">
+       Fine needle aspiration
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      DIA
+     </term>
+     <def>
+      <p id="Par15">
+       Digital image analysis
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      pCR
+     </term>
+     <def>
+      <p id="Par16">
+       Pathological complete response
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      NPV
+     </term>
+     <def>
+      <p id="Par17">
+       Negative predictive value
+      </p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>
+      ITWG
+     </term>
+     <def>
+      <p id="Par18">
+       International TIL Working Group
+      </p>
+     </def>
+    </def-item>
+   </def-list>
+  </glossary>
+  <fn-group>
+   <fn>
+    <p>
+     <bold>
+      Publisher’s Note
+     </bold>
+    </p>
+    <p>
+     Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+    </p>
+   </fn>
+  </fn-group>
+  <notes notes-type="author-contribution">
+   <title>
+    Authors’ contributions
+   </title>
+   <p>
+    A.S. analyzed the published data through the literature and wrote the first draft. Z.L. reviewed the initial draft and contributed with the section of current commercially available AI platforms/algorithms in breast pathology. A.P. reviewed the final draft and approved the final manuscript. All authors read and approved the final manuscript.
+   </p>
+  </notes>
+  <notes notes-type="data-availability">
+   <title>
+    Availability of data and materials
+   </title>
+   <p>
+    Not applicable.
+   </p>
+  </notes>
+  <notes>
+   <title>
+    Declarations
+   </title>
+   <notes id="FPar2">
+    <title>
+     Ethics approval and consent to participate
+    </title>
+    <p id="Par58">
+     Not applicable.
+    </p>
+   </notes>
+   <notes id="FPar3">
+    <title>
+     Consent for publication
+    </title>
+    <p id="Par59">
+     No applicable.
+    </p>
+   </notes>
+   <notes id="FPar5" notes-type="COI-statement">
+    <title>
+     Competing interests
+    </title>
+    <p id="Par60">
+     The authors declare no competing interests.
+    </p>
+   </notes>
+  </notes>
+  <ref-list id="Bib1">
+   <title>
+    References
+   </title>
+   <ref id="CR1">
+    <label>
+     1.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Cui
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        DY
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Artificial intelligence and computational pathology
+     </article-title>
+     <source>
+      Lab Invest
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      101
+     </volume>
+     <issue>
+      4
+     </issue>
+     <fpage>
+      412
+     </fpage>
+     <lpage>
+      422
+     </lpage>
+     <?supplied-pmid 33454724?>
+     <pub-id pub-id-type="pmid">
+      33454724
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR2">
+    <label>
+     2.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Acs
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Rantalainen
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hartman
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Artificial intelligence as the next step towards precision pathology
+     </article-title>
+     <source>
+      J Intern Med
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      288
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      62
+     </fpage>
+     <lpage>
+      81
+     </lpage>
+     <?supplied-pmid 32128929?>
+     <pub-id pub-id-type="pmid">
+      32128929
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR3">
+    <label>
+     3.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Nam
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chong
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jung
+       </surname>
+       <given-names>
+        CK
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kwak
+       </surname>
+       <given-names>
+        T-Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lee
+       </surname>
+       <given-names>
+        JY
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Park
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Introduction to digital pathology and computer-aided pathology
+     </article-title>
+     <source>
+      J Pathol Transl Med
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      54
+     </volume>
+     <issue>
+      2
+     </issue>
+     <fpage>
+      125
+     </fpage>
+     <lpage>
+      134
+     </lpage>
+     <?supplied-pmid 32045965?>
+     <pub-id pub-id-type="pmid">
+      32045965
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR4">
+    <label>
+     4.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Yang
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Fast cancer metastasis location based on dual magnification hard example mining network in whole-slide images
+     </article-title>
+     <source>
+      Comput Biol Med
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      158
+     </volume>
+     <fpage>
+      106880
+     </fpage>
+     <?supplied-pmid 37044050?>
+     <pub-id pub-id-type="pmid">
+      37044050
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR5">
+    <label>
+     5.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Ferlay
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Steliarova-Foucher
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lortet-Tieulent
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Rosso
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Coebergh
+       </surname>
+       <given-names>
+        JWW
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Comber
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Cancer incidence and mortality patterns in Europe: estimates for 40 countries in 2012
+     </article-title>
+     <source>
+      Eur J Cancer
+     </source>
+     <year>
+      2013
+     </year>
+     <volume>
+      49
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      1374
+     </fpage>
+     <lpage>
+      1403
+     </lpage>
+     <?supplied-pmid 23485231?>
+     <pub-id pub-id-type="pmid">
+      23485231
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR6">
+    <label>
+     6.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Acs
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Robertson
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Liu
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Solorzano
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wählby
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Improved breast cancer histological grading using deep learning
+     </article-title>
+     <source>
+      Ann Oncol
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      33
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      89
+     </fpage>
+     <lpage>
+      98
+     </lpage>
+     <?supplied-pmid 34756513?>
+     <pub-id pub-id-type="pmid">
+      34756513
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR7">
+    <label>
+     7.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Bándi
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Balkenhol
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van Dijk
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kok
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van Ginneken
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van der Laak
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Continual learning strategies for cancer-independent detection of lymph node metastases
+     </article-title>
+     <source>
+      Med Image Anal
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      85
+     </volume>
+     <fpage>
+      102755
+     </fpage>
+     <?supplied-pmid 36724605?>
+     <pub-id pub-id-type="pmid">
+      36724605
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR8">
+    <label>
+     8.
+    </label>
+    <mixed-citation publication-type="other">
+     Liu Y, Han D, Parwani AV, Li Z. Applications of Artificial Intelligence in Breast Pathology. Arch Pathol Lab Med. 2023;147(9):1003–13.
+    </mixed-citation>
+   </ref>
+   <ref id="CR9">
+    <label>
+     9.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Shen
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Saito
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ueda
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Fujita
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Nagamatsu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hashimoto
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Development of multiple AI pipelines that predict neoadjuvant chemotherapy response of breast cancer using H&amp;E-stained tissues
+     </article-title>
+     <source>
+      J Pathol Clin Res
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      9
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      182
+     </fpage>
+     <lpage>
+      194
+     </lpage>
+     <?supplied-pmid 36896856?>
+     <pub-id pub-id-type="pmid">
+      36896856
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR10">
+    <label>
+     10.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Abele
+       </surname>
+       <given-names>
+        N
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tiemann
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Krech
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wellmann
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Schaaf
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Länger
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Noninferiority of artificial intelligence-assisted analysis of Ki-67 and estrogen/progesterone receptor in breast cancer routine diagnostics
+     </article-title>
+     <source>
+      Mod Pathol
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      36
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      100033
+     </fpage>
+     <?supplied-pmid 36931740?>
+     <pub-id pub-id-type="pmid">
+      36931740
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR11">
+    <label>
+     11.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Cruz-Roa
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gilmore
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Basavanhally
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Feldman
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ganesan
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Shih
+       </surname>
+       <given-names>
+        N
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      High-throughput adaptive sampling for whole-slide histopathology image analysis (HASHI) via convolutional neural networks: Application to invasive breast cancer detection
+     </article-title>
+     <source>
+      PLoS One
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      13
+     </volume>
+     <issue>
+      5
+     </issue>
+     <fpage>
+      e0196828
+     </fpage>
+     <?supplied-pmid 29795581?>
+     <pub-id pub-id-type="pmid">
+      29795581
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR12">
+    <label>
+     12.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Hartage
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        AC
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hammond
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Parwani
+       </surname>
+       <given-names>
+        AV
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      A validation study of human epidermal growth factor receptor 2 immunohistochemistry digital imaging analysis and its correlation with human epidermal growth factor receptor 2 fluorescence in situ hybridization results in breast carcinoma
+     </article-title>
+     <source>
+      J Pathol Inform
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      11
+     </volume>
+     <fpage>
+      2
+     </fpage>
+     <?supplied-pmid 32154039?>
+     <pub-id pub-id-type="pmid">
+      32154039
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR13">
+    <label>
+     13.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        AC
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhao
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhao
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ma
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hartage
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Quantitative digital imaging analysis of HER2 immunohistochemistry predicts the response to anti-HER2 neoadjuvant chemotherapy in HER2-positive breast carcinoma
+     </article-title>
+     <source>
+      Breast Cancer Res Treat
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      180
+     </volume>
+     <issue>
+      2
+     </issue>
+     <fpage>
+      321
+     </fpage>
+     <lpage>
+      329
+     </lpage>
+     <?supplied-pmid 32002765?>
+     <pub-id pub-id-type="pmid">
+      32002765
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR14">
+    <label>
+     14.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Yamamoto
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Saito
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tateishi
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Shimojo
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kanno
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tsuchiya
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Quantitative diagnosis of breast tumors by morphometric classification of microenvironmental myoepithelial cells using a machine learning approach
+     </article-title>
+     <source>
+      Sci Rep
+     </source>
+     <year>
+      2017
+     </year>
+     <volume>
+      7
+     </volume>
+     <fpage>
+      46732
+     </fpage>
+     <?supplied-pmid 28440283?>
+     <pub-id pub-id-type="pmid">
+      28440283
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR15">
+    <label>
+     15.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Steiner
+       </surname>
+       <given-names>
+        DF
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        MacDonald
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Liu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Truszkowski
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hipp
+       </surname>
+       <given-names>
+        JD
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gammage
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Impact of deep learning assistance on the histopathologic review of lymph nodes for metastatic breast cancer
+     </article-title>
+     <source>
+      Am J Surg Pathol
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      42
+     </volume>
+     <issue>
+      12
+     </issue>
+     <fpage>
+      1636
+     </fpage>
+     <lpage>
+      1646
+     </lpage>
+     <?supplied-pmid 30312179?>
+     <pub-id pub-id-type="pmid">
+      30312179
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR16">
+    <label>
+     16.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Fondón
+       </surname>
+       <given-names>
+        I
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sarmiento
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        García
+       </surname>
+       <given-names>
+        AI
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Silvestre
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Eloy
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Polónia
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Automatic classification of tissue malignancy for breast carcinoma diagnosis
+     </article-title>
+     <source>
+      Comput Biol Med
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      96
+     </volume>
+     <fpage>
+      41
+     </fpage>
+     <lpage>
+      51
+     </lpage>
+     <?supplied-pmid 29544146?>
+     <pub-id pub-id-type="pmid">
+      29544146
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR17">
+    <label>
+     17.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        El Agouri
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Azizi
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        El Attar
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        El Khannoussi
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ibrahimi
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kabbaj
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Assessment of deep learning algorithms to predict histopathological diagnosis of breast cancer: first Moroccan prospective study on a private dataset
+     </article-title>
+     <source>
+      BMC Res Notes
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      15
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      66
+     </fpage>
+     <?supplied-pmid 35183227?>
+     <pub-id pub-id-type="pmid">
+      35183227
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR18">
+    <label>
+     18.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Challa
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tahir
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kellough
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lujan
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sun
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Artificial intelligence-aided diagnosis of breast cancer lymph node metastasis on histologic slides in a digital workflow
+     </article-title>
+     <source>
+      Mod Pathol
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      36
+     </volume>
+     <issue>
+      8
+     </issue>
+     <fpage>
+      100216
+     </fpage>
+     <?supplied-pmid 37178923?>
+     <pub-id pub-id-type="pmid">
+      37178923
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR19">
+    <label>
+     19.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Bodén
+       </surname>
+       <given-names>
+        ACS
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Molin
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Garvin
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        West
+       </surname>
+       <given-names>
+        RA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lundström
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Treanor
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      The human-in-the-loop: an evaluation of pathologists’ interaction with artificial intelligence in clinical practice
+     </article-title>
+     <source>
+      Histopathology
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      79
+     </volume>
+     <issue>
+      2
+     </issue>
+     <fpage>
+      210
+     </fpage>
+     <lpage>
+      218
+     </lpage>
+     <?supplied-pmid 33590577?>
+     <pub-id pub-id-type="pmid">
+      33590577
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR20">
+    <label>
+     20.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Shafi
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kellough
+       </surname>
+       <given-names>
+        DA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lujan
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Satturwar
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Parwani
+       </surname>
+       <given-names>
+        AV
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Integrating and validating automated digital imaging analysis of estrogen receptor immunohistochemistry in a fully digital workflow for clinical use
+     </article-title>
+     <source>
+      J Pathol Inform
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      13
+     </volume>
+     <fpage>
+      100122
+     </fpage>
+     <?supplied-pmid 36268080?>
+     <pub-id pub-id-type="pmid">
+      36268080
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR21">
+    <label>
+     21.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Huang
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Shao
+       </surname>
+       <given-names>
+        W
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Han
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Alkashash
+       </surname>
+       <given-names>
+        AM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        De la Sancha
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Parwani
+       </surname>
+       <given-names>
+        AV
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Artificial intelligence reveals features associated with breast cancer neoadjuvant chemotherapy responses from multi-stain histopathologic images
+     </article-title>
+     <source>
+      NPJ Precis Oncol
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      7
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      14
+     </fpage>
+     <?supplied-pmid 36707660?>
+     <pub-id pub-id-type="pmid">
+      36707660
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR22">
+    <label>
+     22.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Aswolinskiy
+       </surname>
+       <given-names>
+        W
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Munari
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Horlings
+       </surname>
+       <given-names>
+        HM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Mulder
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Bogina
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sanders
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      PROACTING: predicting pathological complete response to neoadjuvant chemotherapy in breast cancer from routine diagnostic histopathology biopsies with deep learning
+     </article-title>
+     <source>
+      Breast Cancer Res
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      25
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      142
+     </fpage>
+     <?supplied-pmid 37957667?>
+     <pub-id pub-id-type="pmid">
+      37957667
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR23">
+    <label>
+     23.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Saednia
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tran
+       </surname>
+       <given-names>
+        WT
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sadeghi-Naini
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      A hierarchical self-attention-guided deep learning framework to predict breast cancer response to chemotherapy using pre-treatment tumor biopsies
+     </article-title>
+     <source>
+      Med Phys
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      50
+     </volume>
+     <issue>
+      12
+     </issue>
+     <fpage>
+      7852
+     </fpage>
+     <lpage>
+      7864
+     </lpage>
+     <?supplied-pmid 37403567?>
+     <pub-id pub-id-type="pmid">
+      37403567
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR24">
+    <label>
+     24.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Pantanowitz
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hartman
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Qi
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Cho
+       </surname>
+       <given-names>
+        EY
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Suh
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Paeng
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Accuracy and efficiency of an artificial intelligence tool when counting breast mitoses
+     </article-title>
+     <source>
+      Diagn Pathol
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      15
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      80
+     </fpage>
+     <?supplied-pmid 32622359?>
+     <pub-id pub-id-type="pmid">
+      32622359
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR25">
+    <label>
+     25.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Chow
+       </surname>
+       <given-names>
+        ZL
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Thike
+       </surname>
+       <given-names>
+        AA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        HH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Nasir
+       </surname>
+       <given-names>
+        NDM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Yeong
+       </surname>
+       <given-names>
+        JPS
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tan
+       </surname>
+       <given-names>
+        PH
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Counting mitoses with digital pathology in breast phyllodes tumors
+     </article-title>
+     <source>
+      Arch Pathol Lab Med
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      144
+     </volume>
+     <issue>
+      11
+     </issue>
+     <fpage>
+      1397
+     </fpage>
+     <lpage>
+      1400
+     </lpage>
+     <?supplied-pmid 32150458?>
+     <pub-id pub-id-type="pmid">
+      32150458
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR26">
+    <label>
+     26.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Balkenhol
+       </surname>
+       <given-names>
+        MC
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ciompi
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Świderska-Chadaj
+       </surname>
+       <given-names>
+        Ż
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van de Loo
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Intezar
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Otte-Höller
+       </surname>
+       <given-names>
+        I
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Optimized tumour infiltrating lymphocyte assessment for triple negative breast cancer prognostics
+     </article-title>
+     <source>
+      Breast
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      56
+     </volume>
+     <fpage>
+      78
+     </fpage>
+     <lpage>
+      87
+     </lpage>
+     <?supplied-pmid 33640523?>
+     <pub-id pub-id-type="pmid">
+      33640523
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR27">
+    <label>
+     27.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Mantrala
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ginter
+       </surname>
+       <given-names>
+        PS
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Mitkari
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Joshi
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Prabhala
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ramachandra
+       </surname>
+       <given-names>
+        V
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Concordance in breast cancer grading by artificial intelligence on whole slide images compares with a multi-institutional cohort of breast pathologists
+     </article-title>
+     <source>
+      Arch Pathol Lab Med
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      146
+     </volume>
+     <issue>
+      11
+     </issue>
+     <fpage>
+      1369
+     </fpage>
+     <lpage>
+      1377
+     </lpage>
+     <?supplied-pmid 35271701?>
+     <pub-id pub-id-type="pmid">
+      35271701
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR28">
+    <label>
+     28.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Sanders
+       </surname>
+       <given-names>
+        ME
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Schuyler
+       </surname>
+       <given-names>
+        PA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dupont
+       </surname>
+       <given-names>
+        WD
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Page
+       </surname>
+       <given-names>
+        DL
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      The natural history of low-grade ductal carcinoma in situ of the breast in women treated by biopsy only revealed over 30 years of long-term follow-up
+     </article-title>
+     <source>
+      Cancer
+     </source>
+     <year>
+      2005
+     </year>
+     <volume>
+      103
+     </volume>
+     <issue>
+      12
+     </issue>
+     <fpage>
+      2481
+     </fpage>
+     <lpage>
+      2484
+     </lpage>
+     <?supplied-pmid 15884091?>
+     <pub-id pub-id-type="pmid">
+      15884091
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR29">
+    <label>
+     29.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Pattari
+       </surname>
+       <given-names>
+        SK
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dey
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gupta
+       </surname>
+       <given-names>
+        SK
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Joshi
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Myoepithelial cells: any role in aspiration cytology smears of breast tumors?
+     </article-title>
+     <source>
+      Cytojournal
+     </source>
+     <year>
+      2008
+     </year>
+     <volume>
+      5
+     </volume>
+     <fpage>
+      9
+     </fpage>
+     <?supplied-pmid 18426574?>
+     <pub-id pub-id-type="pmid">
+      18426574
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR30">
+    <label>
+     30.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Iqbal
+       </surname>
+       <given-names>
+        MJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Javed
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sadia
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Qureshi
+       </surname>
+       <given-names>
+        IA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Irshad
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ahmed
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Clinical applications of artificial intelligence and machine learning in cancer diagnosis: looking into the future
+     </article-title>
+     <source>
+      Cancer Cell Int
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      21
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      270
+     </fpage>
+     <?supplied-pmid 34020642?>
+     <pub-id pub-id-type="pmid">
+      34020642
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR31">
+    <label>
+     31.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Whitney
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Corredor
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Janowczyk
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ganesan
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Doyle
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tomaszewski
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Quantitative nuclear histomorphometry predicts oncotype DX risk categories for early stage ER+ breast cancer
+     </article-title>
+     <source>
+      BMC Cancer
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      18
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      610
+     </fpage>
+     <?supplied-pmid 29848291?>
+     <pub-id pub-id-type="pmid">
+      29848291
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR32">
+    <label>
+     32.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Voduc
+       </surname>
+       <given-names>
+        KD
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Cheang
+       </surname>
+       <given-names>
+        MCU
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tyldesley
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gelmon
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Nielsen
+       </surname>
+       <given-names>
+        TO
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kennecke
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Breast cancer subtypes and the risk of local and regional relapse
+     </article-title>
+     <source>
+      J Clin Oncol
+     </source>
+     <year>
+      2010
+     </year>
+     <volume>
+      28
+     </volume>
+     <issue>
+      10
+     </issue>
+     <fpage>
+      1684
+     </fpage>
+     <lpage>
+      1691
+     </lpage>
+     <?supplied-pmid 20194857?>
+     <pub-id pub-id-type="pmid">
+      20194857
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR33">
+    <label>
+     33.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Dent
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Trudeau
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Pritchard
+       </surname>
+       <given-names>
+        KI
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hanna
+       </surname>
+       <given-names>
+        WM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kahn
+       </surname>
+       <given-names>
+        HK
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sawka
+       </surname>
+       <given-names>
+        CA
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Triple-negative breast cancer: clinical features and patterns of recurrence
+     </article-title>
+     <source>
+      Clin Cancer Res
+     </source>
+     <year>
+      2007
+     </year>
+     <volume>
+      13
+     </volume>
+     <issue>
+      15 Pt 1
+     </issue>
+     <fpage>
+      4429
+     </fpage>
+     <lpage>
+      4434
+     </lpage>
+     <?supplied-pmid 17671126?>
+     <pub-id pub-id-type="pmid">
+      17671126
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR34">
+    <label>
+     34.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Pruneri
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gray
+       </surname>
+       <given-names>
+        KP
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Vingiani
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Viale
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Curigliano
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Criscitiello
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Tumor-infiltrating lymphocytes (TILs) are a powerful prognostic marker in patients with triple-negative breast cancer enrolled in the IBCSG phase III randomized clinical trial 22–00
+     </article-title>
+     <source>
+      Breast Cancer Res Treat
+     </source>
+     <year>
+      2016
+     </year>
+     <volume>
+      158
+     </volume>
+     <issue>
+      2
+     </issue>
+     <fpage>
+      323
+     </fpage>
+     <lpage>
+      331
+     </lpage>
+     <?supplied-pmid 27372069?>
+     <pub-id pub-id-type="pmid">
+      27372069
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR35">
+    <label>
+     35.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Loi
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Drubay
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Adams
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Pruneri
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Francis
+       </surname>
+       <given-names>
+        PA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lacroix-Triki
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Tumor-infiltrating lymphocytes and prognosis: a pooled individual patient analysis of early-stage triple-negative breast cancers
+     </article-title>
+     <source>
+      J Clin Oncol
+     </source>
+     <year>
+      2019
+     </year>
+     <volume>
+      37
+     </volume>
+     <issue>
+      7
+     </issue>
+     <fpage>
+      559
+     </fpage>
+     <lpage>
+      569
+     </lpage>
+     <?supplied-pmid 30650045?>
+     <pub-id pub-id-type="pmid">
+      30650045
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR36">
+    <label>
+     36.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Hendry
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Salgado
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gevaert
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Russell
+       </surname>
+       <given-names>
+        PA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        John
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Thapa
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Assessing tumor-infiltrating lymphocytes in solid tumors: a practical review for pathologists and proposal for a standardized method from the international immunooncology biomarkers working group: part 1: assessing the host immune response, TILs in invasive breast carcinoma and ductal carcinoma in situ, metastatic tumor deposits and areas for further research
+     </article-title>
+     <source>
+      Adv Anat Pathol
+     </source>
+     <year>
+      2017
+     </year>
+     <volume>
+      24
+     </volume>
+     <issue>
+      5
+     </issue>
+     <fpage>
+      235
+     </fpage>
+     <lpage>
+      251
+     </lpage>
+     <?supplied-pmid 28777142?>
+     <pub-id pub-id-type="pmid">
+      28777142
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR37">
+    <label>
+     37.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Pagès
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Mlecnik
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Marliot
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Bindea
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ou
+       </surname>
+       <given-names>
+        F-S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Bifulco
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      International validation of the consensus Immunoscore for the classification of colon cancer: a prognostic and accuracy study
+     </article-title>
+     <source>
+      Lancet
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      391
+     </volume>
+     <issue>
+      10135
+     </issue>
+     <fpage>
+      2128
+     </fpage>
+     <lpage>
+      2139
+     </lpage>
+     <?supplied-pmid 29754777?>
+     <pub-id pub-id-type="pmid">
+      29754777
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR38">
+    <label>
+     38.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Ibrahim
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lashen
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Toss
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Mihai
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Rakha
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Assessment of mitotic activity in breast cancer: revisited in the digital pathology era
+     </article-title>
+     <source>
+      J Clin Pathol
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      75
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      365
+     </fpage>
+     <lpage>
+      372
+     </lpage>
+     <?supplied-pmid 34556501?>
+     <pub-id pub-id-type="pmid">
+      34556501
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR39">
+    <label>
+     39.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        López-Pérez
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Amgad
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Morales-Álvarez
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ruiz
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Cooper
+       </surname>
+       <given-names>
+        LAD
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Molina
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Learning from crowds in digital pathology using scalable variational Gaussian processes
+     </article-title>
+     <source>
+      Sci Rep
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      11
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      11612
+     </fpage>
+     <?supplied-pmid 34078955?>
+     <pub-id pub-id-type="pmid">
+      34078955
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR40">
+    <label>
+     40.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Al-Janabi
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van Slooten
+       </surname>
+       <given-names>
+        H-J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Visser
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van der Ploeg
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van Diest
+       </surname>
+       <given-names>
+        PJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jiwa
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Evaluation of mitotic activity index in breast cancer using whole slide digital images
+     </article-title>
+     <source>
+      PLoS One
+     </source>
+     <year>
+      2013
+     </year>
+     <volume>
+      8
+     </volume>
+     <issue>
+      12
+     </issue>
+     <fpage>
+      e82576
+     </fpage>
+     <?supplied-pmid 24386102?>
+     <pub-id pub-id-type="pmid">
+      24386102
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR41">
+    <label>
+     41.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Roux
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Racoceanu
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Loménie
+       </surname>
+       <given-names>
+        N
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kulikova
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Irshad
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Klossa
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Mitosis detection in breast cancer histological images An ICPR 2012 contest
+     </article-title>
+     <source>
+      J Pathol Inform
+     </source>
+     <year>
+      2013
+     </year>
+     <volume>
+      4
+     </volume>
+     <fpage>
+      8
+     </fpage>
+     <?supplied-pmid 23858383?>
+     <pub-id pub-id-type="pmid">
+      23858383
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR42">
+    <label>
+     42.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Meuten
+       </surname>
+       <given-names>
+        DJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Moore
+       </surname>
+       <given-names>
+        FM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        George
+       </surname>
+       <given-names>
+        JW
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Mitotic count and the field of view area: time to standardize
+     </article-title>
+     <source>
+      Vet Pathol
+     </source>
+     <year>
+      2016
+     </year>
+     <volume>
+      53
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      7
+     </fpage>
+     <lpage>
+      9
+     </lpage>
+     <?supplied-pmid 26712813?>
+     <pub-id pub-id-type="pmid">
+      26712813
+     </pub-id>
+    </element-citation>
+   </ref>
+  </ref-list>
+ </back>
+</article>

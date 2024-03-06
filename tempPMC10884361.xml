@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article article-type="review-article" dtd-version="1.3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN?>
+ <?DTDIdentifier.IdentifierType public?>
+ <?SourceDTD.DTDName JATS-journalpublishing1.dtd?>
+ <?SourceDTD.Version 1.0?>
+ <?ConverterInfo.XSLTName jats2jats3.xsl?>
+ <?ConverterInfo.Version 1?>
+ <?properties open_access?>
+ <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+  <restricted-by>
+   pmc
+  </restricted-by>
+ </processing-meta>
+ <front>
+  <journal-meta>
+   <journal-id journal-id-type="nlm-ta">
+    Cureus
+   </journal-id>
+   <journal-id journal-id-type="iso-abbrev">
+    Cureus
+   </journal-id>
+   <journal-id journal-id-type="issn">
+    2168-8184
+   </journal-id>
+   <journal-title-group>
+    <journal-title>
+     Cureus
+    </journal-title>
+   </journal-title-group>
+   <issn pub-type="epub">
+    2168-8184
+   </issn>
+   <publisher>
+    <publisher-name>
+     Cureus
+    </publisher-name>
+    <publisher-loc>
+     Palo Alto (CA)
+    </publisher-loc>
+   </publisher>
+  </journal-meta>
+  <article-meta>
+   <article-id pub-id-type="pmcid">
+    10884361
+   </article-id>
+   <article-id pub-id-type="doi">
+    10.7759/cureus.52828
+   </article-id>
+   <article-categories>
+    <subj-group subj-group-type="heading">
+     <subject>
+      Oncology
+     </subject>
+    </subj-group>
+    <subj-group>
+     <subject>
+      Therapeutics
+     </subject>
+    </subj-group>
+   </article-categories>
+   <title-group>
+    <article-title>
+     Biosimilar in Breast Cancer: A Narrative Review
+    </article-title>
+   </title-group>
+   <contrib-group>
+    <contrib contrib-type="editor">
+     <name>
+      <surname>
+       Muacevic
+      </surname>
+      <given-names>
+       Alexander
+      </given-names>
+     </name>
+    </contrib>
+    <contrib contrib-type="editor">
+     <name>
+      <surname>
+       Adler
+      </surname>
+      <given-names>
+       John R
+      </given-names>
+     </name>
+    </contrib>
+   </contrib-group>
+   <contrib-group>
+    <contrib contrib-type="author">
+     <name>
+      <surname>
+       Barman
+      </surname>
+      <given-names>
+       Diplina
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="aff-1">
+      1
+     </xref>
+    </contrib>
+    <contrib contrib-type="author" corresp="yes">
+     <name>
+      <surname>
+       Bandyopadhyay
+      </surname>
+      <given-names>
+       Tibar
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="aff-2">
+      2
+     </xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>
+       Talukdar
+      </surname>
+      <given-names>
+       Rounik
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="aff-1">
+      1
+     </xref>
+    </contrib>
+   </contrib-group>
+   <aff id="aff-1">
+    <label>
+     1
+    </label>
+    Epidemiology, Indian Council of Medical Research-National Institute of Cholera and Enteric Diseases (ICMR-NICED), Kolkata, IND
+   </aff>
+   <aff id="aff-2">
+    <label>
+     2
+    </label>
+    Plastic and Reconstructive Surgery, Institute of Post-Graduate Medical Education and Research, Seth Sukhlal Karnani Memorial Hospital, Kolkata, IND
+   </aff>
+   <author-notes>
+    <corresp id="cor1">
+     Tibar Bandyopadhyay
+     <email>
+      atbanerjee01@gmail.com
+     </email>
+    </corresp>
+   </author-notes>
+   <pub-date date-type="pub" publication-format="electronic">
+    <day>
+     23
+    </day>
+    <month>
+     1
+    </month>
+    <year>
+     2024
+    </year>
+   </pub-date>
+   <pub-date date-type="collection" publication-format="electronic">
+    <month>
+     1
+    </month>
+    <year>
+     2024
+    </year>
+   </pub-date>
+   <volume>
+    16
+   </volume>
+   <issue>
+    1
+   </issue>
+   <elocation-id>
+    e52828
+   </elocation-id>
+   <history>
+    <date date-type="accepted">
+     <day>
+      21
+     </day>
+     <month>
+      1
+     </month>
+     <year>
+      2024
+     </year>
+    </date>
+   </history>
+   <permissions>
+    <copyright-statement>
+     Copyright © 2024, Barman et al.
+    </copyright-statement>
+    <copyright-year>
+     2024
+    </copyright-year>
+    <copyright-holder>
+     Barman et al.
+    </copyright-holder>
+    <license>
+     <ali:license_ref content-type="ccbylicense" specific-use="textmining" xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
+      https://creativecommons.org/licenses/by/4.0/
+     </ali:license_ref>
+     <license-p>
+      This is an open access article distributed under the terms of the Creative Commons Attribution License CC-BY 4.0., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+     </license-p>
+    </license>
+   </permissions>
+   <self-uri xlink:href="https://www.cureus.com/articles/221543-biosimilar-in-breast-cancer-a-narrative-review">
+    This article is available from https://www.cureus.com/articles/221543-biosimilar-in-breast-cancer-a-narrative-review
+   </self-uri>
+   <abstract>
+    <p>
+     Breast cancer (BC) has been identified as a major public health cancer as it topped the list of most prevalent cancers among women in the last three years. Rigorous research has been conducted to improve the prognosis of cancer therapies since the time of inception. Recent advancements in cancer therapy have introduced monoclonal biosimilars as a promising treatment alternative. Monoclonal antibodies (mAbs), produced through cloning, have demonstrated effectiveness in targeting diverse antigens. Biosimilar, considered complex entities compared to small-molecule drugs, pose challenges in replication due to their biological nature. The manufacturing process involves rigorous comparability testing to ensure similarity in quality, safety, and efficacy with the reference product. Trastuzumab biosimilars, such as CT-P6, Ontruzant®, ABP 980, and PF-05280014, have shown efficacy in treating HER2-positive metastatic BCs, presenting a viable alternative to the reference product. The implications of monoclonal biosimilars extend beyond trastuzumab, with bevacizumab emerging as another significant biosimilar for BC treatment. The shift toward biosimilar aims to enhance accessibility to biologics by reducing costs. Health economic analyses indicate potential cost savings, contributing to the overall cost-effectiveness of biosimilar adoption. While concerns about switching between reference products and biosimilars exist, evidence suggests a lower risk of immunogenicity-related side effects with mAbs like trastuzumab. Monoclonal biosimilars present a promising avenue in BC therapy, demonstrating efficacy, safety, and potential cost savings. The integration of biosimilars into cancer treatment strategies offers a means to improve accessibility to effective care while addressing economic considerations in healthcare.
+    </p>
+   </abstract>
+   <kwd-group kwd-group-type="author">
+    <kwd>
+     biosimilar of trastuzumab
+    </kwd>
+    <kwd>
+     cancer therapeutic
+    </kwd>
+    <kwd>
+     monoclonal antibody therapy
+    </kwd>
+    <kwd>
+     breast cancer research
+    </kwd>
+    <kwd>
+     biosimilar
+    </kwd>
+   </kwd-group>
+  </article-meta>
+ </front>
+ <body>
+  <sec sec-type="intro">
+   <title>
+    Introduction and background
+   </title>
+   <p>
+    Breast cancer (BC) is a major global problem. In 2020, there were around two million women with BC. Reports from 2020 show that the total number of women who have survived BC for at least five years was found to be 7.8 million; thereby denoting it to be the most prevalent cancer in the world. The total disability-adjusted life years (DALYs) succumbed by women to BC was comparatively more on a global point than other types of cancers [
+    <xref ref-type="bibr" rid="REF1">
+     1
+    </xref>
+    ]. BC belongs to the heterogeneous disease group with multiple subtypes. Chemotherapy, genetic therapies, oncogene inactivation, tumor suppressor gene augmentation, cell-target suicide, virus-mediated oncolysis, immunomodulation (ectopic cytokine expression, immune enhancement), nanotechnology, and surgical procedures like breast-conserving surgery, lumpectomies, quadrant nephrectomies, and mastectomy are all available treatment options for treating BC. Recent advancements in science and technology have validated certain other concepts in the curative care of BC including monoclonal antibodies (mAbs) [
+    <xref ref-type="bibr" rid="REF2">
+     2
+    </xref>
+    ]. Antibodies prepared by cloning a unique B cell and binding them to the specific portions of an antigen are usually mAbs. They are similar to epitomes. In 1973, Schwaber discovered a number of techniques for manufacturing mAbs in an in vitro manner utilizing human-mouse hybrid cells [
+    <xref ref-type="bibr" rid="REF3">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF4">
+     4
+    </xref>
+    ]. These were used by Köhler and Milstein to excite the hybridomas produced by humans. This has led to the widespread manufacture of therapeutic antibodies [
+    <xref ref-type="bibr" rid="REF5">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF6">
+     6
+    </xref>
+    ]. Following this therapeutic alteration in cancer therapy, monoclonal antibiotic therapy has been put to use. Succeeding this development, there is an additional concept of using biologics in cancer therapy among patients with cancer. A regulatory body in Japan stated biosimilars as a biotechnology-derived product created to be comparable in terms of safety concerns, quality, and real-world effectiveness to an original biologic product of a different business that has previously received approval. Biosimilars are being manufactured in different places globally including Hyderabad and Mumbai in India. Biosimilars are highly approved biologics that hold a potential opportunity to improve the accessibility of biologics by reducing the cost burden. A biosimi­lar compound shares the same chemical composition as the approved medical compound although there are minimal differences owing to their production methodology and its complexities. Biosimilars could also be put through as biological products having a basic structure similar to the identified reference compound [
+    <xref ref-type="bibr" rid="REF7">
+     7
+    </xref>
+    ]. The biosimilarity development pathways involved applicable orthogonal analytical comparability methods, along with different clinical and non-clinical models. mAbs are seen to kill tumor cells in a varied manner including blocking ligand-receptor growth along with the survival pathways. The mechanism included antibody-dependent cellular cytotoxicity and complement-mediated cytotoxicity. The implications of these compounds have found a way to treat cancer in recent years although the research is nascent. Therefore, the present report aims to quote the treatment outcomes of monoclonal biosimilars in treating cancer and the advantage and cost-effectiveness of the same over other recently available treatment modalities [
+    <xref ref-type="bibr" rid="REF8">
+     8
+    </xref>
+    ]. This particular scientific literature piece highlights the therapeutic aspects of cancer therapy.
+   </p>
+  </sec>
+  <sec sec-type="review">
+   <title>
+    Review
+   </title>
+   <p>
+    Methodology
+   </p>
+   <p>
+    As this is a narrative review, a comprehensive but strictly objective-driven search was conducted among the databases of Medline, Pubmed, Scopus, and Web of Science. We used the following keywords/search terms: "Monoclonal antibody," "biosimilar," "biosimilar in breast cancer," "breast cancer," and "biosimilar in cancer therapeutics." The articles published within the time frame of 2019 and 2023 were included in the present narrative review. A total of 18 articles were found, of which 16 were used for writing this narrative review.
+   </p>
+   <p>
+    Report
+   </p>
+   <p>
+    Biosimilars are complex entities compared to small-molecule drugs or generics. Biological medicines (biologics) are usually larger and manufactured using living organisms. Characterization of these biologics is difficult; therefore, it remains hard to replicate. In comparison to these biosimilars, it is important to understand the generics, which are usually small, identical molecules that have been synthesized chemically. Since 1985, there has been rigorous research in the field of medicine. Scientific reports have shown around 100 mAbs to be designated as drugs. Available mAbs target a large number of antigens and are found useful in treating immunologic diseases, reversing drug effects, and also in cancer therapy. mAb are homogenous preparations of identical antibodies. All antibodies have identical protein sequences thereby suggesting similar antigen recognition sites, affinity, biologic interactions, and downstream biologic effects [
+    <xref ref-type="bibr" rid="REF1">
+     1
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF5">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF9">
+     9
+    </xref>
+    ].
+   </p>
+   <p>
+    Manufacturing of Antibodies and Advantages
+   </p>
+   <p>
+    Typically, a thorough comparability test between both the biosimilar and the mother product is necessary when creating biosimilar varieties from biological resources that have already received prior approval. The goal of the biosimilarity exercise is to preserve similarity in terms of quality, activity on a biological basis, safety concerns, and efficacy, while avoiding any clinically relevant alterations, in contrast to the reference product's marketing authorization application. Comparative nonclinical trials are conducted after a thorough physicochemical and biological investigation, which involves a comparison of quality characteristics [
+    <xref ref-type="bibr" rid="REF3">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF4">
+     4
+    </xref>
+    ]. To ascertain that the pharmacokinetics (PK), effectiveness, and safety of the product are equivalent to those of the reference product, clinical comparative testing is also necessary [
+    <xref ref-type="bibr" rid="REF3">
+     3
+    </xref>
+    ]. Creating biosimilars places more emphasis on data from the candidate's comprehensive physical, chemical, and biological presentations as well as on analytical tests in comparison to the reference product, when deciding whether to approve a novel biological rather than solely focusing on clinical trials [
+    <xref ref-type="bibr" rid="REF2">
+     2
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF3">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF10">
+     10
+    </xref>
+    ]. After obtaining a mAb with the desired specificity, it must be manufactured in high numbers for therapeutic application. The first method of manufacturing was to construct a hybridoma (a cell-cell fusion) in which the antibody-producing cell was merged with an immortalized partner cell. A myeloma cell (a malignant B cell) is commonly utilized as a companion because it may multiply continuously in vitro. The clinical package is expected to include a phase 1 and phase 3 trial to confirm the reference product's approval. Clinical biosimilarity could be established by three confirmatory PK along with other pharmacodynamic (PD) investigations [
+    <xref ref-type="bibr" rid="REF11">
+     11
+    </xref>
+    ]. The European Medicines Agency (EMA) has produced various guidance documents to help sponsors develop biosimilars, which includes a guideline for biosimilar mAbs that is specific to the product [
+    <xref ref-type="bibr" rid="REF12">
+     12
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF13">
+     13
+    </xref>
+    ]. Directing and evaluating a biosimilar's comparability is done using a case-to-case approach by EMA. Clinical progress of trastuzumab biosimilars is covered with reference to EMA recommendations in this article; there are some slight variations with FDA guidelines, but they are minimal. Furthermore, the biologics production process is more complicated than that of small-molecule pharmaceuticals, requiring different cloning stages. The process also includes selecting, followed by maintaining, and increasing the cell line. This was accompanied by isolating and purifying. Characterizing the result was the concluding step. Small-molecule medications are made using a series of predictable chemical events that can be consistently duplicated to make identical duplicates. Furthermore, the biologics production process is more complicated than that of small-molecule pharmaceuticals, requiring different cloning stages, in selecting, maintaining, and also increasing the cell line, as well as isolating, purifying, and characterizing the result. Small-molecule medications are made using a series of predictable chemical events that can be consistently duplicated to make identical duplicates [
+    <xref ref-type="bibr" rid="REF14">
+     14
+    </xref>
+    ].
+   </p>
+   <p>
+    Effectiveness
+   </p>
+   <p>
+    Trastuzumab is available as biosimilars under the brand names CT-P6 (Herzuma®; Korean Republic), Ontruzant®; Samsung Bioepis, ABP 980 (Kanjinti®), and PF-05280014 (Trazimera®) [
+    <xref ref-type="bibr" rid="REF9">
+     9
+    </xref>
+    -
+    <xref ref-type="bibr" rid="REF13">
+     13
+    </xref>
+    ]. As with Herceptin®, the reference product, CT-P6 binds to the same HER2 epitope with great affinity and specificity (Genentech) [
+    <xref ref-type="bibr" rid="REF9">
+     9
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="REF10">
+     10
+    </xref>
+    ]. In 2018, the Government Agency of Medicine in Europe and the US Food and Drug Administration approved CT-P6 to treat HER2-positive metastatic BC at their early stage [
+    <xref ref-type="bibr" rid="REF14">
+     14
+    </xref>
+    -
+    <xref ref-type="bibr" rid="REF16">
+     16
+    </xref>
+    ]. Clinical trials are supplemented by real-world studies showing the long-term safety and efficacy of medications among a wider patient population, as well as in various settings and in conjunction with other treatments. For instance, as part of dual HER2-targeted therapy, reference trastuzumab (RTZ) and pertuzumab (Perjeta®; Genentech) are increasingly combined. Trastuzumab targets a separate location of the HER2 receptor than the mAb pertuzumab, giving it a complementary pattern of action. The combination of trastuzumab along with chemotherapy has been found to be clinically effective as it acts by dual HER2-targeting with trastuzumab and pertuzumab. This was found to have improved clinical outcomes in HER2-positive metastatic breast tumors in their early stage [
+    <xref ref-type="bibr" rid="REF9">
+     9
+    </xref>
+    -
+    <xref ref-type="bibr" rid="REF12">
+     12
+    </xref>
+    ].
+   </p>
+   <p>
+    Implications
+   </p>
+   <p>
+    Trastuzumab is the mAb that has the most impact in the treatment of HER2 disease because it has the ability to shift the disease's natural course. HER2 amplification is seen in HER2-positive BC and metastatic gastric cancer [
+    <xref ref-type="bibr" rid="REF1">
+     1
+    </xref>
+    ]. Together with bevacizumab (a mAb that binds vascular endothelial growth factor (VEGF)) is a biosimilar to trastuzumab. In Europe, VEGF is approved in combination with other drugs to prevent tumor angiogenesis. Adult patients with metastatic BC should be treated first with paclitaxel [
+    <xref ref-type="bibr" rid="REF3">
+     3
+    </xref>
+    ]. Bevacizumab's approval as a biosimilar is a crucial step toward ensuring that more cancer patients receive mAbs as part of their treatment, but it is crucial to remember that this drug is only authorized for the BC treatment in Europe and is not identified among the FDA's approved indications for this disease.
+   </p>
+   <p>
+    Switching of Trastuzumab: Mother Product vs. Biosimilar Version
+   </p>
+   <p>
+    Biosimilars mimicking Trastuzumab, that have received approval, work similarly to the original medication. However, there have been some lingering questions about switching between a reference product with its biosimilar. Due to exposure to possibly different distinct combinations of epitopes resulting from minute variations between the reference product and the biosimilar, switching could enhance immunogenicity. Growing data supports the use of biosimilar versions of many drugs, including etanercept, infliximab, and adalimumab, in phase 3 trials that examine the effects of switching. Since trastuzumab is a mAb with limited immunogenic potential, there is a lower chance of immunogenicity-related side effects. However, switching is less frequent than for conditions requiring long-term biological treatment. In situations of early BC, trastuzumab is used for a year; in cases of metastatic BC, trastuzumab is given until the illness advances [
+    <xref ref-type="bibr" rid="REF10">
+     10
+    </xref>
+    ]. Given the brief duration of the therapy, a cost-benefit analysis might be used to compare switching to a more cost-effective version with the implementation costs associated with the switch.
+   </p>
+   <p>
+    Health Economics
+   </p>
+   <p>
+    Biosimilars were created with the intention of lowering medical costs. Biosimilars have a typical starting price that is 20% to 30% lower than the reference products. They also provide competition to previously exclusive areas along with additional confidential benefits [
+    <xref ref-type="bibr" rid="REF8">
+     8
+    </xref>
+    ]. The CT-P6 treatments in the neoadjuvant scenery were approximately around €1500 less expensive than RTZ in a study. Although this may appear to be a small saving, it should be recognized that the frequency of neoadjuvant cycles needed is less than in the other contexts. With an average follow-up length of eight years, the CLEOPATRA experiment was updated in 2020. Until now two pharmacoeconomic studies based on the most recent data from the CLEOPATRA experiment have been published. Moriwaki et al. used a partitioned survival model to assess the cost-effectiveness of HER2-positive metastatic BC-targeted therapy from the perspective of Japanese public healthcare payers [
+    <xref ref-type="bibr" rid="REF8">
+     8
+    </xref>
+    ]. With an ICER value of 183, 901 USD/QALY, the pertuzumab group gained 0.949 QALYs. In addition, Cheng, et al. concluded that the pertuzumab group gained 0.73 more QALYs, and had an ICER value of 272,244 USD/QALY [
+    <xref ref-type="bibr" rid="REF16">
+     16
+    </xref>
+    ].
+   </p>
+  </sec>
+  <sec sec-type="conclusions">
+   <title>
+    Conclusions
+   </title>
+   <p>
+    A number of cancers have benefited from the use of new diagnostic methods, such as molecular profiling, which have improved clinical outcomes, including overall survival. Contrarily, the high cost of biologic drugs can make it impossible for patients to have the best care feasible. The introduction of cost-effective biosimilar drugs into the therapeutic arsenal increases the potential to reduce healthcare costs while also improving the accessibility of effective cancer cures. Oncology biosimilars have been established with better efficacy and safety based on previous literature reports of clinical trials and quality physicochemical data along with real-world settings.
+   </p>
+  </sec>
+ </body>
+ <back>
+  <fn-group content-type="other">
+   <title>
+    Author Contributions
+   </title>
+   <fn fn-type="other">
+    <p>
+     <bold>
+      Concept and design:
+     </bold>
+     Diplina Barman, Rounik Talukdar
+    </p>
+    <p>
+     <bold>
+      Acquisition, analysis, or interpretation of data:
+     </bold>
+     Diplina Barman, Tibar Bandyopadhyay, Rounik Talukdar
+    </p>
+    <p>
+     <bold>
+      Drafting of the manuscript:
+     </bold>
+     Diplina Barman
+    </p>
+    <p>
+     <bold>
+      Critical review of the manuscript for important intellectual content:
+     </bold>
+     Diplina Barman, Tibar Bandyopadhyay, Rounik Talukdar
+    </p>
+    <p>
+     <bold>
+      Supervision:
+     </bold>
+     Diplina Barman, Tibar Bandyopadhyay
+    </p>
+   </fn>
+  </fn-group>
+  <notes>
+   <fn-group content-type="competing-interests">
+    <fn fn-type="COI-statement">
+     <p>
+      The authors have declared that no competing interests exist.
+     </p>
+    </fn>
+   </fn-group>
+  </notes>
+  <ref-list>
+   <title>
+    References
+   </title>
+   <ref id="REF1">
+    <label>
+     1
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      The global need for a trastuzumab biosimilar for patients with HER2-positive breast cancer
+     </article-title>
+     <source>
+      Clin Breast Cancer
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Blackwell
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gligorov
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jacobs
+       </surname>
+       <given-names>
+        I
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Twelves
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      95
+     </fpage>
+     <lpage>
+      113
+     </lpage>
+     <volume>
+      18
+     </volume>
+     <year>
+      2018
+     </year>
+     <pub-id pub-id-type="pmid">
+      29525430
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF2">
+    <label>
+     2
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Breast cancer
+     </article-title>
+     <date-in-citation content-type="access-date">
+      <month>
+       11
+      </month>
+      <year>
+       2023
+      </year>
+     </date-in-citation>
+     <fpage>
+      2022
+     </fpage>
+     <volume>
+      6
+     </volume>
+     <year>
+      2023
+     </year>
+     <uri xlink:href="https://www.who.int/news-room/fact-sheets/detail/breast-cancer">
+      https://www.who.int/news-room/fact-sheets/detail/breast-cancer
+     </uri>
+    </element-citation>
+   </ref>
+   <ref id="REF3">
+    <label>
+     3
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Current situation and challenges regarding biosimilars in Japan: an example of trastuzumab biosimilars for breast cancer
+     </article-title>
+     <source>
+      Future Oncol
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Hara
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tajima
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tanabe
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      1353
+     </fpage>
+     <lpage>
+      1361
+     </lpage>
+     <volume>
+      15
+     </volume>
+     <year>
+      2019
+     </year>
+     <pub-id pub-id-type="pmid">
+      30767568
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF4">
+    <label>
+     4
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Biosimilar monoclonal antibodies for cancer treatment
+     </article-title>
+     <source>
+      Cochrane Database Syst Rev
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Galvão
+       </surname>
+       <given-names>
+        TF
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Livinalli
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lopes
+       </surname>
+       <given-names>
+        LC
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zimmermann
+       </surname>
+       <given-names>
+        IR
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Silva
+       </surname>
+       <given-names>
+        MT
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      0
+     </fpage>
+     <volume>
+      2020
+     </volume>
+     <year>
+      2020
+     </year>
+    </element-citation>
+   </ref>
+   <ref id="REF5">
+    <label>
+     5
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Biosimilar use in breast cancer treatment: a national survey of Brazilian oncologists’ opinions, practices, and concerns
+     </article-title>
+     <source>
+      JCO Glob Oncol
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Resende
+       </surname>
+       <given-names>
+        HM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ladislau
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Cardoso
+       </surname>
+       <given-names>
+        AC
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <fpage>
+      1316
+     </fpage>
+     <lpage>
+      1324
+     </lpage>
+     <volume>
+      7
+     </volume>
+     <year>
+      2021
+     </year>
+     <pub-id pub-id-type="pmid">
+      34415791
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF6">
+    <label>
+     6
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      The arrival of biosimilar monoclonal antibodies in oncology: clinical studies for trastuzumab biosimilars
+     </article-title>
+     <source>
+      Br J Cancer
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Barbier
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Declerck
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Simoens
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Neven
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Vulto
+       </surname>
+       <given-names>
+        AG
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Huys
+       </surname>
+       <given-names>
+        I
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      199
+     </fpage>
+     <lpage>
+      210
+     </lpage>
+     <volume>
+      121
+     </volume>
+     <year>
+      2019
+     </year>
+     <pub-id pub-id-type="pmid">
+      31257362
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF7">
+    <label>
+     7
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Monoclonal antibody functionalized, and L-lysine α-oxidase loaded pegylated-chitosan nanoparticle for HER2/neu targeted breast cancer therapy
+     </article-title>
+     <source>
+      Pharmaceutics
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Saravanakumar
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sathiyaseelan
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Park
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kim
+       </surname>
+       <given-names>
+        SR
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Priya
+       </surname>
+       <given-names>
+        VV
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        MH
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      927
+     </fpage>
+     <volume>
+      14
+     </volume>
+     <year>
+      2022
+     </year>
+     <pub-id pub-id-type="pmid">
+      35631513
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF8">
+    <label>
+     8
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Biosimilars for breast cancer
+     </article-title>
+     <source>
+      Expert Opin Biol Ther
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Migliavacca Zucchetti
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Nicolò
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Curigliano
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      1015
+     </fpage>
+     <lpage>
+      1021
+     </lpage>
+     <volume>
+      19
+     </volume>
+     <year>
+      2019
+     </year>
+     <pub-id pub-id-type="pmid">
+      31248290
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF9">
+    <label>
+     9
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Monoclonal antibody biosimilars in oncology: critical appraisal of available data on switching
+     </article-title>
+     <source>
+      Clin Ther
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Declerck
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Bakalos
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zintzaras
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Barton
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Schreitmüller
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      798
+     </fpage>
+     <lpage>
+      809
+     </lpage>
+     <volume>
+      40
+     </volume>
+     <year>
+      2018
+     </year>
+     <pub-id pub-id-type="pmid">
+      29699853
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF10">
+    <label>
+     10
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Efficacy of CT-P6 (trastuzumab biosimilar) versus reference trastuzumab in combination with pertuzumab in HER2-positive early-stage breast cancer: preclinical and real-life clinical data
+     </article-title>
+     <source>
+      Breast
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Bernat-Peguera
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Trigueros
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ferrando-Díez
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <fpage>
+      1
+     </fpage>
+     <lpage>
+      9
+     </lpage>
+     <volume>
+      62
+     </volume>
+     <year>
+      2022
+     </year>
+     <pub-id pub-id-type="pmid">
+      35078146
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF11">
+    <label>
+     11
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Concepts and challenges of biosimilars in breast cancer: the emergence of trastuzumab biosimilars
+     </article-title>
+     <source>
+      Pharmaceutics
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Uifălean
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ilieş
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Nicoară
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Rus
+       </surname>
+       <given-names>
+        LM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hegheş
+       </surname>
+       <given-names>
+        SC
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Iuga
+       </surname>
+       <given-names>
+        CA
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      168
+     </fpage>
+     <volume>
+      10
+     </volume>
+     <year>
+      2018
+     </year>
+     <pub-id pub-id-type="pmid">
+      30257528
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF12">
+    <label>
+     12
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Safety, immunogenicity and interchangeability of biosimilar monoclonal antibodies and fusion proteins: a regulatory perspective
+     </article-title>
+     <source>
+      Drugs
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Kurki
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Barry
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Bourges
+       </surname>
+       <given-names>
+        I
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tsantili
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wolff-Holz
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      1881
+     </fpage>
+     <lpage>
+      1896
+     </lpage>
+     <volume>
+      81
+     </volume>
+     <year>
+      2021
+     </year>
+     <pub-id pub-id-type="pmid">
+      34596876
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF13">
+    <label>
+     13
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Biosimilars: key regulatory considerations and similarity assessment tools
+     </article-title>
+     <source>
+      Biotechnol Bioeng
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Kirchhoff
+       </surname>
+       <given-names>
+        CF
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        XM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Conlon
+       </surname>
+       <given-names>
+        HD
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Anderson
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ryan
+       </surname>
+       <given-names>
+        AM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Bose
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      2696
+     </fpage>
+     <lpage>
+      2705
+     </lpage>
+     <volume>
+      114
+     </volume>
+     <year>
+      2017
+     </year>
+     <pub-id pub-id-type="pmid">
+      28842986
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF14">
+    <label>
+     14
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      Targeting HER2 in breast cancer: latest developments on treatment sequencing and the introduction of biosimilars
+     </article-title>
+     <source>
+      Drugs
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Tesch
+       </surname>
+       <given-names>
+        ME
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gelmon
+       </surname>
+       <given-names>
+        KA
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      1811
+     </fpage>
+     <lpage>
+      1830
+     </lpage>
+     <volume>
+      80
+     </volume>
+     <year>
+      2020
+     </year>
+     <pub-id pub-id-type="pmid">
+      33021725
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF15">
+    <label>
+     15
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      A comprehensive review on immuno-nanomedicine for breast cancer therapy: technical challenges and troubleshooting measures
+     </article-title>
+     <source>
+      Int Immunopharmacol
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Saravanakumar
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Anbazhagan
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Pujani Usliyanage
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <fpage>
+      108433
+     </fpage>
+     <volume>
+      103
+     </volume>
+     <year>
+      2022
+     </year>
+     <pub-id pub-id-type="pmid">
+      34922248
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="REF16">
+    <label>
+     16
+    </label>
+    <element-citation publication-type="journal">
+     <article-title>
+      A health economic guide to market access of biosimilars
+     </article-title>
+     <source>
+      Expert Opin Biol Ther
+     </source>
+     <person-group>
+      <name>
+       <surname>
+        Simoens
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Vulto
+       </surname>
+       <given-names>
+        AG
+       </given-names>
+      </name>
+     </person-group>
+     <fpage>
+      9
+     </fpage>
+     <lpage>
+      17
+     </lpage>
+     <volume>
+      21
+     </volume>
+     <year>
+      2021
+     </year>
+     <pub-id pub-id-type="pmid">
+      33206021
+     </pub-id>
+    </element-citation>
+   </ref>
+  </ref-list>
+ </back>
+</article>

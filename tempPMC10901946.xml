@@ -1,0 +1,6093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article article-type="review-article" dtd-version="1.3" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <?properties open_access?>
+ <?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?>
+ <?DTDIdentifier.IdentifierType public?>
+ <?SourceDTD.DTDName A++V2.4.dtd?>
+ <?SourceDTD.Version 2.4?>
+ <?ConverterInfo.XSLTName springer2nlmx2.xsl?>
+ <?ConverterInfo.Version 1?>
+ <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+  <restricted-by>
+   pmc
+  </restricted-by>
+ </processing-meta>
+ <front>
+  <journal-meta>
+   <journal-id journal-id-type="nlm-ta">
+    Breast Cancer
+   </journal-id>
+   <journal-id journal-id-type="iso-abbrev">
+    Breast Cancer
+   </journal-id>
+   <journal-title-group>
+    <journal-title>
+     Breast Cancer (Tokyo, Japan)
+    </journal-title>
+   </journal-title-group>
+   <issn pub-type="ppub">
+    1340-6868
+   </issn>
+   <issn pub-type="epub">
+    1880-4233
+   </issn>
+   <publisher>
+    <publisher-name>
+     Springer Nature Singapore
+    </publisher-name>
+    <publisher-loc>
+     Singapore
+    </publisher-loc>
+   </publisher>
+  </journal-meta>
+  <article-meta>
+   <article-id pub-id-type="pmcid">
+    10901946
+   </article-id>
+   <article-id pub-id-type="pmid">
+    38315272
+   </article-id>
+   <article-id pub-id-type="publisher-id">
+    1541
+   </article-id>
+   <article-id pub-id-type="doi">
+    10.1007/s12282-023-01541-7
+   </article-id>
+   <article-categories>
+    <subj-group subj-group-type="heading">
+     <subject>
+      Review Article
+     </subject>
+    </subj-group>
+   </article-categories>
+   <title-group>
+    <article-title>
+     Advances in the study of autophagy in breast cancer
+    </article-title>
+   </title-group>
+   <contrib-group>
+    <contrib contrib-type="author">
+     <name>
+      <surname>
+       Yu
+      </surname>
+      <given-names>
+       Tang
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff2">
+      2
+     </xref>
+     <xref ref-type="aff" rid="Aff3">
+      3
+     </xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>
+       Rui
+      </surname>
+      <given-names>
+       Liu
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff2">
+      2
+     </xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>
+       Jiumei
+      </surname>
+      <given-names>
+       Zhao
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff4">
+      4
+     </xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>
+       Ziwei
+      </surname>
+      <given-names>
+       Li
+      </given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff5">
+      5
+     </xref>
+    </contrib>
+    <contrib contrib-type="author" corresp="yes">
+     <name>
+      <surname>
+       Ying
+      </surname>
+      <given-names>
+       Hu
+      </given-names>
+     </name>
+     <address>
+      <email>
+       hy2002@126.com
+      </email>
+     </address>
+     <xref ref-type="aff" rid="Aff1">
+      1
+     </xref>
+    </contrib>
+    <aff id="Aff1">
+     <label>
+      1
+     </label>
+     <institution-wrap>
+      <institution-id institution-id-type="GRID">
+       grid.285847.4
+      </institution-id>
+      <institution-id institution-id-type="ISNI">
+       0000 0000 9588 0960
+      </institution-id>
+      <institution>
+       The Second Affiliatied Hospital of Kunming Medical University and Department of Clinical Larboratory,
+      </institution>
+     </institution-wrap>
+     Kunming, China
+    </aff>
+    <aff id="Aff2">
+     <label>
+      2
+     </label>
+     <institution-wrap>
+      <institution-id institution-id-type="GRID">
+       grid.517582.c
+      </institution-id>
+      <institution-id institution-id-type="ISNI">
+       0000 0004 7475 8949
+      </institution-id>
+      <institution>
+       The Third Affiliated Hospital of Kunming Medical University,
+      </institution>
+     </institution-wrap>
+     Kunming, China
+    </aff>
+    <aff id="Aff3">
+     <label>
+      3
+     </label>
+     <institution-wrap>
+      <institution-id institution-id-type="GRID">
+       grid.203458.8
+      </institution-id>
+      <institution-id institution-id-type="ISNI">
+       0000 0000 8653 0555
+      </institution-id>
+      <institution>
+       The Third Affiliated Hospital of Chongqing Medical University,
+      </institution>
+     </institution-wrap>
+     Chongqing, China
+    </aff>
+    <aff id="Aff4">
+     <label>
+      4
+     </label>
+     Chongqing Nanchuan District People’s Hospital, Chongqing, China
+    </aff>
+    <aff id="Aff5">
+     <label>
+      5
+     </label>
+     <institution-wrap>
+      <institution-id institution-id-type="ROR">
+       https://ror.org/05pz4ws32
+      </institution-id>
+      <institution-id institution-id-type="GRID">
+       grid.488412.3
+      </institution-id>
+      <institution>
+       Chongqing Health Center for Women and Children,
+      </institution>
+      <institution>
+       Women and Children’s Hospital of Chongqing Medical University,
+      </institution>
+     </institution-wrap>
+     Chongqing, China
+    </aff>
+   </contrib-group>
+   <pub-date pub-type="epub">
+    <day>
+     5
+    </day>
+    <month>
+     2
+    </month>
+    <year>
+     2024
+    </year>
+   </pub-date>
+   <pub-date pub-type="pmc-release">
+    <day>
+     5
+    </day>
+    <month>
+     2
+    </month>
+    <year>
+     2024
+    </year>
+   </pub-date>
+   <pub-date pub-type="ppub">
+    <year>
+     2024
+    </year>
+   </pub-date>
+   <volume>
+    31
+   </volume>
+   <issue>
+    2
+   </issue>
+   <fpage>
+    195
+   </fpage>
+   <lpage>
+    204
+   </lpage>
+   <history>
+    <date date-type="received">
+     <day>
+      13
+     </day>
+     <month>
+      11
+     </month>
+     <year>
+      2023
+     </year>
+    </date>
+    <date date-type="accepted">
+     <day>
+      25
+     </day>
+     <month>
+      12
+     </month>
+     <year>
+      2023
+     </year>
+    </date>
+   </history>
+   <permissions>
+    <copyright-statement>
+     © The Author(s) 2024
+    </copyright-statement>
+    <license>
+     <ali:license_ref content-type="ccbylicense" specific-use="textmining">
+      https://creativecommons.org/licenses/by/4.0/
+     </ali:license_ref>
+     <license-p>
+      <bold>
+       Open Access
+      </bold>
+      This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit
+      <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+       http://creativecommons.org/licenses/by/4.0/
+      </ext-link>
+      .
+     </license-p>
+    </license>
+   </permissions>
+   <abstract id="Abs1">
+    <p id="Par1">
+     Breast cancer is the most prevalent malignant tumor among women, with a high incidence and mortality rate all year round, which seriously affects women's health. Autophagy, a well-conserved cellular process inherent in eukaryotic organisms, plays a pivotal role in degrading damaged proteins and organelles, recycling their breakdown products to aid cells in navigating stress and gradually restoring homeostatic equilibrium. Recent studies have unveiled the intricate connection between autophagy and breast cancer. Autophagy is a double-edged sword in breast cancer, demonstrating a dual role: restraining its onset and progression on one hand, while promoting its metastasis and advancement on the other. It is also because of this interrelationship between the two that regulation of autophagy in the treatment of breast cancer is now an important strategy in clinical treatment. In this article, we systematically survey the recent research findings, elucidating the multifaceted role of autophagy in breast cancer and its underlying mechanisms, with the aim of contributing new references to the clinical management of breast cancer.
+    </p>
+   </abstract>
+   <kwd-group xml:lang="en">
+    <title>
+     Keywords
+    </title>
+    <kwd>
+     Autophagy
+    </kwd>
+    <kwd>
+     Breast cancer
+    </kwd>
+    <kwd>
+     Molecular mechanism
+    </kwd>
+    <kwd>
+     Autophagy inhibitor
+    </kwd>
+    <kwd>
+     Therapy
+    </kwd>
+   </kwd-group>
+   <funding-group>
+    <award-group>
+     <funding-source>
+      <institution>
+       Yunnan health training project of high level talents
+      </institution>
+     </funding-source>
+     <award-id>
+      D-2018041
+     </award-id>
+     <principal-award-recipient>
+      <name>
+       <surname>
+        Ying
+       </surname>
+       <given-names>
+        Hu
+       </given-names>
+      </name>
+     </principal-award-recipient>
+    </award-group>
+   </funding-group>
+   <funding-group>
+    <award-group>
+     <funding-source>
+      <institution-wrap>
+       <institution-id institution-id-type="FundRef">
+        http://dx.doi.org/10.13039/100016039
+       </institution-id>
+       <institution>
+        Center for Depression Research and Clinical Care, University of Texas Southwestern Medical Center
+       </institution>
+      </institution-wrap>
+     </funding-source>
+     <award-id>
+      202102AA100067
+     </award-id>
+     <principal-award-recipient>
+      <name>
+       <surname>
+        Ying
+       </surname>
+       <given-names>
+        Hu
+       </given-names>
+      </name>
+     </principal-award-recipient>
+    </award-group>
+   </funding-group>
+   <funding-group>
+    <award-group>
+     <funding-source>
+      <institution-wrap>
+       <institution-id institution-id-type="FundRef">
+        http://dx.doi.org/10.13039/501100005147
+       </institution-id>
+       <institution>
+        Applied Basic Research Key Project of Yunnan
+       </institution>
+      </institution-wrap>
+     </funding-source>
+     <award-id>
+      2023Y0787
+     </award-id>
+     <principal-award-recipient>
+      <name>
+       <surname>
+        Yu
+       </surname>
+       <given-names>
+        Tang
+       </given-names>
+      </name>
+     </principal-award-recipient>
+    </award-group>
+   </funding-group>
+   <custom-meta-group>
+    <custom-meta>
+     <meta-name>
+      issue-copyright-statement
+     </meta-name>
+     <meta-value>
+      © The Japanese Breast Cancer Society 2024
+     </meta-value>
+    </custom-meta>
+   </custom-meta-group>
+  </article-meta>
+ </front>
+ <body>
+  <sec id="Sec1">
+   <title>
+    Introduction
+   </title>
+   <p id="Par2">
+    Breast cancer stands as the most prevalent malignancy tumor among women, and as per the latest global statistics from 2020, it has eclipsed lung cancer to become the most commonly diagnosed cancer worldwide. Among the 14 most common cancers, breast cancer has witnessed the most significant increase in mortality rates and currently ranks as the fourth leading cause of death globally, posing a grave threat to women’s health on a global scale [
+    <xref ref-type="bibr" rid="CR1">
+     1
+    </xref>
+    ]. Presently, the primary therapeutic modalities for breast cancer are radiotherapy, chemotherapy, molecular-targeted therapy and endocrine therapy [
+    <xref ref-type="bibr" rid="CR2">
+     2
+    </xref>
+    ]. Nevertheless, the emergence of resistance in cancer cells to these conventional treatments has emerged as a major challenge in the management of breast cancer. Autophagy, an evolutionarily conserved process widely distributed in eukaryotic cells, entails the intracellular engulfment and degradation of cellular structures via lysosomes. This process is instrumental in regulating cellular metabolism and influencing a wide array of physiological and pathological processes in organisms [
+    <xref ref-type="bibr" rid="CR3">
+     3
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="CR4">
+     4
+    </xref>
+    ]. Aberrations or mutations in autophagy pathways have been linked to various human diseases, including cardiovascular disorders, metabolic diseases, neurological diseases and cancer [
+    <xref ref-type="bibr" rid="CR5">
+     5
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="CR6">
+     6
+    </xref>
+    ]. Autophagy exhibits a dual role in the development of tumors. On one hand, in the early stages of cancer, autophagy exerts tumor-suppressive effects by curbing gene mutations and the generation of reactive oxygen species (ROS) [
+    <xref ref-type="bibr" rid="CR7">
+     7
+    </xref>
+    ]. On the other hand, autophagy promotes tumor development by facilitating tumor angiogenesis, removing and recycling damaged intracellular proteins and organelles, and providing a conducive environment for the survival of tumor cells [
+    <xref ref-type="bibr" rid="CR6">
+     6
+    </xref>
+    ]. Notably, autophagy can promote tumor cell resistance to conventional treatments such as radiotherapy, with some evidence suggesting [
+    <xref ref-type="bibr" rid="CR8">
+     8
+    </xref>
+    ] that chemotherapy induces cellular autophagy, potentially one of the main mechanisms contributing to drug resistance in cancer cells. Therefore, scientists proposed that chemotherapy effects might be enhanced by inhibiting autophagy, leading to many experimental studies assessing autophagy inhibitor and drug combinations.
+   </p>
+   <p id="Par3">
+    In recent years, with the increasing research on autophagy, a large number of findings have shown that autophagy is closely related to breast cancer, and the alteration of autophagy function affects the process of breast cancer development, which has opened new avenues for basic breast cancer research. Autophagy emerged as a multifaceted and dynamic element in breast cancer, and current studies have revealed diverse mechanisms of its role in breast cancer, and many studies have demonstrated a direct involvement in the progression of the disease. However, despite this growing body of evidence, a comprehensive review that consolidates and synthesizes these findings is conspicuously absent. Therefore, this review seeks to provide a comprehensive analysis of recent reports regarding the interplay between autophagy and breast cancer. It aims to shed light on the intricate relationship, underlying mechanisms and its clinical implications. Ultimately, this endeavor is aimed to provide a solid theoretical foundation for both basic research and clinical treatment in the realm of breast cancer.
+   </p>
+  </sec>
+  <sec id="Sec2">
+   <title>
+    Autophagy overview
+   </title>
+   <p id="Par4">
+    Cellular autophagy is a ubiquitous self-regulatory within eukaryotic cells, serving as a vital response to challenging environments such as starvation, hypoxia and energy stress states [
+    <xref ref-type="bibr" rid="CR9">
+     9
+    </xref>
+    –
+    <xref ref-type="bibr" rid="CR11">
+     11
+    </xref>
+    ]. This intricate process encompasses a form of physiological cell death, commonly known as type II programmed cell death [
+    <xref ref-type="bibr" rid="CR12">
+     12
+    </xref>
+    ]. Its diverse physiological functions encompass the removal of malfunctioning or damaged cells, the maintenance of internal environmental homeostasis, the induction of cell death, the regulation of immune function, and participation in extending cell lifespan. According to the lysosomal pathway, autophagy can be categorized into three primary types [
+    <xref ref-type="bibr" rid="CR13">
+     13
+    </xref>
+    ]: (i) Macroautophagy: This process involves the formation of autophagosomes, which are double-membraned structures that encapsulate cytoplasmic proteins and organelles. These autophagosomes ultimately fuse with lysosomes, forming autophagic lysosomes that degrade their contents. (ii) Microautophagy: This form entails the direct invagination of lysosomal or endovollicular membranes into the cytoplasm for degradation. (iii) Molecular chaperone-mediated autophagy: This mechanism is exclusive to mammalian cells, where intracytoplasmic proteins first bind to molecular chaperones and are subsequently translocated into the lysosomal lumen for degradation [
+    <xref ref-type="bibr" rid="CR14">
+     14
+    </xref>
+    ]. In most contexts, when referring to cellular autophagy without specific distinction, it generally refers to macroautophagy. The occurrence of cellular autophagy can be divided into four distinct stages: autophagic vesicle precursor formation, auto phagosome membrane formation and extension, lysosome closure and fusion, and intracapsular degradation [
+    <xref ref-type="bibr" rid="CR14">
+     14
+    </xref>
+    ]. While the majority of our understanding of autophagy has been gleaned from studies in yeast, where approximately 30 autophagy-related genes have been identified, it is important to note that the autophagic process involves a complex interplay of signaling molecules and pathways [
+    <xref ref-type="bibr" rid="CR15">
+     15
+    </xref>
+    ].
+   </p>
+   <p id="Par5">
+    The initiation phase of cellular autophagy primarily revolves around key proteins, namely ULK1, FIP200, and autophagy-related genes (Atg)13 [
+    <xref ref-type="bibr" rid="CR16">
+     16
+    </xref>
+    ]. In a well-nourished cellular environment, the mammalian target of rapamycin complex 1 (mTORC1) becomes active, resulting in the extensive phosphorylation of Atg13 and ULK1. This, in turn, serves to inhibit the onset of cellular autophagy [
+    <xref ref-type="bibr" rid="CR17">
+     17
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="CR18">
+     18
+    </xref>
+    ]. In stark contrast, under conditions of nutrient scarcity, mTORC1 undergoes dephosphorylation of Atg13, which subsequently associates with and activates ULK1. This activated ULK1 then forms dimers, culminating in the initiation of cellular autophagy, with FIP200 playing a vital role in this process [
+    <xref ref-type="bibr" rid="CR19">
+     19
+    </xref>
+    ]. Furthermore, it has been shown that the formation of autophagosomal bilayers requires the participation of molecules such as phosphatidylinositol kinase P150 and Beclin-1. At this critical stage, the microtubule-associated protein LC3 emerges as a key determinant of autophagic size and serves to facilitate the bending of membranes during autophagosome formation [
+    <xref ref-type="bibr" rid="CR20">
+     20
+    </xref>
+    ].
+   </p>
+   <p id="Par6">
+    The extension phase of autophagy primarily involves a cadre of molecules, including Atg12, LC3 (a yeast homolog of Atg8), Atg10, Atg16, Atg5, Atg7, Atg3, Atg4, and more [
+    <xref ref-type="bibr" rid="CR21">
+     21
+    </xref>
+    ]. The process is similar to the E1-E2-E3 ubiquitination process and can be subdivided into two ubiquitination-like processes: the binding of Atg12 and the modification of Atg8 [
+    <xref ref-type="bibr" rid="CR22">
+     22
+    </xref>
+    ]. During this phase, the Atg4 protease shears the C-terminus of the LC3 protein precursor, converting Atg8 into soluble LC3-I. Subsequently, Atg7 acting as an E1-like enzyme, facilitates the transports of LC3-I to Atg3, functioning as an E2-like enzyme, for covalent binding to phosphatidyl. Atg7 also transports Atg12 to Atg10, another E2-like enzyme, which covalently links Atg12 to Atg5. This interaction leads to the subsequent binding of Atg16, forming the Atg12-Atg5-Atg16 complex. This complex serves as a critical regulator for the extension of the autophagosomal membrane [
+    <xref ref-type="bibr" rid="CR23">
+     23
+    </xref>
+    ].
+   </p>
+   <p id="Par7">
+    During the maturation stage, autophagosomes undergo fusion with lysosomes to form mature autophagic lysosomes. Key molecules central to this stage include LAMP1, LAMP2, UVRAG and monomeric GTPases [
+    <xref ref-type="bibr" rid="CR24">
+     24
+    </xref>
+    ]. The degradation of autophagosomal membranes is initiated by p62, which directly interacts with ubiquitination-related proteins and LC3, facilitating their roles within the autophagic process [
+    <xref ref-type="bibr" rid="CR25">
+     25
+    </xref>
+    ]. This process may also have the involvement of microtubule backbone proteins within the autophagosome. However, the precise details of this process and the underlying mechanisms remain to be further elucidated.
+   </p>
+   <p id="Par8">
+    In the degradation phase, the encapsulated material within autophagic lysosomes is broken down by hydrolases, and the resulting small molecule degradation products are subsequently translocated back into the cytoplasm for cellular reuse. The initiation of the degradation process is mainly achieved through the activation of cathepsins B, D and L [
+    <xref ref-type="bibr" rid="CR26">
+     26
+    </xref>
+    ]. This intricate process encompasses the involvement of Atg12 and Atg15, which mediate the rupture of autophagic lysosomal membranes. Additionally, Atg1 and Atg13 play pivotal roles in facilitating the transportation of hydrolases within lysosomes, while the transport of some of the amino acids generated by degradation may also entail the participation of Atg22 [
+    <xref ref-type="bibr" rid="CR27">
+     27
+    </xref>
+    ].
+   </p>
+  </sec>
+  <sec id="Sec3">
+   <title>
+    The relationship between autophagy and tumors
+   </title>
+   <p id="Par9">
+    In different stages of tumor development and under varying environmental conditions, autophagy plays different roles, which can be categorized into the oncogenic role of autophagy and the pro-cancer role of autophagy.
+   </p>
+   <p id="Par10">
+    The suppressive role of oncogenesis of autophagy is demonstrated by its capacity to eliminate damaged organelles and proteins, control inflammatory responses, protect gene stability to maintain cellular homeostasis and restrain tumor cell dissemination and invasion from their primary sites [
+    <xref ref-type="bibr" rid="CR28">
+     28
+    </xref>
+    ]. In addition, when certain autophagy-related proteins are abnormally expressed, they hinder the initiation of autophagy, thereby promoting tumor growth, proliferation, dissemination and invasion. For instance, Beclin 1, a key protein involved in autophagosome formation, has exhibited reduced expression in patients afflicted with breast, cervical, and pancreatic cancers. This decline in Beclin 1 levels suggests that inhibition of autophagy may enhance tumor growth and proliferation [
+    <xref ref-type="bibr" rid="CR29">
+     29
+    </xref>
+    –
+    <xref ref-type="bibr" rid="CR31">
+     31
+    </xref>
+    ]. Furthermore, research involving mice has demonstrated that those with copy number deletions of the becn1 regulatory gene exhibited a higher propensity for spontaneous tumorigenesis compared to their wild-type counterparts [
+    <xref ref-type="bibr" rid="CR32">
+     32
+    </xref>
+    ]. Therefore, it is postulated that autophagy plays an inhibitory role in tumorigenesis especially in the initiation phase of tumors. This inhibitory effect is likely mediated through the following mechanisms: (1) Autophagy can inhibit mutations in genes and chromosomes through various mechanisms, thus reducing the possibility of cells undergoing malignant transformation. (2) Reactive oxygen species are highly genotoxic, and autophagy can inhibit the production of reactive oxygen species and the aggregation of cheesy proteins formed during redox reactions, primarily by clearing dysfunctional mitochondria.
+   </p>
+   <p id="Par11">
+    The pro-cancer effect of autophagy becomes evident as tumors progress and continue to divide and proliferate, particularly in the face of challenging environments like starvation or oxygen deprivation. This phenomenon is frequently observed in tumor cells residing in poorly vascularized regions within solid tumors, where autophagy serves to enhance the growth and survival of tumor cells [
+    <xref ref-type="bibr" rid="CR33">
+     33
+    </xref>
+    ]. In conditions of chronic hypoxia and nutrient deficiency, often experienced by tumor cells inadequate blood supply, autophagy emerges as a vital mechanism for recycling waste materials to sustain essential cellular functions for cell survival [
+    <xref ref-type="bibr" rid="CR34">
+     34
+    </xref>
+    ]. As tumors advance to later stages, characterized by metabolic stress or genotoxicity, they activate autophagic mechanisms, and in some cases, even promote cell metastasis to maintain survival [
+    <xref ref-type="bibr" rid="CR35">
+     35
+    </xref>
+    ]. For example, heightened expression of hypoxia-inducible factor 1α (HIF1α) can stimulate autophagy, angiogenesis and the induction of BNIP3. Hypoxia leads to mitochondrial damage and the accumulation of intracellular reactive oxygen species. In this hypoxic milieu, BNIP3 takes charge of regulating intracellular autophagy, leading to the clearance of damaged intracellular mitochondria through autophagic mechanisms, thereby supporting tumor cell survival [
+    <xref ref-type="bibr" rid="CR36">
+     36
+    </xref>
+    ]. Studies in hepatocellular carcinoma have shown that the deletion of Atg7 or Atg5 resulted in benign hepatocellular carcinoma as opposed to its malignant counterpart [
+    <xref ref-type="bibr" rid="CR37">
+     37
+    </xref>
+    ]. Moreover, in human breast cancer, tumorigenic and invasive tumor epithelial cells preexist in intraductal carcinoma in situ, and the survival of these cells requires intracellular autophagy [
+    <xref ref-type="bibr" rid="CR38">
+     38
+    </xref>
+    ].
+   </p>
+   <p id="Par12">
+    The above results indicate that autophagy is a double-edged sword. In the early stages of tumor development, autophagy serves as a protective factor to prevent tumor development and stabilize the normal physiological functions of cells by removing mutated genes and inactivating organelles. However, as tumors progress into the middle and late stages, characterized by heightened cell proliferation, enhanced migration, and other functional adaptations, tumor cells demand substantial amounts of energy and resources to facilitate their survival. In this context, autophagy plays a distinct role, enabling tumor cells to create a favorable environment for their survival (Fig.
+    <xref ref-type="fig" rid="Fig1">
+     1
+    </xref>
+    ).
+    <fig id="Fig1">
+     <label>
+      Fig. 1
+     </label>
+     <caption>
+      <p>
+       Effect of autophagy on physiological function of tumors
+      </p>
+     </caption>
+     <graphic id="MO1" xlink:href="12282_2023_1541_Fig1_HTML"/>
+    </fig>
+   </p>
+  </sec>
+  <sec id="Sec4">
+   <title>
+    Autophagy and breast cancer
+   </title>
+   <p id="Par13">
+    As one of the common malignancies in women, the development of breast cancer is also associated with autophagy, and Beclin-1 gene is a hot gene in both autophagy research and the breast cancer field. Multiple studies have revealed that Beclin-1 gene plays a multifaceted role in breast cancer. It not only reduces the risk of breast cancer by acting as a tumor suppressor but also regulates autophagy to promote breast cancer development [
+    <xref ref-type="bibr" rid="CR29">
+     29
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="CR39">
+     39
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="CR40">
+     40
+    </xref>
+    ]. An analysis of breast cancer tissues has shown that approximately 70% of specimens exhibit reduced protein expression levels of Beclin-1 [
+    <xref ref-type="bibr" rid="CR41">
+     41
+    </xref>
+    ]. Moreover, given its proximity to the chromosome, Beclin-1 is often subjected to common deletion along with the breast cancer susceptibility gene 1 (BRCA1), making Beclin-1 deletion more likely to induce breast cancer [
+    <xref ref-type="bibr" rid="CR42">
+     42
+    </xref>
+    ]. The expression level of Beclin-1 in breast cancer cells was detected by Choi et al., which found that the negative rate of Beclin-1 was 70.1%, the weak positive rate was 26.2%, and the positive rate was only 3.7% [
+    <xref ref-type="bibr" rid="CR43">
+     43
+    </xref>
+    ]. Moreover, the expression level of Beclin-1 is also affected by different subtypes of breast cancer, with higher levels observed in more aggressive types such as human epidermal growth factor receptor type 2 (HER2) positive and basal-like (mostly triple-negative) breast cancers compared to the less malignant intraluminal A/B (luminal A/B) subtype [
+    <xref ref-type="bibr" rid="CR44">
+     44
+    </xref>
+    ]. The overexpression of the Beclin-1 gene in breast cancer MCF-7 cells has been found to enhance autophagic activity, subsequently inhibiting cell proliferation and tumor formation in nude mice [
+    <xref ref-type="bibr" rid="CR45">
+     45
+    </xref>
+    ]. It was found that in Beclin-1 gene-deficient breast cancer MDA-MB-231 cells could be detected, the phosphorylation levels of ERK and AKT were increased in breast cancer cells, Beclin-1 was negatively correlated with the intensity and duration of growth factor receptor signaling pathway persistence. Beclin-1 also demonstrated the ability to restrain the invasive metastasis of breast cancer cells [
+    <xref ref-type="bibr" rid="CR46">
+     46
+    </xref>
+    ]. These studies collectively suggest that reduced expression levels of Beclin-1 gene may inhibit the autophagic activity of breast cancer cells to promote the progression of breast cancer. However, as research advanced, a more complex picture emerged, demonstrating that Beclin-1 could promote breast cancer progression, even when highly expressed in some patients. Cha et al. reported that in a study of 692 breast cancer patients with invasive ductal carcinoma (IDC) and 114 invasive lobular carcinoma (ILC), the expression level of Beclin-1 was higher in IDC cases with higher proliferative activity [
+    <xref ref-type="bibr" rid="CR47">
+     47
+    </xref>
+    ]. In a pilot study, the culture of breast cancer MDA-MB-231 and BT-549 cells under normal conditions and transfection of the Beclin-1 gene resulted in inhibited cell growth and proliferation. However, when these cells were cultured under adverse conditions like hypoxia and nutrient deficiency, transfection of the Beclin-1 gene led to reduced cell death [
+    <xref ref-type="bibr" rid="CR48">
+     48
+    </xref>
+    ,
+    <xref ref-type="bibr" rid="CR49">
+     49
+    </xref>
+    ]. This could be attributed to the heightened autophagic activity in MDA-MB-231 and BT-549 cells following Beclin-1 gene transfection, providing a mechanism by which breast cancer cells reduce their metabolic stress and thus promote their survival in harsh environments such as starvation and hypoxia. The above studies suggest that Beclin-1 may have different effects on breast cancer cells in different environments, Nevertheless, the intricate mechanisms through which Beclin-1 affects both sides of breast cancer progression require further investigation.
+   </p>
+   <p id="Par14">
+    In addition to Beclin-1, several autophagy-related genes are also involved in autophagy formation, such as ATG8 and resistance to ultraviolet-associated radiation gene (UV RAG). These genes are often detected as locus deletions or mutations in breast cancer patients [
+    <xref ref-type="bibr" rid="CR50">
+     50
+    </xref>
+    ]. Such findings may suggest that these genes serve as inhibitors of tumor progression by regulating autophagy. Organismal tissues under hypoxia can induce autophagy in tumor cells through the mediation of HIF1α [
+    <xref ref-type="bibr" rid="CR51">
+     51
+    </xref>
+    ]. It has been found that in tumor cells HIF1α can help tumor cells survive in a hypoxic environment by influencing cellular metabolism, promoting invasive dissemination, modulating pH, and impacting inflammation. In the context of breast cancer cells, the activation of Peroxisome Proliferator-Activated Receptor γ (PPARγ) triggers an upregulation of HIF1α expression, and HIF1α, in turn, mediates PPARγ-induced activation of autophagy, thereby promoting the survival of MDA-MB-231 breast cancer cells [
+    <xref ref-type="bibr" rid="CR52">
+     52
+    </xref>
+    ]. Under conditions of starvation and hypoxic, autophagy can be induced by activating Adenylate-Activated Protein Kinase (AMPK) or inhibiting the mTOR pathway. Additionally, in MCF7 and MDA-MB-231 breast cancer cells, autophagy is also involved in endoplasmic reticulum protein degradation to promote apoptosis in breast cancer cells [
+    <xref ref-type="bibr" rid="CR53">
+     53
+    </xref>
+    ].
+   </p>
+   <p id="Par15">
+    Lamin A/C is one of the main components of nuclear fibrillar layer proteins that provide stability to the nucleus and establish a conducive environment for stable gene expression. Recent discoveries indicate that in the presence of DNA damage, Lamin A/C undergoes ubiquitination-like modifications and is subsequently degraded by the autophagic lysosomal pathway through binding to LC3. This process results in nuclear leakage and the demise of triple-negative breast cancer cells [
+    <xref ref-type="bibr" rid="CR54">
+     54
+    </xref>
+    ]. Moreover, studies have revealed that in the absence of autophagy, excessive accumulation of TNC proteins hinders T cell activation, leading to reduced T cell infiltration within triple-negative breast cancer tissues. This creates conditions conducive to unchecked tumor cell growth and development, thereby promoting the progression of breast cancer [
+    <xref ref-type="bibr" rid="CR55">
+     55
+    </xref>
+    ]. These two studies suggest that autophagy appears to be an important oncogenic factor in breast cancer, with its absence facilitating tumor cell survival.
+   </p>
+   <p id="Par16">
+    The above findings suggest that autophagy also seems to have a dual role in breast cancer, with a predominant expression of its oncogenic role, Autophagy tends to function as a protective mechanism for breast cancer cell survival primarily when these cells are exposed to external stimuli (see Fig.
+    <xref ref-type="fig" rid="Fig2">
+     2
+    </xref>
+    ). Autophagy is an unstable factor with very broad effects in cells, therefore, revealing the specific mechanism of autophagy's role in breast cancer to maintain it in a direction favorable to patient treatment could be very helpful for the prognosis of clinical breast cancer patients.
+    <fig id="Fig2">
+     <label>
+      Fig. 2
+     </label>
+     <caption>
+      <p>
+       Effect of autophagy deficiency or normal status on breast cancer progression
+      </p>
+     </caption>
+     <graphic id="MO2" xlink:href="12282_2023_1541_Fig2_HTML"/>
+    </fig>
+   </p>
+  </sec>
+  <sec id="Sec5">
+   <title>
+    Study of autophagy and cancer-related pathways in breast cancer
+   </title>
+   <p id="Par17">
+    Breast cancer development is a complex process that is accompanied by the activation of many cancer-related pathways. Several studies have reported that the activation of various signaling pathways in breast cancer is closely interconnected, either directly or indirectly, with autophagy.
+   </p>
+   <p id="Par18">
+    One of the most commonly studied pathways associated with autophagy is the AKT-mTOR signaling pathway. For instance, Abdullah et al. found that eugenol could induce autophagy and apoptosis in breast cancer cells by inhibiting the PI3K/AKT/FOXO3a pathway [
+    <xref ref-type="bibr" rid="CR55">
+     55
+    </xref>
+    ]. In a recent study, it was observed that Chaga mushroom extract (CME) inhibited the proliferation of 4T1 mouse breast cancer cells in a dose- and time-dependent manner. CME treatment led to increased phosphorylation of LC3 and AMPK while inhibiting the phosphorylation of S6 and S6K1 of mTOR. These results suggest that CME induces autophagy by activating the AMPK pathway and inhibiting the mTOR signaling pathways, ultimately inhibiting tumor cell proliferation [
+    <xref ref-type="bibr" rid="CR56">
+     56
+    </xref>
+    ]. Furthermore, it was also found that the combination of doxorubicin (DOX) and magnoflorine (Mag) inhibited the proliferation and migration of breast cancer, acting by suppressing autophagy induced by mTOR-dependent signaling pathway [
+    <xref ref-type="bibr" rid="CR57">
+     57
+    </xref>
+    ]. These findings suggest that in breast cancer, alterations in tumor cell function resulting from external environmental factors can be displayed through the AKT-mTOR-autophagy axis.
+   </p>
+   <p id="Par19">
+    In the context of breast cancer, besides the AKT-mTOR signaling pathway, the NF-κB signaling pathway also seems to have some associativity with autophagy. Notably, it was found that miRNA-1910-3p within exosomes promotes breast cancer proliferation, metastasis, and autophagy by targeting MTMR3 and activating the NF-κB signaling pathway [
+    <xref ref-type="bibr" rid="CR58">
+     58
+    </xref>
+    ]. Additionally, polyphenol D has been found to induce apoptosis and protective autophagy in breast cancer cells through the JNK1-Bcl2 signaling axis [
+    <xref ref-type="bibr" rid="CR59">
+     59
+    </xref>
+    ]. These findings suggest that in breast cancer cells, immune and apoptosis-related signaling pathways are also involved in cellular autophagy, finally affecting the function of tumor cells.
+   </p>
+   <p id="Par20">
+    The studies outlined above demonstrate that in breast cancer, autophagy is not only influenced by tumor-related signaling pathways but also has the capacity to affect the activation status of certain tumor signaling pathways. For example, it was found that the expression of WNT pathway-related proteins was suppressed after the knockdown of ATG4A, a key regulator of cellular autophagy processes [
+    <xref ref-type="bibr" rid="CR60">
+     60
+    </xref>
+    ]. This suggests that the activation of the WNT pathway seems to have a linkage with autophagy in breast cancer cells as well.
+   </p>
+   <p id="Par21">
+    Taken together, these findings suggest that in breast cancer cells, various pathways can regulate the autophagic function of cells, most of which are stimulated by the external environment and eventually affect the physiological function of cells through autophagy. Meanwhile, certain pathways are regulated by autophagy and finally affect cellular physiological functions through various signaling pathways (Fig.
+    <xref ref-type="fig" rid="Fig3">
+     3
+    </xref>
+    ).
+    <fig id="Fig3">
+     <label>
+      Fig. 3
+     </label>
+     <caption>
+      <p>
+       Association between autophagy and some tumor-associated signaling pathways in breast cancer
+      </p>
+     </caption>
+     <graphic id="MO3" xlink:href="12282_2023_1541_Fig3_HTML"/>
+    </fig>
+   </p>
+  </sec>
+  <sec id="Sec6">
+   <title>
+    Autophagy and clinical translational research
+   </title>
+   <p id="Par22">
+    In recent years, the close relationship between autophagy and breast cancer has been continuously discovered, and autophagy plays an important role in the treatment of breast cancer. The therapeutic strategies for most cancers, including breast cancer, predominantly involve the activation of apoptotic signaling to induce tumor cell death. The signals of apoptosis and autophagy are coupled to each other within cells, and these two pathways are closely intertwined and mutually influential. Therefore, the activation or inactivation of apoptosis can significantly impact the status of autophagy [
+    <xref ref-type="bibr" rid="CR61">
+     61
+    </xref>
+    ]. According to the dual nature of autophagy on tumor development, the treatment of breast cancer can be approached by either promoting autophagy to induce cell death or inhibiting autophagy when it exhibits cytoprotective effects. Autophagy can be effectively induced through the application of anticancer drugs and some autophagy inducers, including radiotherapy, ultimately leading to cell death.
+   </p>
+   <p id="Par23">
+    Some studies have shown that specific drugs with autophagy-inducing effects have a potential anticancer therapeutic efficacy by enhancing cell death [
+    <xref ref-type="bibr" rid="CR62">
+     62
+    </xref>
+    ]. For example, Cryptotanshinone has been shown to promote the formation of vesicles in MDA-MB-231 breast cancer cells, inducing autophagy, and subsequently inhibiting migration, invasion, and proliferation of cancer cells [
+    <xref ref-type="bibr" rid="CR63">
+     63
+    </xref>
+    ]. Another study revealed that miR-199a-5p overexpression in breast cancer cells could upregulate the expression of autophagy-related genes BECN1 and DRAM1, consequently activating cellular autophagy. This activation notably enhanced the ability of ionizing radiation to induce cell death in cancer cells [
+    <xref ref-type="bibr" rid="CR64">
+     64
+    </xref>
+    ]. Collectively, these studies suggest that harnessing autophagy to induce cell death represents a promising and innovative approach to the treatment of breast cancer.
+   </p>
+   <p id="Par24">
+    Resistance of breast cancer cells to therapy remains a major challenge in disease management, and autophagy emerges as a pivotal factor influencing tumor drug resistance. Particularly in the context of targeted therapy for HER2-positive breast cancer, drug resistance caused by autophagy is more serious when using the monoclonal antibody Herceptin and epidermal growth factor receptor tyrosine kinase inhibitors like lapatinib [
+    <xref ref-type="bibr" rid="CR65">
+     65
+    </xref>
+    ]. Research indicates that the level of autophagy in tumor cells influences their resistance to therapy. In breast cancer patients, once the tumor develops, tumor cells respond to treatment by upregulating autophagy, promoting cancer cell survival in treatment-induced stress, ultimately triggering drug resistance [
+    <xref ref-type="bibr" rid="CR66">
+     66
+    </xref>
+    ]. In a recent clinical study, it was found that simultaneous administration of autophagy inhibitors, like chloroquine, alongside targeted therapy in breast cancer patients can enhance tumor cell death, signifying a potential breakthrough in treatment [
+    <xref ref-type="bibr" rid="CR67">
+     67
+    </xref>
+    ]. Numerous studies have demonstrated that the combination of chloroquine with conventional therapies enhances the overall antitumor effect [
+    <xref ref-type="bibr" rid="CR68">
+     68
+    </xref>
+    –
+    <xref ref-type="bibr" rid="CR72">
+     72
+    </xref>
+    ]. However, it was previously suggested that the occasion of chloroquine treatment of breast cancer may not be related to the inhibition of autophagy. Experimental studies have shown that when using DNA damage drugs such as cisplatin or drugs targeting autophagy regulators like Pt-dIns3K inhibitor LY294002 and mTOR inhibitor rapamycin acting on breast cancer cells 67NR and 4T1 in mice, can enhance the sensitivity of cancer cells to these drugs when chloroquine is applied in combination [
+    <xref ref-type="bibr" rid="CR73">
+     73
+    </xref>
+    ]. However, chloroquine did not enhance the efficacy of these drugs without knockdown of Atg12 and becn-1 or inhibition of autophagy using bafilomycin or even in the absence of Atg12 [
+    <xref ref-type="bibr" rid="CR74">
+     74
+    </xref>
+    ]. Therefore, the investigators speculated that the mechanism through which chloroquine enhances its effectiveness in combination with other breast cancer therapeutic agents may not be due to its inhibition of autophagy. This different conclusion needs to be further explored. Additionally, Zhou et al. found that the application of MK-8776, a cell cycle detection site kinase 1 inhibitor, in human triple-negative breast cancer cells increased the sensitivity of cancer cells to radiotherapy by inhibiting autophagy [
+    <xref ref-type="bibr" rid="CR75">
+     75
+    </xref>
+    ]. These studies highlight that the treatment of breast cancer can also be achieved by inhibiting autophagy, which has cytoprotective effects.
+   </p>
+   <p id="Par25">
+    Cancer stem cells (CSCs) have the general properties of stem cells, including self-renewal and differentiation abilities, which can influence the process of tumor recurrence, metastasis and therapeutic response, contributing significantly to the heterogeneity observed in most tumors [
+    <xref ref-type="bibr" rid="CR76">
+     76
+    </xref>
+    ]. In the context of breast cancer, breast cancer stem cells (BCSCs) play a pivotal role in tumor development, therapy outcomes, and prognosis. BCSC-enriched populations of breast cancer cells show significant resistance to conventional chemotherapy [
+    <xref ref-type="bibr" rid="CR77">
+     77
+    </xref>
+    ]. Recent studies have shown that autophagy plays a crucial role in tumor stem cell genesis, maintenance and tissue metastasis. The overexpression of acetaldehyde dehydrogenase (ALDH) has an important impact on tumor invasion, metastasis and overall prognosis. ALDH1, highly expressed in all types of breast cancers, predicting a poor prognosis and heightened metastatic potential [
+    <xref ref-type="bibr" rid="CR78">
+     78
+    </xref>
+    ]. Distinct breast cancer subtypes display varying expression levels of three essential BCSC markers: CD44, CD24, and ALDH [
+    <xref ref-type="bibr" rid="CR79">
+     79
+    </xref>
+    ]. Notably, a high phenotypic ratio of CD44 + /CD24– /low in triple-negative breast cancer cells suggests a poor prognosis [
+    <xref ref-type="bibr" rid="CR80">
+     80
+    </xref>
+    ]. Autophagy contributes to the maintenance of BCSC properties by regulating CD24 and interleukin-6 (IL-6) secretion. The IL-6/STAT3 pathway has been found to play an important role in the survival process of BCSCs and in xenografts of triple-negative breast cancer [
+    <xref ref-type="bibr" rid="CR81">
+     81
+    </xref>
+    ]. Inhibition of the autophagy regulator FIP200 in BCSCs reduces its capacity to induce tumor formation by regulating the STAT3 and TGFβ/Smad pathways [
+    <xref ref-type="bibr" rid="CR82">
+     82
+    </xref>
+    ]. Hypoxia-induced autophagy can cause chemotherapy resistance in BCSCs, resulting in the development of drug resistance. However, autophagy inhibitory drugs like chloroquine (CQ) or the knockdown of autophagy-related genes can effectively reverse this chemotherapy resistance [
+    <xref ref-type="bibr" rid="CR83">
+     83
+    </xref>
+    ]. Therefore, affecting the chemoresistance of BCSCs by regulating the occurrence of autophagy may be a novel option for breast cancer treatment.
+   </p>
+  </sec>
+  <sec id="Sec7">
+   <title>
+    Summary
+   </title>
+   <p id="Par26">
+    Autophagy exhibits distinct roles at different stages of breast cancer and other tumor development. The application of autophagy inhibitors or inducers during different stages of tumor development may be beneficial for both treatment and prevention. As the relationship between breast cancer and autophagy has been intensively studied, drugs related to autophagy for breast cancer treatment have shown clinical translational benefits. Autophagy inhibitors have emerged as novel anti-tumor agents, significantly expanding the spectrum of treatment options. The majority of data show that autophagy inhibitors are beneficial in the treatment of breast cancer, whether used in combination with cytotoxic chemotherapy, anti-estrogenic endocrine agents, or radiotherapy. For example, the regulatory mechanisms of autophagy in breast cancer are diverse, forming a complex regulatory network with interactions between different pathways and multiple influencing factors, which need to be further explored and recognized. The role of autophagy and its regulatory mechanisms can vary between different breast cancer subtypes and cancer cell differentiation states. Recognizing these differences is crucial for effectively applying these findings to both basic research and clinical translation. Therefore, revealing the role of autophagy in breast cancer and understanding its underlying mechanism will facilitate the transition from basic science to clinical applications. This knowledge serves as a basis for the combination of drug therapy for breast cancer patients in clinical settings, alleviating the burdens associated with traditional treatments.
+   </p>
+  </sec>
+ </body>
+ <back>
+  <fn-group>
+   <fn>
+    <p>
+     <bold>
+      Publisher's Note
+     </bold>
+    </p>
+    <p>
+     Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+    </p>
+   </fn>
+  </fn-group>
+  <notes notes-type="funding-information">
+   <title>
+    Funding
+   </title>
+   <p>
+    This work was supported by a program for the Yunnan health training project of high-level talents (D-2018041); Branch of National Clinical Research Center for Interventional Medicine (202102AA100067)；National Key research and development Program of China((2018YFC2000204) and grants from the Scientific Research project of the Education Department of Yunnan Province [2023Y0787].
+   </p>
+  </notes>
+  <notes>
+   <title>
+    Declarations
+   </title>
+   <notes id="FPar1" notes-type="COI-statement">
+    <title>
+     Conflict of interest
+    </title>
+    <p id="Par27">
+     The authors confirm that there are no conflicts of interest.
+    </p>
+   </notes>
+  </notes>
+  <ref-list id="Bib1">
+   <title>
+    References
+   </title>
+   <ref id="CR1">
+    <label>
+     1.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Kunkler
+       </surname>
+       <given-names>
+        IH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Williams
+       </surname>
+       <given-names>
+        LJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jack
+       </surname>
+       <given-names>
+        WJL
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Cameron
+       </surname>
+       <given-names>
+        DA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dixon
+       </surname>
+       <given-names>
+        JM
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Breast-Conserving Surgery with or without Irradiation in Early Breast Cancer
+     </article-title>
+     <source>
+      N Engl J Med
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      388
+     </volume>
+     <issue>
+      7
+     </issue>
+     <fpage>
+      585
+     </fpage>
+     <lpage>
+      594
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1056/NEJMoa2207586
+     </pub-id>
+     <?supplied-pmid 36791159?>
+     <pub-id pub-id-type="pmid">
+      36791159
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR2">
+    <label>
+     2.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Isaac-Lam
+       </surname>
+       <given-names>
+        MF
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        DeMichael
+       </surname>
+       <given-names>
+        KM
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Calorie restriction and breast cancer treatment: a mini-review
+     </article-title>
+     <source>
+      J Mol Med (Berl)
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      100
+     </volume>
+     <issue>
+      8
+     </issue>
+     <fpage>
+      1095
+     </fpage>
+     <lpage>
+      1109
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1007/s00109-022-02226-y
+     </pub-id>
+     <?supplied-pmid 35760911?>
+     <pub-id pub-id-type="pmid">
+      35760911
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR3">
+    <label>
+     3.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zou
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Xie
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zheng
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Leveraging diverse cell-death patterns to predict the prognosis and drug sensitivity of triple-negative breast cancer patients after surgery
+     </article-title>
+     <source>
+      Int J Surg
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      107
+     </volume>
+     <fpage>
+      106936
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.ijsu.2022.106936
+     </pub-id>
+     <?supplied-pmid 36341760?>
+     <pub-id pub-id-type="pmid">
+      36341760
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR4">
+    <label>
+     4.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Akkoc
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dalci
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Karakas
+       </surname>
+       <given-names>
+        HE
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Tumor-derived CTF1 (cardiotrophin 1) is a critical mediator of stroma-assisted and autophagy-dependent breast cancer cell migration, invasion and metastasis
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      19
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      306
+     </fpage>
+     <lpage>
+      323
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2022.2090693
+     </pub-id>
+     <?supplied-pmid 35722965?>
+     <pub-id pub-id-type="pmid">
+      35722965
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR5">
+    <label>
+     5.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Yamamoto
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Mizushima
+       </surname>
+       <given-names>
+        N
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Autophagy genes in biology and disease
+     </article-title>
+     <source>
+      Nat Rev Genet
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      24
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      382
+     </fpage>
+     <lpage>
+      400
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1038/s41576-022-00562-w
+     </pub-id>
+     <?supplied-pmid 36635405?>
+     <pub-id pub-id-type="pmid">
+      36635405
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR6">
+    <label>
+     6.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Vargas
+       </surname>
+       <given-names>
+        JNS
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hamasaki
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kawabata
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Youle
+       </surname>
+       <given-names>
+        RJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Yoshimori
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      The mechanisms and roles of selective autophagy in mammals
+     </article-title>
+     <source>
+      Nat Rev Mol Cell Biol
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      24
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      167
+     </fpage>
+     <lpage>
+      185
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1038/s41580-022-00542-2
+     </pub-id>
+     <?supplied-pmid 36302887?>
+     <pub-id pub-id-type="pmid">
+      36302887
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR7">
+    <label>
+     7.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Xing
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wei
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Liu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Autophagy inhibition mediated by MCOLN1/TRPML1 suppresses cancer metastasis via regulating a ROS-driven TP53/p53 pathway
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      18
+     </volume>
+     <issue>
+      8
+     </issue>
+     <fpage>
+      1932
+     </fpage>
+     <lpage>
+      1954
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2021.2008752
+     </pub-id>
+     <?supplied-pmid 34878954?>
+     <pub-id pub-id-type="pmid">
+      34878954
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR8">
+    <label>
+     8.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Gao
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lu
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Yan
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      The role of radiotherapy-related autophagy genes in the prognosis and immune infiltration in lung adenocarcinoma
+     </article-title>
+     <source>
+      Front Immunol
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      13
+     </volume>
+     <fpage>
+      992626
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3389/fimmu.2022.992626
+     </pub-id>
+     <?supplied-pmid 36311724?>
+     <pub-id pub-id-type="pmid">
+      36311724
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR9">
+    <label>
+     9.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Behera
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ison
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tyagi
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Mbalaviele
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tyagi
+       </surname>
+       <given-names>
+        N
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Mechanisms of autophagy and mitophagy in skeletal development, diseases and therapeutics
+     </article-title>
+     <source>
+      Life Sci
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      301
+     </volume>
+     <fpage>
+      120595
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.lfs.2022.120595
+     </pub-id>
+     <?supplied-pmid 35504330?>
+     <pub-id pub-id-type="pmid">
+      35504330
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR10">
+    <label>
+     10.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        De Mazière
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van der Beek
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        van Dijk
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      An optimized protocol for immuno-electron microscopy of endogenous LC3
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      18
+     </volume>
+     <issue>
+      12
+     </issue>
+     <fpage>
+      3004
+     </fpage>
+     <lpage>
+      3022
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2022.2056864
+     </pub-id>
+     <?supplied-pmid 35387562?>
+     <pub-id pub-id-type="pmid">
+      35387562
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR11">
+    <label>
+     11.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Beccari
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sierra-Torre
+       </surname>
+       <given-names>
+        V
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Valero
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Microglial phagocytosis dysfunction in stroke is driven by energy depletion and induction of autophagy
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      19
+     </volume>
+     <issue>
+      7
+     </issue>
+     <fpage>
+      1952
+     </fpage>
+     <lpage>
+      1981
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2023.2165313
+     </pub-id>
+     <?supplied-pmid 36622892?>
+     <pub-id pub-id-type="pmid">
+      36622892
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR12">
+    <label>
+     12.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wan
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      The emergence of noncoding RNAs as Heracles in autophagy
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2017
+     </year>
+     <volume>
+      13
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      1004
+     </fpage>
+     <lpage>
+      1024
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2017.1312041
+     </pub-id>
+     <?supplied-pmid 28441084?>
+     <pub-id pub-id-type="pmid">
+      28441084
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR13">
+    <label>
+     13.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Bhat
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kriel
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Shubha Priya
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Loos
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Modulating autophagy in cancer therapy: advancements and challenges for cancer cell death sensitization
+     </article-title>
+     <source>
+      Biochem Pharmacol
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      147
+     </volume>
+     <fpage>
+      170
+     </fpage>
+     <lpage>
+      182
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.bcp.2017.11.021
+     </pub-id>
+     <?supplied-pmid 29203368?>
+     <pub-id pub-id-type="pmid">
+      29203368
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR14">
+    <label>
+     14.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Franco-Juárez
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Coronel-Cruz
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hernández-Ochoa
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      TFEB; beyond its role as an autophagy and lysosomes regulator
+     </article-title>
+     <source>
+      Cells
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      11
+     </volume>
+     <issue>
+      19
+     </issue>
+     <fpage>
+      3153
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3390/cells11193153
+     </pub-id>
+     <?supplied-pmid 36231114?>
+     <pub-id pub-id-type="pmid">
+      36231114
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR15">
+    <label>
+     15.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Alao
+       </surname>
+       <given-names>
+        JP
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Legon
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dabrowska
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tricolici
+       </surname>
+       <given-names>
+        AM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kumar
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Rallis
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Interplays of AMPK and TOR in autophagy regulation in yeast
+     </article-title>
+     <source>
+      Cells
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      12
+     </volume>
+     <issue>
+      4
+     </issue>
+     <fpage>
+      519
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3390/cells12040519
+     </pub-id>
+     <?supplied-pmid 36831186?>
+     <pub-id pub-id-type="pmid">
+      36831186
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR16">
+    <label>
+     16.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zheng
+       </surname>
+       <given-names>
+        Q
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Calcium transients on the ER surface trigger liquid-liquid phase separation of FIP200 to specify autophagosome initiation sites
+     </article-title>
+     <source>
+      Cell
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      185
+     </volume>
+     <issue>
+      22
+     </issue>
+     <fpage>
+      4082
+     </fpage>
+     <lpage>
+      4098.e22
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.cell.2022.09.001
+     </pub-id>
+     <?supplied-pmid 36198318?>
+     <pub-id pub-id-type="pmid">
+      36198318
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR17">
+    <label>
+     17.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Chu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kang
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Yan
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      LUBAC and OTULIN regulate autophagy initiation and maturation by mediating the linear ubiquitination and the stabilization of ATG13
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      17
+     </volume>
+     <issue>
+      7
+     </issue>
+     <fpage>
+      1684
+     </fpage>
+     <lpage>
+      1699
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2020.1781393
+     </pub-id>
+     <?supplied-pmid 32543267?>
+     <pub-id pub-id-type="pmid">
+      32543267
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR18">
+    <label>
+     18.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Lee
+       </surname>
+       <given-names>
+        DH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Park
+       </surname>
+       <given-names>
+        SH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ahn
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Mir214-3p and Hnf4a/Hnf4α reciprocally regulate Ulk1 expression and autophagy in nonalcoholic hepatic steatosis
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      17
+     </volume>
+     <issue>
+      9
+     </issue>
+     <fpage>
+      2415
+     </fpage>
+     <lpage>
+      2431
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2020.1827779
+     </pub-id>
+     <?supplied-pmid 33078654?>
+     <pub-id pub-id-type="pmid">
+      33078654
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR19">
+    <label>
+     19.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Tian
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ji
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      ULK1-ATG13 and their mitotic phospho-regulation by CDK1 connect autophagy to cell cycle
+     </article-title>
+     <source>
+      PLoS Biol
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      18
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      e3000288
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1371/journal.pbio.3000288
+     </pub-id>
+     <?supplied-pmid 32516310?>
+     <pub-id pub-id-type="pmid">
+      32516310
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR20">
+    <label>
+     20.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zhu
+       </surname>
+       <given-names>
+        JY
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hannan
+       </surname>
+       <given-names>
+        SB
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dräger
+       </surname>
+       <given-names>
+        NM
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Autophagy inhibition rescues structural and functional defects caused by the loss of mitochondrial chaperone Hsc70-5 in Drosophila
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      17
+     </volume>
+     <issue>
+      10
+     </issue>
+     <fpage>
+      3160
+     </fpage>
+     <lpage>
+      3174
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2020.1871211
+     </pub-id>
+     <?supplied-pmid 33404278?>
+     <pub-id pub-id-type="pmid">
+      33404278
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR21">
+    <label>
+     21.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zhou
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kreuzer
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kumsta
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Mitochondrial permeability uncouples elevated autophagy and lifespan extension
+     </article-title>
+     <source>
+      Cell
+     </source>
+     <year>
+      2019
+     </year>
+     <volume>
+      177
+     </volume>
+     <issue>
+      2
+     </issue>
+     <fpage>
+      299
+     </fpage>
+     <lpage>
+      314.e16
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.cell.2019.02.013
+     </pub-id>
+     <?supplied-pmid 30929899?>
+     <pub-id pub-id-type="pmid">
+      30929899
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR22">
+    <label>
+     22.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Guhe
+       </surname>
+       <given-names>
+        V
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Anjum
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Shafie
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hassan
+       </surname>
+       <given-names>
+        MI
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Pasupuleti
+       </surname>
+       <given-names>
+        VR
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Singh
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Infection dynamics of ATG8 in leishmania: balancing autophagy for therapeutics
+     </article-title>
+     <source>
+      Molecules
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      27
+     </volume>
+     <issue>
+      10
+     </issue>
+     <fpage>
+      3142
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3390/molecules27103142
+     </pub-id>
+     <?supplied-pmid 35630618?>
+     <pub-id pub-id-type="pmid">
+      35630618
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR23">
+    <label>
+     23.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Takahashi
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hori
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Cooper
+       </surname>
+       <given-names>
+        TK
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Bif-1 haploinsufficiency promotes chromosomal instability and accelerates Myc-driven lymphomagenesis via suppression of mitophagy
+     </article-title>
+     <source>
+      Blood
+     </source>
+     <year>
+      2013
+     </year>
+     <volume>
+      121
+     </volume>
+     <issue>
+      9
+     </issue>
+     <fpage>
+      1622
+     </fpage>
+     <lpage>
+      1632
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1182/blood-2012-10-459826
+     </pub-id>
+     <?supplied-pmid 23287860?>
+     <pub-id pub-id-type="pmid">
+      23287860
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR24">
+    <label>
+     24.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Jeong
+       </surname>
+       <given-names>
+        SJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Rodriguez-Velez
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Evans
+       </surname>
+       <given-names>
+        TD
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Razani
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      p62/SQSTM1 and Selective Autophagy in Cardiometabolic Diseases
+     </article-title>
+     <source>
+      Antioxid Redox Signal
+     </source>
+     <year>
+      2019
+     </year>
+     <volume>
+      31
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      458
+     </fpage>
+     <lpage>
+      471
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1089/ars.2018.7649
+     </pub-id>
+     <?supplied-pmid 30588824?>
+     <pub-id pub-id-type="pmid">
+      30588824
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR25">
+    <label>
+     25.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Filomeni
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        De Zio
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Cecconi
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Oxidative stress and autophagy: the clash between damage and metabolic needs
+     </article-title>
+     <source>
+      Cell Death Differ
+     </source>
+     <year>
+      2015
+     </year>
+     <volume>
+      22
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      377
+     </fpage>
+     <lpage>
+      388
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1038/cdd.2014.150
+     </pub-id>
+     <?supplied-pmid 25257172?>
+     <pub-id pub-id-type="pmid">
+      25257172
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR26">
+    <label>
+     26.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Hu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Shi
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Blockade of autophagy prevents the progression of hyperuricemic nephropathy through inhibiting NLRP3 inflammasome-mediated pyroptosis
+     </article-title>
+     <source>
+      Front Immunol
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      13
+     </volume>
+     <fpage>
+      858494
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3389/fimmu.2022.858494
+     </pub-id>
+     <?supplied-pmid 35309342?>
+     <pub-id pub-id-type="pmid">
+      35309342
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR27">
+    <label>
+     27.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Khalid
+       </surname>
+       <given-names>
+        AR
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Luo
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Role of Autophagy-Related Gene atg22 in Developmental Process and Virulence of Fusarium oxysporum
+     </article-title>
+     <source>
+      Genes (Basel)
+     </source>
+     <year>
+      2019
+     </year>
+     <volume>
+      10
+     </volume>
+     <issue>
+      5
+     </issue>
+     <fpage>
+      365
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3390/genes10050365
+     </pub-id>
+     <?supplied-pmid 31086099?>
+     <pub-id pub-id-type="pmid">
+      31086099
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR28">
+    <label>
+     28.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Yang
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dong
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhou
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      lncRNA ADAMTS9-AS1 promotes bladder cancer cell invasion, migration, and inhibits apoptosis and autophagy through PI3K/AKT/mTOR signaling pathway
+     </article-title>
+     <source>
+      Int J Biochem Cell Biol
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      140
+     </volume>
+     <fpage>
+      106069
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.biocel.2021.106069
+     </pub-id>
+     <?supplied-pmid 34428588?>
+     <pub-id pub-id-type="pmid">
+      34428588
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR29">
+    <label>
+     29.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Wijshake
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zou
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Tumor-suppressor function of Beclin 1 in breast cancer cells requires E-cadherin
+     </article-title>
+     <source>
+      Proc Natl Acad Sci U S A
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      118
+     </volume>
+     <issue>
+      5
+     </issue>
+     <fpage>
+      e2020478118
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1073/pnas.2020478118
+     </pub-id>
+     <?supplied-pmid 33495338?>
+     <pub-id pub-id-type="pmid">
+      33495338
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR30">
+    <label>
+     30.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lin
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chang
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Effect of beclin 1 expression on the biological behavior and chemotherapy sensitivity of cervical cancer cells
+     </article-title>
+     <source>
+      Oncol Lett
+     </source>
+     <year>
+      2016
+     </year>
+     <volume>
+      11
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      4089
+     </fpage>
+     <lpage>
+      4094
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.3892/ol.2016.4542
+     </pub-id>
+     <?supplied-pmid 27313746?>
+     <pub-id pub-id-type="pmid">
+      27313746
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR31">
+    <label>
+     31.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        SJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sun
+       </surname>
+       <given-names>
+        SJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gao
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sun
+       </surname>
+       <given-names>
+        FB
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Wogonin induces Beclin-1/PI3K and reactive oxygen species-mediated autophagy in human pancreatic cancer cells
+     </article-title>
+     <source>
+      Oncol Lett
+     </source>
+     <year>
+      2016
+     </year>
+     <volume>
+      12
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      5059
+     </fpage>
+     <lpage>
+      5067
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.3892/ol.2016.5367
+     </pub-id>
+     <?supplied-pmid 28105213?>
+     <pub-id pub-id-type="pmid">
+      28105213
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR32">
+    <label>
+     32.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Bieri
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lucin
+       </surname>
+       <given-names>
+        KM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        O'Brien
+       </surname>
+       <given-names>
+        CE
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Villeda
+       </surname>
+       <given-names>
+        SA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wyss-Coray
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Proteolytic cleavage of Beclin 1 exacerbates neurodegeneration
+     </article-title>
+     <source>
+      Mol Neurodegener
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      13
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      68
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1186/s13024-018-0302-4
+     </pub-id>
+     <?supplied-pmid 30594228?>
+     <pub-id pub-id-type="pmid">
+      30594228
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR33">
+    <label>
+     33.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        White
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Mehnert
+       </surname>
+       <given-names>
+        JM
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chan
+       </surname>
+       <given-names>
+        CS
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Autophagy, metabolism, and cancer
+     </article-title>
+     <source>
+      Clin Cancer Res
+     </source>
+     <year>
+      2015
+     </year>
+     <volume>
+      21
+     </volume>
+     <issue>
+      22
+     </issue>
+     <fpage>
+      5037
+     </fpage>
+     <lpage>
+      5046
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1158/1078-0432.CCR-15-0490
+     </pub-id>
+     <?supplied-pmid 26567363?>
+     <pub-id pub-id-type="pmid">
+      26567363
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR34">
+    <label>
+     34.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Qureshi-Baig
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kuhn
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Viry
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Hypoxia-induced autophagy drives colorectal cancer initiation and progression by activating the PRKC/PKC-EZR (ezrin) pathway
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      16
+     </volume>
+     <issue>
+      8
+     </issue>
+     <fpage>
+      1436
+     </fpage>
+     <lpage>
+      1452
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2019.1687213
+     </pub-id>
+     <?supplied-pmid 31775562?>
+     <pub-id pub-id-type="pmid">
+      31775562
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR35">
+    <label>
+     35.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Debnath
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      The multifaceted roles of autophagy in tumors-implications for breast cancer
+     </article-title>
+     <source>
+      J Mammary Gland Biol Neoplasia
+     </source>
+     <year>
+      2011
+     </year>
+     <volume>
+      16
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      173
+     </fpage>
+     <lpage>
+      187
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1007/s10911-011-9223-3
+     </pub-id>
+     <?supplied-pmid 21779879?>
+     <pub-id pub-id-type="pmid">
+      21779879
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR36">
+    <label>
+     36.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Lijun
+       </surname>
+       <given-names>
+        Li
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Shengsong
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Research progress of BNIP3 in regulating autophagy and apoptosis in tumor cells
+     </article-title>
+     <source>
+      J Clin Pathol Sci
+     </source>
+     <year>
+      2014
+     </year>
+     <volume>
+      34
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      779
+     </fpage>
+     <lpage>
+      785
+     </lpage>
+    </element-citation>
+   </ref>
+   <ref id="CR37">
+    <label>
+     37.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zhou
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Gu
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Liu
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Spermine alleviates acute liver injury by inhibiting liver-resident macrophage pro-inflammatory response through ATG5-DEPENDENT AUTOPHAGY
+     </article-title>
+     <source>
+      Front Immunol
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      9
+     </volume>
+     <fpage>
+      948
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3389/fimmu.2018.00948
+     </pub-id>
+     <?supplied-pmid 29770139?>
+     <pub-id pub-id-type="pmid">
+      29770139
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR38">
+    <label>
+     38.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Cocco
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Leone
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Piezzo
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Targeting autophagy in breast cancer
+     </article-title>
+     <source>
+      Int J Mol Sci
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      21
+     </volume>
+     <issue>
+      21
+     </issue>
+     <fpage>
+      7836
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3390/ijms21217836
+     </pub-id>
+     <?supplied-pmid 33105796?>
+     <pub-id pub-id-type="pmid">
+      33105796
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR39">
+    <label>
+     39.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Yang
+       </surname>
+       <given-names>
+        KB
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        W
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      CUL3 (cullin 3)-mediated ubiquitination and degradation of BECN1 (beclin 1) inhibit autophagy and promote tumor progression
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      17
+     </volume>
+     <issue>
+      12
+     </issue>
+     <fpage>
+      4323
+     </fpage>
+     <lpage>
+      4340
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2021.1912270
+     </pub-id>
+     <?supplied-pmid 33977871?>
+     <pub-id pub-id-type="pmid">
+      33977871
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR40">
+    <label>
+     40.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Song
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dong
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Estrogen receptor β inhibits breast cancer cells migration and invasion through CLDN6-mediated autophagy
+     </article-title>
+     <source>
+      J Exp Clin Cancer Res
+     </source>
+     <year>
+      2019
+     </year>
+     <volume>
+      38
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      354
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1186/s13046-019-1359-9
+     </pub-id>
+     <?supplied-pmid 31412908?>
+     <pub-id pub-id-type="pmid">
+      31412908
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR41">
+    <label>
+     41.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jin
+       </surname>
+       <given-names>
+        F
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Xia
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Liu
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Genetic and epigenetic silencing of the beclin 1 gene in sporadic breast tumors
+     </article-title>
+     <source>
+      BMC Cancer
+     </source>
+     <year>
+      2010
+     </year>
+     <volume>
+      10
+     </volume>
+     <fpage>
+      98
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1186/1471-2407-10-98
+     </pub-id>
+     <?supplied-pmid 20230646?>
+     <pub-id pub-id-type="pmid">
+      20230646
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR42">
+    <label>
+     42.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Laddha
+       </surname>
+       <given-names>
+        SV
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ganesan
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chan
+       </surname>
+       <given-names>
+        CS
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        White
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Mutational landscape of the essential autophagy gene BECN1 in human cancers
+     </article-title>
+     <source>
+      Mol Cancer Res
+     </source>
+     <year>
+      2014
+     </year>
+     <volume>
+      12
+     </volume>
+     <issue>
+      4
+     </issue>
+     <fpage>
+      485
+     </fpage>
+     <lpage>
+      490
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1158/1541-7786.MCR-13-0614
+     </pub-id>
+     <?supplied-pmid 24478461?>
+     <pub-id pub-id-type="pmid">
+      24478461
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR43">
+    <label>
+     43.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Choi
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jung
+       </surname>
+       <given-names>
+        W
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Koo
+       </surname>
+       <given-names>
+        JS
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Expression of autophagy-related markers beclin-1, light chain 3A, light chain 3B and p62 according to the molecular subtype of breast cancer
+     </article-title>
+     <source>
+      Histopathology
+     </source>
+     <year>
+      2013
+     </year>
+     <volume>
+      62
+     </volume>
+     <issue>
+      2
+     </issue>
+     <fpage>
+      275
+     </fpage>
+     <lpage>
+      286
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1111/his.12002
+     </pub-id>
+     <?supplied-pmid 23134379?>
+     <pub-id pub-id-type="pmid">
+      23134379
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR44">
+    <label>
+     44.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Tang
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sebti
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Titone
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Decreased BECN1 mRNA expression in human breast cancer is associated with estrogen receptor-negative subtypes and poor prognosis
+     </article-title>
+     <source>
+      EBioMedicine
+     </source>
+     <year>
+      2015
+     </year>
+     <volume>
+      2
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      255
+     </fpage>
+     <lpage>
+      263
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.ebiom.2015.01.008
+     </pub-id>
+     <?supplied-pmid 25825707?>
+     <pub-id pub-id-type="pmid">
+      25825707
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR45">
+    <label>
+     45.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Liang
+       </surname>
+       <given-names>
+        XH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jackson
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Seaman
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Induction of autophagy and inhibition of tumorigenesis by beclin 1
+     </article-title>
+     <source>
+      Nature
+     </source>
+     <year>
+      1999
+     </year>
+     <volume>
+      402
+     </volume>
+     <issue>
+      6762
+     </issue>
+     <fpage>
+      672
+     </fpage>
+     <lpage>
+      676
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1038/45257
+     </pub-id>
+     <?supplied-pmid 10604474?>
+     <pub-id pub-id-type="pmid">
+      10604474
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR46">
+    <label>
+     46.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Rohatgi
+       </surname>
+       <given-names>
+        RA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Janusis
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Leonard
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Beclin 1 regulates growth factor receptor signaling in breast cancer
+     </article-title>
+     <source>
+      Oncogene
+     </source>
+     <year>
+      2015
+     </year>
+     <volume>
+      34
+     </volume>
+     <issue>
+      42
+     </issue>
+     <fpage>
+      5352
+     </fpage>
+     <lpage>
+      5362
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1038/onc.2014.454
+     </pub-id>
+     <?supplied-pmid 25639875?>
+     <pub-id pub-id-type="pmid">
+      25639875
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR47">
+    <label>
+     47.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Cha
+       </surname>
+       <given-names>
+        YJ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kim
+       </surname>
+       <given-names>
+        YH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Cho
+       </surname>
+       <given-names>
+        NH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Koo
+       </surname>
+       <given-names>
+        JS
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Expression of autophagy related proteins in invasive lobular carcinoma: comparison to invasive ductal carcinoma
+     </article-title>
+     <source>
+      Int J Clin Exp Pathol
+     </source>
+     <year>
+      2014
+     </year>
+     <volume>
+      7
+     </volume>
+     <issue>
+      6
+     </issue>
+     <fpage>
+      3389
+     </fpage>
+     <lpage>
+      3398
+     </lpage>
+     <?supplied-pmid 25031766?>
+     <pub-id pub-id-type="pmid">
+      25031766
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR48">
+    <label>
+     48.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        MC
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wu
+       </surname>
+       <given-names>
+        AG
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Huang
+       </surname>
+       <given-names>
+        YZ
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Autophagic regulation of cell growth by altered expression of Beclin 1 in triple-negative breast cancer
+     </article-title>
+     <source>
+      Int J Clin Exp Med
+     </source>
+     <year>
+      2015
+     </year>
+     <volume>
+      8
+     </volume>
+     <issue>
+      5
+     </issue>
+     <fpage>
+      7049
+     </fpage>
+     <lpage>
+      7058
+     </lpage>
+     <?supplied-pmid 26221242?>
+     <pub-id pub-id-type="pmid">
+      26221242
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR49">
+    <label>
+     49.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Wang Mengchuan
+       </surname>
+       <given-names>
+        Wu
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Aiguo
+       </surname>
+       <given-names>
+        WR
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Effect of transfection of beclin1 gene to induce autophagy on the growth of BT-549 cells in triple-negative breast cancer
+     </article-title>
+     <source>
+      Chin J Breast Dis (Electronic version)
+     </source>
+     <year>
+      2013
+     </year>
+     <volume>
+      7
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      12
+     </fpage>
+     <lpage>
+      19
+     </lpage>
+    </element-citation>
+   </ref>
+   <ref id="CR50">
+    <label>
+     50.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Jin
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Autophagy, mitochondrial quality control, and oncogenesis
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2006
+     </year>
+     <volume>
+      2
+     </volume>
+     <issue>
+      2
+     </issue>
+     <fpage>
+      80
+     </fpage>
+     <lpage>
+      84
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.4161/auto.2.2.2460
+     </pub-id>
+     <?supplied-pmid 16874075?>
+     <pub-id pub-id-type="pmid">
+      16874075
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR51">
+    <label>
+     51.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Neubert
+       </surname>
+       <given-names>
+        P
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Weichselbaum
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Reitinger
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      HIF1A and NFAT5 coordinate Na+-boosted antibacterial defense via enhanced autophagy and autolysosomal targeting
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2019
+     </year>
+     <volume>
+      15
+     </volume>
+     <issue>
+      11
+     </issue>
+     <fpage>
+      1899
+     </fpage>
+     <lpage>
+      1916
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2019.1596483
+     </pub-id>
+     <?supplied-pmid 30982460?>
+     <pub-id pub-id-type="pmid">
+      30982460
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR52">
+    <label>
+     52.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Rzymski
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Milani
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Pike
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Regulation of autophagy by ATF4 in response to severe hypoxia
+     </article-title>
+     <source>
+      Oncogene
+     </source>
+     <year>
+      2010
+     </year>
+     <volume>
+      29
+     </volume>
+     <issue>
+      31
+     </issue>
+     <fpage>
+      4424
+     </fpage>
+     <lpage>
+      4435
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1038/onc.2010.191
+     </pub-id>
+     <?supplied-pmid 20514020?>
+     <pub-id pub-id-type="pmid">
+      20514020
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR53">
+    <label>
+     53.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Choi
+       </surname>
+       <given-names>
+        CH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jung
+       </surname>
+       <given-names>
+        YK
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Oh
+       </surname>
+       <given-names>
+        SH
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Autophagy induction by capsaicin in malignant human breast cells is modulated by p38 and extracellular signal-regulated mitogen-activated protein kinases and retards cell death by suppressing endoplasmic reticulum stress-mediated apoptosis
+     </article-title>
+     <source>
+      Mol Pharmacol
+     </source>
+     <year>
+      2010
+     </year>
+     <volume>
+      78
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      114
+     </fpage>
+     <lpage>
+      125
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1124/mol.110.063495
+     </pub-id>
+     <?supplied-pmid 20371669?>
+     <pub-id pub-id-type="pmid">
+      20371669
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR54">
+    <label>
+     54.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Jiang
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhang
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Nuclear accumulation of UBC9 contributes to SUMOylation of lamin A/C and nucleophagy in response to DNA damage
+     </article-title>
+     <source>
+      J Exp Clin Cancer Res
+     </source>
+     <year>
+      2019
+     </year>
+     <volume>
+      38
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      67
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1186/s13046-019-1048-8
+     </pub-id>
+     <?supplied-pmid 30744690?>
+     <pub-id pub-id-type="pmid">
+      30744690
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR55">
+    <label>
+     55.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Abdullah
+       </surname>
+       <given-names>
+        ML
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Al-Shabanah
+       </surname>
+       <given-names>
+        O
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hassan
+       </surname>
+       <given-names>
+        ZK
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hafez
+       </surname>
+       <given-names>
+        MM
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Eugenol-induced autophagy and apoptosis in breast cancer cells via PI3K/AKT/FOXO3a pathway inhibition
+     </article-title>
+     <source>
+      Int J Mol Sci
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      22
+     </volume>
+     <issue>
+      17
+     </issue>
+     <fpage>
+      9243
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3390/ijms22179243
+     </pub-id>
+     <?supplied-pmid 34502165?>
+     <pub-id pub-id-type="pmid">
+      34502165
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR56">
+    <label>
+     56.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Lee
+       </surname>
+       <given-names>
+        MG
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kwon
+       </surname>
+       <given-names>
+        YS
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Nam
+       </surname>
+       <given-names>
+        KS
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Chaga mushroom extract induces autophagy via the AMPK-mTOR signaling pathway in breast cancer cells
+     </article-title>
+     <source>
+      J Ethnopharmacol
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      274
+     </volume>
+     <fpage>
+      114081
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.jep.2021.114081
+     </pub-id>
+     <?supplied-pmid 33798660?>
+     <pub-id pub-id-type="pmid">
+      33798660
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR57">
+    <label>
+     57.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Wei
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Xiaojun
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Peilong
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Magnoflorine improves sensitivity to doxorubicin (DOX) of breast cancer cells via inducing apoptosis and autophagy through AKT/mTOR and p38 signaling pathways
+     </article-title>
+     <source>
+      Biomed Pharmacother
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      121
+     </volume>
+     <fpage>
+      109139
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.biopha.2019.109139
+     </pub-id>
+     <?supplied-pmid 31707337?>
+     <pub-id pub-id-type="pmid">
+      31707337
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR58">
+    <label>
+     58.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        B
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Mao
+       </surname>
+       <given-names>
+        JH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        BY
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Exosomal miR-1910-3p promotes proliferation, metastasis, and autophagy of breast cancer cells by targeting MTMR3 and activating the NF-κB signaling pathway
+     </article-title>
+     <source>
+      Cancer Lett
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      489
+     </volume>
+     <fpage>
+      87
+     </fpage>
+     <lpage>
+      99
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.canlet.2020.05.038
+     </pub-id>
+     <?supplied-pmid 32531321?>
+     <pub-id pub-id-type="pmid">
+      32531321
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR59">
+    <label>
+     59.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Deng
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zeng
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Qu
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      BMP4 promotes hepatocellular carcinoma proliferation by autophagy activation through JNK1-mediated Bcl-2 phosphorylation
+     </article-title>
+     <source>
+      J Exp Clin Cancer Res
+     </source>
+     <year>
+      2018
+     </year>
+     <volume>
+      37
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      156
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1186/s13046-018-0828-x
+     </pub-id>
+     <?supplied-pmid 30012194?>
+     <pub-id pub-id-type="pmid">
+      30012194
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR60">
+    <label>
+     60.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        Q
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zan
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Knockdown of ATG4A inhibits breast cancer progression and promotes tamoxifen chemosensitivity by suppressing autophagy
+     </article-title>
+     <source>
+      Mol Med Rep
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      25
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      101
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.3892/mmr.2022.12617
+     </pub-id>
+     <?supplied-pmid 35088889?>
+     <pub-id pub-id-type="pmid">
+      35088889
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR61">
+    <label>
+     61.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Luo
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Garcia-Arencibia
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhao
+       </surname>
+       <given-names>
+        R
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Bim inhibits autophagy by recruiting Beclin 1 to microtubules
+     </article-title>
+     <source>
+      Mol Cell
+     </source>
+     <year>
+      2012
+     </year>
+     <volume>
+      47
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      359
+     </fpage>
+     <lpage>
+      370
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.molcel.2012.05.040
+     </pub-id>
+     <?supplied-pmid 22742832?>
+     <pub-id pub-id-type="pmid">
+      22742832
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR62">
+    <label>
+     62.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Torrente
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Parodi
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ercolani
+       </surname>
+       <given-names>
+        L
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Synthesis and in vitro anticancer activity of the first class of dual inhibitors of REV-ERBβ and autophagy
+     </article-title>
+     <source>
+      J Med Chem
+     </source>
+     <year>
+      2015
+     </year>
+     <volume>
+      58
+     </volume>
+     <issue>
+      15
+     </issue>
+     <fpage>
+      5900
+     </fpage>
+     <lpage>
+      5915
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1021/acs.jmedchem.5b00511
+     </pub-id>
+     <?supplied-pmid 26135471?>
+     <pub-id pub-id-type="pmid">
+      26135471
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR63">
+    <label>
+     63.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Junli
+       </surname>
+       <given-names>
+        Q
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wenxing
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Smin
+       </surname>
+       <given-names>
+        W
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Effect of cryptotanshinone on the autophagy and invasive migration of breast cancer MD A-MB- 231 cells autophagy and invasive migration
+     </article-title>
+     <source>
+      Journal of Guangxi Medical University
+     </source>
+     <year>
+      2015
+     </year>
+     <volume>
+      1
+     </volume>
+     <fpage>
+      23
+     </fpage>
+     <lpage>
+      26
+     </lpage>
+    </element-citation>
+   </ref>
+   <ref id="CR64">
+    <label>
+     64.
+    </label>
+    <element-citation publication-type="book">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Heqing
+       </surname>
+       <given-names>
+        Yi
+       </given-names>
+      </name>
+     </person-group>
+     <source>
+      Study on the role of miR-199a-5p in the induction of autophagy in breast cancer cells by ionizing radiation
+     </source>
+     <year>
+      2013
+     </year>
+     <publisher-loc>
+      Changchun
+     </publisher-loc>
+     <publisher-name>
+      Jilin University
+     </publisher-name>
+     <fpage>
+      1
+     </fpage>
+     <lpage>
+      5
+     </lpage>
+    </element-citation>
+   </ref>
+   <ref id="CR65">
+    <label>
+     65.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Feng
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chang
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wen
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Autophagy facilitates the Lapatinib resistance of HER2 positive breast cancer cells
+     </article-title>
+     <source>
+      Med Hypotheses
+     </source>
+     <year>
+      2011
+     </year>
+     <volume>
+      77
+     </volume>
+     <issue>
+      2
+     </issue>
+     <fpage>
+      206
+     </fpage>
+     <lpage>
+      208
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.mehy.2011.04.013
+     </pub-id>
+     <?supplied-pmid 21570197?>
+     <pub-id pub-id-type="pmid">
+      21570197
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR66">
+    <label>
+     66.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Jain
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Paranandi
+       </surname>
+       <given-names>
+        KS
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sridharan
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Basu
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Autophagy in breast cancer and its implications for therapy
+     </article-title>
+     <source>
+      Am J Cancer Res
+     </source>
+     <year>
+      2013
+     </year>
+     <volume>
+      3
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      251
+     </fpage>
+     <lpage>
+      265
+     </lpage>
+     <?supplied-pmid 23841025?>
+     <pub-id pub-id-type="pmid">
+      23841025
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR67">
+    <label>
+     67.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Cufí
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Vazquez-Martin
+       </surname>
+       <given-names>
+        A
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Oliveras-Ferraros
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      The anti-malarial chloroquine overcomes primary resistance and restores sensitivity to trastuzumab in HER2-positive breast cancer
+     </article-title>
+     <source>
+      Sci Rep
+     </source>
+     <year>
+      2013
+     </year>
+     <volume>
+      3
+     </volume>
+     <fpage>
+      2469
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1038/srep02469
+     </pub-id>
+     <?supplied-pmid 23965851?>
+     <pub-id pub-id-type="pmid">
+      23965851
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR68">
+    <label>
+     68.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Ferreira
+       </surname>
+       <given-names>
+        PMP
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sousa
+       </surname>
+       <given-names>
+        RWR
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Ferreira
+       </surname>
+       <given-names>
+        JRO
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Militão
+       </surname>
+       <given-names>
+        GCG
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Bezerra
+       </surname>
+       <given-names>
+        DP
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Chloroquine and hydroxychloroquine in antitumor therapies based on autophagy-related mechanisms
+     </article-title>
+     <source>
+      Pharmacol Res
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      168
+     </volume>
+     <fpage>
+      105582
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.phrs.2021.105582
+     </pub-id>
+     <?supplied-pmid 33775862?>
+     <pub-id pub-id-type="pmid">
+      33775862
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR69">
+    <label>
+     69.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Stalnecker
+       </surname>
+       <given-names>
+        CA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Grover
+       </surname>
+       <given-names>
+        KR
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Edwards
+       </surname>
+       <given-names>
+        AC
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Concurrent inhibition of IGF1R and ERK increases pancreatic cancer sensitivity to autophagy inhibitors
+     </article-title>
+     <source>
+      Cancer Res
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      82
+     </volume>
+     <issue>
+      4
+     </issue>
+     <fpage>
+      586
+     </fpage>
+     <lpage>
+      598
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1158/0008-5472.CAN-21-1443
+     </pub-id>
+     <?supplied-pmid 34921013?>
+     <pub-id pub-id-type="pmid">
+      34921013
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR70">
+    <label>
+     70.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Xu
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Yang
+       </surname>
+       <given-names>
+        KC
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Go
+       </surname>
+       <given-names>
+        NE
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Chloroquine treatment induces secretion of autophagy-related proteins and inclusion of Atg8-family proteins in distinct extracellular vesicle populations
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      18
+     </volume>
+     <issue>
+      11
+     </issue>
+     <fpage>
+      2547
+     </fpage>
+     <lpage>
+      2560
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2022.2039535
+     </pub-id>
+     <?supplied-pmid 35220892?>
+     <pub-id pub-id-type="pmid">
+      35220892
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR71">
+    <label>
+     71.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Miao
+       </surname>
+       <given-names>
+        CC
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hwang
+       </surname>
+       <given-names>
+        W
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chu
+       </surname>
+       <given-names>
+        LY
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      LC3A-mediated autophagy regulates lung cancer cell plasticity
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2022
+     </year>
+     <volume>
+      18
+     </volume>
+     <issue>
+      4
+     </issue>
+     <fpage>
+      921
+     </fpage>
+     <lpage>
+      934
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2021.1964224
+     </pub-id>
+     <?supplied-pmid 34470575?>
+     <pub-id pub-id-type="pmid">
+      34470575
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR72">
+    <label>
+     72.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zeng
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Autophagy protein NRBF2 attenuates endoplasmic reticulum stress-associated neuroinflammation and oxidative stress via promoting autophagosome maturation by interacting with Rab7 after SAH
+     </article-title>
+     <source>
+      J Neuroinflammation
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      18
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      210
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1186/s12974-021-02270-4
+     </pub-id>
+     <?supplied-pmid 34530854?>
+     <pub-id pub-id-type="pmid">
+      34530854
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR73">
+    <label>
+     73.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Lin
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zhu
+       </surname>
+       <given-names>
+        X
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Li
+       </surname>
+       <given-names>
+        Y
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      LY294002 ameliorates psoriatic skin inflammation in mice via blocking the Notch1/Hes1-PTEN/AKT/IL-17A feedback loop
+     </article-title>
+     <source>
+      Clin Exp Immunol
+     </source>
+     <year>
+      2023
+     </year>
+     <volume>
+      213
+     </volume>
+     <issue>
+      1
+     </issue>
+     <fpage>
+      114
+     </fpage>
+     <lpage>
+      124
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1093/cei/uxad025
+     </pub-id>
+     <?supplied-pmid 36840628?>
+     <pub-id pub-id-type="pmid">
+      36840628
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR74">
+    <label>
+     74.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Lee
+       </surname>
+       <given-names>
+        DH
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Park
+       </surname>
+       <given-names>
+        JS
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Lee
+       </surname>
+       <given-names>
+        YS
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      SQSTM1/p62 activates NFE2L2/NRF2 via ULK1-mediated autophagic KEAP1 degradation and protects mouse liver from lipotoxicity
+     </article-title>
+     <source>
+      Autophagy
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      16
+     </volume>
+     <issue>
+      11
+     </issue>
+     <fpage>
+      1949
+     </fpage>
+     <lpage>
+      1973
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1080/15548627.2020.1712108
+     </pub-id>
+     <?supplied-pmid 31913745?>
+     <pub-id pub-id-type="pmid">
+      31913745
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR75">
+    <label>
+     75.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Zhou
+       </surname>
+       <given-names>
+        ZR
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Yang
+       </surname>
+       <given-names>
+        ZZ
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        SJ
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      The Chk1 inhibitor MK-8776 increases the radiosensitivity of human triple-negative breast cancer by inhibiting autophagy
+     </article-title>
+     <source>
+      Acta Pharmacol Sin
+     </source>
+     <year>
+      2017
+     </year>
+     <volume>
+      38
+     </volume>
+     <issue>
+      4
+     </issue>
+     <fpage>
+      513
+     </fpage>
+     <lpage>
+      523
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1038/aps.2016.136
+     </pub-id>
+     <?supplied-pmid 28042876?>
+     <pub-id pub-id-type="pmid">
+      28042876
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR76">
+    <label>
+     76.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Magee
+       </surname>
+       <given-names>
+        JA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Piskounova
+       </surname>
+       <given-names>
+        E
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Morrison
+       </surname>
+       <given-names>
+        SJ
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Cancer stem cells: impact, heterogeneity, and uncertainty
+     </article-title>
+     <source>
+      Cancer Cell
+     </source>
+     <year>
+      2012
+     </year>
+     <volume>
+      21
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      283
+     </fpage>
+     <lpage>
+      296
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.ccr.2012.03.003
+     </pub-id>
+     <?supplied-pmid 22439924?>
+     <pub-id pub-id-type="pmid">
+      22439924
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR77">
+    <label>
+     77.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Barzaman
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Karami
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Zarei
+       </surname>
+       <given-names>
+        Z
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Breast cancer: Biology, biomarkers, and treatments
+     </article-title>
+     <source>
+      Int Immunopharmacol
+     </source>
+     <year>
+      2020
+     </year>
+     <volume>
+      84
+     </volume>
+     <fpage>
+      106535
+     </fpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.intimp.2020.106535
+     </pub-id>
+     <?supplied-pmid 32361569?>
+     <pub-id pub-id-type="pmid">
+      32361569
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR78">
+    <label>
+     78.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Liu
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Qiang
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Deng
+       </surname>
+       <given-names>
+        Q
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      ALDH1A1 activity in tumor-initiating cells remodels myeloid-derived suppressor cells to promote breast cancer progression
+     </article-title>
+     <source>
+      Cancer Res
+     </source>
+     <year>
+      2021
+     </year>
+     <volume>
+      81
+     </volume>
+     <issue>
+      23
+     </issue>
+     <fpage>
+      5919
+     </fpage>
+     <lpage>
+      5934
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1158/0008-5472.CAN-21-1337
+     </pub-id>
+     <?supplied-pmid 34580061?>
+     <pub-id pub-id-type="pmid">
+      34580061
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR79">
+    <label>
+     79.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Asaduzzaman
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Constantinou
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Min
+       </surname>
+       <given-names>
+        H
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Tumour suppressor EP300, a modulator of paclitaxel resistance and stemness, is downregulated in metaplastic breast cancer [published correction appears in Breast Cancer Res Treat. 2018 Jan 5;:]
+     </article-title>
+     <source>
+      Breast Cancer Res Treat
+     </source>
+     <year>
+      2017
+     </year>
+     <volume>
+      163
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      461
+     </fpage>
+     <lpage>
+      474
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1007/s10549-017-4202-z
+     </pub-id>
+     <?supplied-pmid 28341962?>
+     <pub-id pub-id-type="pmid">
+      28341962
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR80">
+    <label>
+     80.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Idowu
+       </surname>
+       <given-names>
+        MO
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Kmieciak
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Dumur
+       </surname>
+       <given-names>
+        C
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      CD44(+)/CD24(-/low) cancer stem/progenitor cells are more abundant in triple-negative invasive breast carcinoma phenotype and are associated with poor outcome
+     </article-title>
+     <source>
+      Hum Pathol
+     </source>
+     <year>
+      2012
+     </year>
+     <volume>
+      43
+     </volume>
+     <issue>
+      3
+     </issue>
+     <fpage>
+      364
+     </fpage>
+     <lpage>
+      373
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1016/j.humpath.2011.05.005
+     </pub-id>
+     <?supplied-pmid 21835433?>
+     <pub-id pub-id-type="pmid">
+      21835433
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR81">
+    <label>
+     81.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Iliopoulos
+       </surname>
+       <given-names>
+        D
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Hirsch
+       </surname>
+       <given-names>
+        HA
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wang
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Struhl
+       </surname>
+       <given-names>
+        K
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Inducible formation of breast cancer stem cells and their dynamic equilibrium with non-stem cancer cells via IL6 secretion
+     </article-title>
+     <source>
+      Proc Natl Acad Sci U S A
+     </source>
+     <year>
+      2011
+     </year>
+     <volume>
+      108
+     </volume>
+     <issue>
+      4
+     </issue>
+     <fpage>
+      1397
+     </fpage>
+     <lpage>
+      1402
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1073/pnas.1018898108
+     </pub-id>
+     <?supplied-pmid 21220315?>
+     <pub-id pub-id-type="pmid">
+      21220315
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR82">
+    <label>
+     82.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Yeo
+       </surname>
+       <given-names>
+        SK
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Wen
+       </surname>
+       <given-names>
+        J
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Chen
+       </surname>
+       <given-names>
+        S
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Guan
+       </surname>
+       <given-names>
+        JL
+       </given-names>
+      </name>
+     </person-group>
+     <article-title>
+      Autophagy Differentially Regulates Distinct Breast Cancer Stem-like Cells in Murine Models via EGFR/Stat3 and Tgfβ/Smad Signaling
+     </article-title>
+     <source>
+      Cancer Res
+     </source>
+     <year>
+      2016
+     </year>
+     <volume>
+      76
+     </volume>
+     <issue>
+      11
+     </issue>
+     <fpage>
+      3397
+     </fpage>
+     <lpage>
+      3410
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.1158/0008-5472.CAN-15-2946
+     </pub-id>
+     <?supplied-pmid 27197172?>
+     <pub-id pub-id-type="pmid">
+      27197172
+     </pub-id>
+    </element-citation>
+   </ref>
+   <ref id="CR83">
+    <label>
+     83.
+    </label>
+    <element-citation publication-type="journal">
+     <person-group person-group-type="author">
+      <name>
+       <surname>
+        Bousquet
+       </surname>
+       <given-names>
+        G
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        El Bouchtaoui
+       </surname>
+       <given-names>
+        M
+       </given-names>
+      </name>
+      <name>
+       <surname>
+        Sophie
+       </surname>
+       <given-names>
+        T
+       </given-names>
+      </name>
+      <etal/>
+     </person-group>
+     <article-title>
+      Targeting autophagic cancer stem-cells to reverse chemoresistance in human triple negative breast cancer
+     </article-title>
+     <source>
+      Oncotarget
+     </source>
+     <year>
+      2017
+     </year>
+     <volume>
+      8
+     </volume>
+     <issue>
+      21
+     </issue>
+     <fpage>
+      35205
+     </fpage>
+     <lpage>
+      35221
+     </lpage>
+     <pub-id pub-id-type="doi">
+      10.18632/oncotarget.16925
+     </pub-id>
+     <?supplied-pmid 28445132?>
+     <pub-id pub-id-type="pmid">
+      28445132
+     </pub-id>
+    </element-citation>
+   </ref>
+  </ref-list>
+ </back>
+</article>
